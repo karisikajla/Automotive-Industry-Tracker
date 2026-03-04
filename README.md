@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-The goal of this project is to collect automotive data from different sources and formats, clean it up, and combine it into something useful — a simple tool where you can look up a car model and see its price range, known recalls, and key specs in one place.
+The goal of this project is to collect automotive data from different sources and formats, clean it up, and combine it into something useful - a simple tool where you can look up a car model and see its price range, known recalls, and key specs in one place.
 
 Think of it like a personal used-car research tool. Instead of spending an hour googling, the pipeline does the boring work for you.
 
@@ -13,7 +13,7 @@ We will use four main sources:
 
 **The "Safety" data (NHTSA API):** The US government has a free API that lists every recall and safety complaint ever filed for a car model.
 
-**The "Market" data (Web Scraping):** Used car listings from Cars.com — prices, mileage, and the text descriptions written by dealers.
+**The "Market" data (Web Scraping):** Used car listings from Cars.com - prices, mileage, and the text descriptions written by dealers.
 
 **The "Specs" data (PDF files):** Car manufacturers publish official spec sheets as PDFs (engine size, weight, fuel consumption, etc.).
 
@@ -22,13 +22,13 @@ We will use four main sources:
 
 ## 3. Pipeline Architecture
 
-**Step 1 — Collection:** Gather data from the API, scrape the web pages, and read the local PDF/Excel files.
+**Step 1 - Collection:** Gather data from the API, scrape the web pages, and read the local PDF/Excel files.
 
-**Step 2 — Processing:** Parse and clean each data type so it's in a usable format.
+**Step 2 - Processing:** Parse and clean each data type so it's in a usable format.
 
-**Step 3 — Storage:** Save everything in one place so it can be searched and compared.
+**Step 3 - Storage:** Save everything in one place so it can be searched and compared.
 
-**Step 4 — Output:** A simple interface where you can search by car model and see all the data combined.
+**Step 4 - Output:** A simple interface where you can search by car model and see all the data combined.
 
 ```
 NHTSA API ──────┐
@@ -49,8 +49,8 @@ Excel sales data ┘
 
 ## 5. Success Criteria
 
-- [ ] Type in a car model and get back its recall history, average price, and basic specs — all from different sources, combined in one place.
+- [ ] Type in a car model and get back its recall history, average price, and basic specs - all from different sources, combined in one place.
 - [ ] A scanned PDF spec sheet is successfully read by the program and returns plain text (e.g. engine size, fuel consumption).
-- [ ] The data is searchable — for example, filtering only cars with no open recalls.
+- [ ] The data is searchable - for example, filtering only cars with no open recalls.
 
 
