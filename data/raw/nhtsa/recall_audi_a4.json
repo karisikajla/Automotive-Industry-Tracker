@@ -1,0 +1,54 @@
+{
+  "Count": 3,
+  "Message": "Results returned successfully",
+  "results": [
+    {
+      "Manufacturer": "Volkswagen Group of America, Inc.",
+      "NHTSACampaignNumber": "21V825000",
+      "parkIt": false,
+      "parkOutSide": false,
+      "overTheAirUpdate": false,
+      "ReportReceivedDate": "20/10/2021",
+      "Component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+      "Summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2021 Audi A8 and S8, 2022 Audi A5 Sportback, A4 Sedan, E-Tron GT, Q3, Q5, RS6 Avant, A3 Sedan, S5 Sportback, Q5 Sportback, Q7, Q8, RSQ8, SQ7, SQ8, and S3 Sedan vehicles.  A software error may prevent the rear-view image from initially displaying when the vehicle begins to reverse.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+      "Consequence": "A rear-view camera that does not display an image reduces the driver's rear view, increasing the risk of a crash.",
+      "Remedy": "Dealers will update the infotainment unit parameters, free of charge.  Owner notification letters were mailed November 9, 2021.  Owners may contact Audi customer service at 1-800-253-2834.  Audi's number for this recall is 91CR.",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.nhtsa.gov.",
+      "ModelYear": "2022",
+      "Make": "AUDI",
+      "Model": "A4"
+    },
+    {
+      "Manufacturer": "Volkswagen Group of America, Inc.",
+      "NHTSACampaignNumber": "22V368000",
+      "parkIt": false,
+      "parkOutSide": false,
+      "overTheAirUpdate": false,
+      "ReportReceivedDate": "23/05/2022",
+      "Component": "ENGINE AND ENGINE COOLING:ENGINE:ENGINE CONTROL MODULE (ECU/ECM)",
+      "Summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2022 Audi A6 Sedan, A4 Sedan, Q5, and Q5 Sportback vehicles.  The semiconductor inside the engine control unit may short-circuit and cause an engine stall.",
+      "Consequence": "An engine stall can increase the risk of a crash.",
+      "Remedy": "Dealers will replace the engine control unit, free of charge.  Owner notification letters were mailed July 18, 2022. Owners may contact Audi customer service at 1-800-253-2834.  Audi's number for this recall is 24iH.",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.nhtsa.gov.",
+      "ModelYear": "2022",
+      "Make": "AUDI",
+      "Model": "A4"
+    },
+    {
+      "Manufacturer": "Volkswagen Group of America, Inc.",
+      "NHTSACampaignNumber": "22V806000",
+      "parkIt": false,
+      "parkOutSide": false,
+      "overTheAirUpdate": false,
+      "ReportReceivedDate": "26/10/2022",
+      "Component": "EQUIPMENT:ELECTRICAL:INFOTAINMENT:VIDEO (TOUCH)SCREEN/MONITOR/UNIT",
+      "Summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2021-2022 AUDI A8, A6 Allroad, E-TRON Quattro, 2022 S3, RSQ8, RS7, RS6 Avant, Q8, Q7, Q3, E-TRON Sportback Quattro, S5 Cabriolet, E-TRON GT, S5 Sportback, A7, A6, A5 Sportback, A5 Cabriolet, A4, A4 Allroad, A3, S8, SQ7, SQ8, S6, and S4 vehicles.  The infotainment main unit may become damaged internally when the vehicle is shut off, resulting in an inoperative rearview camera display the next time the vehicle is started.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+      "Consequence": "An inoperative rearview camera display reduces the driver's rear visibility, increasing the risk of a crash.",
+      "Remedy": "Dealers will replace the infotainment main unit, free of charge.  Owner notification letters were mailed June 6, 2022.  Owners may contact Audi's customer service at 1-800-253-2834.  Audi's number for this recall is 91Ei.",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.nhtsa.gov.",
+      "ModelYear": "2022",
+      "Make": "AUDI",
+      "Model": "A4"
+    }
+  ]
+}

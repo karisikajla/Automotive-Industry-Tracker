@@ -1,0 +1,8 @@
+NHTSA Complaint Report
+======================
+Date Filed : 08/09/2025
+Vehicle    : 2020 AUDI A4
+Component  : ELECTRICAL SYSTEM
+
+Summary:
+MMI module keeps resetting. This causes sudden lost of navigation display and sudden lost of backup camera when reset happens while backing up.  Release version: MHI3_US_AUG45S_P3243 Software version: 3243

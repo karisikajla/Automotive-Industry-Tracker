@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:04,000
+MMI module keeps resetting.
+
+2
+00:00:04,000 --> 00:00:08,000
+This causes sudden lost of navigation display and sudden lost of backup camera w
+
+3
+00:00:08,000 --> 00:00:12,000
+Release version: MHI3_US_AUG45S_P3243 Software version: 3243
