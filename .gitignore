@@ -5,3 +5,6 @@ __pycache__/
 pipeline.log
 *.egg-info/
 .DS_Store
+.env
+pipeline.log
+data/s3_bucket/
