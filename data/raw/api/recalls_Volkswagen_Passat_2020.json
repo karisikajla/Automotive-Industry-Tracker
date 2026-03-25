@@ -1,0 +1,55 @@
+{
+  "make": "Volkswagen",
+  "model": "Passat",
+  "year": 2020,
+  "recalls": [
+    {
+      "Manufacturer": "Volkswagen Group of America, Inc.",
+      "NHTSACampaignNumber": "19V389000",
+      "parkIt": false,
+      "parkOutSide": false,
+      "overTheAirUpdate": false,
+      "ReportReceivedDate": "22/05/2019",
+      "Component": "EXTERIOR LIGHTING:HEADLIGHTS",
+      "Summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2012-2020 Volkswagen Passat and 2018-2019 Atlas vehicles.  The blocking cap disabling the adjustment of the headlight's horizontal aim may not have been installed.  As such, these vehicles fail to conform to Federal Motor Vehicle Safety Standard (FMVSS) number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+      "Consequence": "Without the blocking cap, the headlight aim can be adjusted out of specification, reducing visibility and increasing the risk of a crash.",
+      "Remedy": "Volkswagen will notify owners, and dealers will inspect and, as necessary, block the headlight horizontal adjustment, free of charge.  The recall began July 16, 2019.  Owners may contact Volkswagen customer service at 1-800-253-2834.  Volkswagen's number for this recall is 94L9.",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+      "ModelYear": "2020",
+      "Make": "VOLKSWAGEN",
+      "Model": "PASSAT"
+    },
+    {
+      "Manufacturer": "Volkswagen Group of America, Inc.",
+      "NHTSACampaignNumber": "19V218000",
+      "parkIt": false,
+      "parkOutSide": false,
+      "overTheAirUpdate": false,
+      "ReportReceivedDate": "20/03/2019",
+      "Component": "AIR BAGS:SIDE/WINDOW",
+      "Summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2019 Atlas and 2020 Passat vehicles.  An incorrect driver and/or front passenger side impact air bag may have been installed.",
+      "Consequence": "In an event of a side impact crash, an incorrect side airbag may not deploy as intended, increasing the risk of injury.",
+      "Remedy": "Volkswagen has inspected and replaced the side air bags, free of charge.  The recall was completed in April 2019.  Owners may contact Volkswagen customer service at 1-800-893-5298.  Volkswagen's number for this recall is 69Y8.",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+      "ModelYear": "2020",
+      "Make": "VOLKSWAGEN",
+      "Model": "PASSAT"
+    },
+    {
+      "Manufacturer": "Volkswagen Group of America, Inc.",
+      "NHTSACampaignNumber": "20V533000",
+      "parkIt": false,
+      "parkOutSide": false,
+      "overTheAirUpdate": false,
+      "ReportReceivedDate": "02/09/2020",
+      "Component": "AIR BAGS:PASSENGER SIDE FRONTAL:CUSHION",
+      "Summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2020 Passat vehicles.  The passenger frontal air bag may have been folded incorrectly affecting its deployment force.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occupant Crash Protection.\"",
+      "Consequence": "An incorrectly folded air bag can deploy with too much force, increasing the risk of injury.",
+      "Remedy": "Volkswagen will notify owners, and dealers will replace the passenger frontal air bag, free of charge.  The recall began October 14, 2020.  Owners may contact Volkswagen customer service at 1-888-241-2289.  Volkswagen's number for this recall is 69AY.",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+      "ModelYear": "2020",
+      "Make": "VOLKSWAGEN",
+      "Model": "PASSAT"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "make": "Audi",
+  "model": "A4",
+  "year": 2020,
+  "recalls": [
+    {
+      "Manufacturer": "Volkswagen Group of America, Inc.",
+      "NHTSACampaignNumber": "22V034000",
+      "parkIt": false,
+      "parkOutSide": false,
+      "overTheAirUpdate": false,
+      "ReportReceivedDate": "26/01/2022",
+      "Component": "TIRES",
+      "Summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2019-2021 Audi A5 Sportback, RS5 Coupe, RS5 Sportback, S5 Sportback, 2020-2021 A4 Allroad, A4 Sedan, A5 Cabriolet, A5 Coupe, A6 Allroad, A6 Sedan, A7, A8, Q5, S4 Sedan, S5 Coupe, S5 Cabriolet, S6 Sedan, S7, S8, SQ5, 2021 Q5 Sportback, Q7, Q8, RS6 Avant, RS7, RSQ8, SQ5 Sportback, SQ7, and SQ8 vehicles.  The rear axle alignment may not have been inspected after the repairs for Recall 21V-295 (42L1) were performed.",
+      "Consequence": "Rear axle misalignment may cause premature or uneven tire wear, increasing the risk of a crash.",
+      "Remedy": "Dealers will inspect the rear axle, adjust the alignment as necessary, and replace any prematurely or unevenly worn tires, free of charge.  Owner notification letters were mailed March 3, 2022.  Owners may contact Audi customer service at 1-800-253-2834.  Audi's number for this recall is 42L5.",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.nhtsa.gov.",
+      "ModelYear": "2020",
+      "Make": "AUDI",
+      "Model": "A4"
+    },
+    {
+      "Manufacturer": "Volkswagen Group of America, Inc.",
+      "NHTSACampaignNumber": "21V295000",
+      "parkIt": false,
+      "parkOutSide": false,
+      "overTheAirUpdate": false,
+      "ReportReceivedDate": "26/04/2021",
+      "Component": "SUSPENSION:REAR:AXLE:NON-POWERED AXLE ASSEMBLY",
+      "Summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2021 Q7, Q8, Q5 Sportback, SQ5 Sportback, RS6 Avant, RS7, RS Q8, 2020-2021 Audi S6 sedan, Q5, A8, S8, A7, A6 Allroad, A5 Cabriolet, A4 sedan, A4 Allroad, SQ5, S7, A6 sedan, S5 coupe, S4 sedan, S5 Cabriolet, A5 coupe, 2019-2021 RS5 coupe, A5 Sportback, S5 Sportback, RS5 Sportback vehicles.  The lock nut on the trailing arm of the rear axle may break due to stress corrosion.",
+      "Consequence": "A broken lock nut may misalign the rear axle, causing a loss of control and increasing the risk of a crash.",
+      "Remedy": "Dealers will replace the lock nuts and, if necessary, the associated bolts, free of charge.  Owner notification letters were mailed June 4, 2021.  Owners may contact Audi customer service at 1-800-253-2834.  Audi's number for this recall is 42L1.",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+      "ModelYear": "2020",
+      "Make": "AUDI",
+      "Model": "A4"
+    },
+    {
+      "Manufacturer": "Volkswagen Group of America, Inc.",
+      "NHTSACampaignNumber": "21V874000",
+      "parkIt": false,
+      "parkOutSide": false,
+      "overTheAirUpdate": false,
+      "ReportReceivedDate": "10/11/2021",
+      "Component": "SEATS",
+      "Summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2017-2020 A4 Allroad, A4 Sedan, 2018-2019 RS5 Coupe, 2019 RS5 Sportback, 2018-2020 A5 Cabriolet, A5 Coupe, A5 Sportback, S4 Sedan, S5 Cabriolet, S5 Coupe, and Audi S5 Sportback vehicles.  The cable connecting the seat heater to the Passenger Occupant Detection System (PODS) may have a contact fault, causing the software to misdiagnose a malfunction and disable the passenger air bag.",
+      "Consequence": "A disabled passenger air bag increases the risk of injury in the event of a crash.",
+      "Remedy": "Dealers will replace the connecting cable and either the heating mat or entire seat cover, free of charge.  Owner notification letters were mailed January 7, 2022.  Owners may contact Audi customer service at 1-800-253-2834.  Audi's number for this recall is 74E3.  This recall is an expansion of Recall 19V-547 (74D9).  Vehicles previously repaired under 19V-547 will need to return for the new remedy.",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.nhtsa.gov.",
+      "ModelYear": "2020",
+      "Make": "AUDI",
+      "Model": "A4"
+    }
+  ]
+}
