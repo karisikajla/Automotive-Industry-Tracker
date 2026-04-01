@@ -2,9 +2,7 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-pipeline.log
 *.egg-info/
 .DS_Store
 .env
-pipeline.log
 data/s3_bucket/

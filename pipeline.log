@@ -1,0 +1,37 @@
+2026-03-12 16:24:36,023 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 16:24:36,045 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 16:24:36,045 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 16:24:36,055 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:43:39,494 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 18:43:39,528 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 18:43:39,528 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 18:43:39,543 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:43:39,543 - ERROR - File not found: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 18:47:06,394 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 18:47:06,395 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 18:47:06,395 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 18:47:06,395 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:47:06,397 - ERROR - File not found: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 18:47:55,678 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 18:47:55,678 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 18:47:55,678 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 18:47:55,678 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:47:55,678 - INFO - Successfully read text file: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 18:50:13,517 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 18:50:13,517 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 18:50:13,519 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 18:50:13,519 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:50:13,520 - INFO - Successfully read text file: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 19:01:46,336 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 19:01:46,336 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 19:01:46,336 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 19:01:46,341 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 19:01:46,341 - INFO - Successfully read text file: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 19:01:46,341 - INFO - Successfully read image file: data/raw/listings/audi_a4.jpg
+2026-03-12 19:01:46,341 - INFO - Successfully read SRT file: data/raw/subtitles/complaint_audi_a4.srt
+2026-03-29 22:37:29,527 - INFO - Starting PDF extraction: C:\Users\AjlaDzinic\Documents\Automotive-Industry-Tracker-main\data\raw\pdf\automotive_report_normal.pdf
+2026-03-29 22:37:29,586 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-03-29 22:38:00,031 - ERROR - MongoDB error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69c98d8977b674b637b5734a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-03-29 22:38:00,056 - INFO - PDF extraction complete: C:\Users\AjlaDzinic\Documents\Automotive-Industry-Tracker-main\data\raw\pdf\automotive_report_normal.pdf
+2026-03-29 22:38:00,056 - INFO - Starting PDF extraction: C:\Users\AjlaDzinic\Documents\Automotive-Industry-Tracker-main\data\raw\pdf\automotive_report_twocolumn.pdf
+2026-03-29 22:38:00,117 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
