@@ -59,8 +59,51 @@ def scrape_nhtsa_json_api(pages=3):
 
     return all_results
 
+def scrape_with_selenium(url="https://www.wikipedia.org/wiki/Audi"):
+    logging.info(f"Starting Selenium scraping: {url}")
+    try:
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        from selenium.webdriver.common.by import By
+        import time
+
+        options = Options()
+        options.add_argument("--headless")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+
+        driver = webdriver.Chrome(options=options)
+        driver.get(url)
+        time.sleep(2)
+
+        title = driver.title
+        paragraphs = driver.find_elements(By.TAG_NAME, "p")
+        text = " ".join([p.text for p in paragraphs[:3] if p.text])
+
+        result = {
+            "title": title,
+            "text": text,
+            "source": url,
+            "scraped_at": datetime.utcnow().isoformat(),
+            "type": "selenium"
+        }
+
+        driver.quit()
+        save_to_mongo(result, "selenium_scraping")
+        logging.info(f"Selenium scraping complete: {title}")
+        return result
+
+    except Exception as e:
+        logging.error(f"Selenium error: {e}")
+        return None
+
 def run_dynamic_scraper():
     logging.info("Running dynamic scraper")
     results = scrape_nhtsa_json_api(pages=3)
     logging.info(f"Dynamic scraping complete. Total: {len(results)} records")
+    
+    selenium_result = scrape_with_selenium()
+    if selenium_result:
+        logging.info("Selenium scraping successful")
+    
     return results

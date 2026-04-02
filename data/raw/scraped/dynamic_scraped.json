@@ -1,0 +1,161 @@
+[
+  {
+    "make": "Audi",
+    "model": "A4",
+    "year": 2020,
+    "recalls": [
+      {
+        "Manufacturer": "Volkswagen Group of America, Inc.",
+        "NHTSACampaignNumber": "22V034000",
+        "parkIt": false,
+        "parkOutSide": false,
+        "overTheAirUpdate": false,
+        "ReportReceivedDate": "26/01/2022",
+        "Component": "TIRES",
+        "Summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2019-2021 Audi A5 Sportback, RS5 Coupe, RS5 Sportback, S5 Sportback, 2020-2021 A4 Allroad, A4 Sedan, A5 Cabriolet, A5 Coupe, A6 Allroad, A6 Sedan, A7, A8, Q5, S4 Sedan, S5 Coupe, S5 Cabriolet, S6 Sedan, S7, S8, SQ5, 2021 Q5 Sportback, Q7, Q8, RS6 Avant, RS7, RSQ8, SQ5 Sportback, SQ7, and SQ8 vehicles.  The rear axle alignment may not have been inspected after the repairs for Recall 21V-295 (42L1) were performed.",
+        "Consequence": "Rear axle misalignment may cause premature or uneven tire wear, increasing the risk of a crash.",
+        "Remedy": "Dealers will inspect the rear axle, adjust the alignment as necessary, and replace any prematurely or unevenly worn tires, free of charge.  Owner notification letters were mailed March 3, 2022.  Owners may contact Audi customer service at 1-800-253-2834.  Audi's number for this recall is 42L5.",
+        "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.nhtsa.gov.",
+        "ModelYear": "2020",
+        "Make": "AUDI",
+        "Model": "A4"
+      },
+      {
+        "Manufacturer": "Volkswagen Group of America, Inc.",
+        "NHTSACampaignNumber": "21V295000",
+        "parkIt": false,
+        "parkOutSide": false,
+        "overTheAirUpdate": false,
+        "ReportReceivedDate": "26/04/2021",
+        "Component": "SUSPENSION:REAR:AXLE:NON-POWERED AXLE ASSEMBLY",
+        "Summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2021 Q7, Q8, Q5 Sportback, SQ5 Sportback, RS6 Avant, RS7, RS Q8, 2020-2021 Audi S6 sedan, Q5, A8, S8, A7, A6 Allroad, A5 Cabriolet, A4 sedan, A4 Allroad, SQ5, S7, A6 sedan, S5 coupe, S4 sedan, S5 Cabriolet, A5 coupe, 2019-2021 RS5 coupe, A5 Sportback, S5 Sportback, RS5 Sportback vehicles.  The lock nut on the trailing arm of the rear axle may break due to stress corrosion.",
+        "Consequence": "A broken lock nut may misalign the rear axle, causing a loss of control and increasing the risk of a crash.",
+        "Remedy": "Dealers will replace the lock nuts and, if necessary, the associated bolts, free of charge.  Owner notification letters were mailed June 4, 2021.  Owners may contact Audi customer service at 1-800-253-2834.  Audi's number for this recall is 42L1.",
+        "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+        "ModelYear": "2020",
+        "Make": "AUDI",
+        "Model": "A4"
+      },
+      {
+        "Manufacturer": "Volkswagen Group of America, Inc.",
+        "NHTSACampaignNumber": "21V874000",
+        "parkIt": false,
+        "parkOutSide": false,
+        "overTheAirUpdate": false,
+        "ReportReceivedDate": "10/11/2021",
+        "Component": "SEATS",
+        "Summary": "Volkswagen Group of America, Inc. (Audi) is recalling certain 2017-2020 A4 Allroad, A4 Sedan, 2018-2019 RS5 Coupe, 2019 RS5 Sportback, 2018-2020 A5 Cabriolet, A5 Coupe, A5 Sportback, S4 Sedan, S5 Cabriolet, S5 Coupe, and Audi S5 Sportback vehicles.  The cable connecting the seat heater to the Passenger Occupant Detection System (PODS) may have a contact fault, causing the software to misdiagnose a malfunction and disable the passenger air bag.",
+        "Consequence": "A disabled passenger air bag increases the risk of injury in the event of a crash.",
+        "Remedy": "Dealers will replace the connecting cable and either the heating mat or entire seat cover, free of charge.  Owner notification letters were mailed January 7, 2022.  Owners may contact Audi customer service at 1-800-253-2834.  Audi's number for this recall is 74E3.  This recall is an expansion of Recall 19V-547 (74D9).  Vehicles previously repaired under 19V-547 will need to return for the new remedy.",
+        "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.nhtsa.gov.",
+        "ModelYear": "2020",
+        "Make": "AUDI",
+        "Model": "A4"
+      }
+    ],
+    "scraped_at": "2026-04-02T16:44:38.887915",
+    "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020",
+    "type": "json_api"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "year": 2020,
+    "recalls": [
+      {
+        "Manufacturer": "Volkswagen Group of America, Inc.",
+        "NHTSACampaignNumber": "22V815000",
+        "parkIt": false,
+        "parkOutSide": false,
+        "overTheAirUpdate": false,
+        "ReportReceivedDate": "31/10/2022",
+        "Component": "TIRES:PRESSURE MONITORING AND REGULATING SYSTEMS",
+        "Summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2019 Volkswagen Tiguan LWB, Golf Sportswagen A7, Golf Alltrack, Golf R GP, Audi Q3, Audi A3 Cabriolet, 2019-2020 Jetta NF, Jetta GLI, Golf GTI, Atlas, Golf A7, Audi A3, 2020-2021 Atlas Cross Sport, and 2021 Atlas FL vehicles.  The tire pressure monitoring system may not detect an air pressure loss in adequate time when deflating occurs among all four tires simultaneously.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 138, \"Tire Pressure Monitoring Systems.\"",
+        "Consequence": "An undetected sudden loss of pressure in all four tires increases the risk of a crash.",
+        "Remedy": "Dealers will update the TPMS software, free of charge.  Owner notification letters were mailed November 18, 2022.  Owners may contact Volkswagen's customer service at 1-800-893-5298 or Audis customer service at 1-800-253-2834.  Volkswagen's numbers for this recall are (Audi) 45J7, and (VW) 45J6 and 45J8.",
+        "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+        "ModelYear": "2020",
+        "Make": "VOLKSWAGEN",
+        "Model": "GOLF"
+      },
+      {
+        "Manufacturer": "Volkswagen Group of America, Inc.",
+        "NHTSACampaignNumber": "24V110000",
+        "parkIt": false,
+        "parkOutSide": false,
+        "overTheAirUpdate": false,
+        "NHTSAActionNumber": "RQ23007",
+        "ReportReceivedDate": "14/02/2024",
+        "Component": "FUEL SYSTEM, GASOLINE",
+        "Summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain front-wheel drive 2015-2020 Audi A3 Sedan, 2015-2019 Audi A3 Cabriolet, 2019-2020 Volkswagen Jetta GLI, 2018 Golf Sportwagen GP, 2018-2019 Golf Sportwagen A7, 2015-2017 Golf Sportwagen, 2015-2020 Golf GTI, and 2015-2020 Golf A7 vehicles.  Due to a problem with a suction jet pump seal inside the fuel tank, fuel may flow into the evaporative emissions (EVAP) system and possibly leak out of the charcoal canister.",
+        "Consequence": "A fuel leak in the presence of an ignition source increases the risk of a fire.",
+        "Remedy": "Dealers will replace the suction pump, free of charge.  Final owner notification letters for Audi owners were mailed on July 25, 2024.  Final owner letters for VW owners were mailed on August 13, 2024.  Owners may contact Volkswagen customer service at 1-800-893-5298 or Audi customer service at 1-800-253-2834.  Volkswagen's numbers for this recall are VW: 20UF/Audi: 20YF.  Vehicles that were previously recalled under 16V-647 will need to have the new remedy completed.  This recall expands and replaces previous recall number 16V-647.",
+        "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.nhtsa.gov.",
+        "ModelYear": "2020",
+        "Make": "VOLKSWAGEN",
+        "Model": "GOLF"
+      }
+    ],
+    "scraped_at": "2026-04-02T16:44:40.727864",
+    "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020",
+    "type": "json_api"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2020,
+    "recalls": [
+      {
+        "Manufacturer": "Volkswagen Group of America, Inc.",
+        "NHTSACampaignNumber": "19V389000",
+        "parkIt": false,
+        "parkOutSide": false,
+        "overTheAirUpdate": false,
+        "ReportReceivedDate": "22/05/2019",
+        "Component": "EXTERIOR LIGHTING:HEADLIGHTS",
+        "Summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2012-2020 Volkswagen Passat and 2018-2019 Atlas vehicles.  The blocking cap disabling the adjustment of the headlight's horizontal aim may not have been installed.  As such, these vehicles fail to conform to Federal Motor Vehicle Safety Standard (FMVSS) number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+        "Consequence": "Without the blocking cap, the headlight aim can be adjusted out of specification, reducing visibility and increasing the risk of a crash.",
+        "Remedy": "Volkswagen will notify owners, and dealers will inspect and, as necessary, block the headlight horizontal adjustment, free of charge.  The recall began July 16, 2019.  Owners may contact Volkswagen customer service at 1-800-253-2834.  Volkswagen's number for this recall is 94L9.",
+        "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+        "ModelYear": "2020",
+        "Make": "VOLKSWAGEN",
+        "Model": "PASSAT"
+      },
+      {
+        "Manufacturer": "Volkswagen Group of America, Inc.",
+        "NHTSACampaignNumber": "19V218000",
+        "parkIt": false,
+        "parkOutSide": false,
+        "overTheAirUpdate": false,
+        "ReportReceivedDate": "20/03/2019",
+        "Component": "AIR BAGS:SIDE/WINDOW",
+        "Summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2019 Atlas and 2020 Passat vehicles.  An incorrect driver and/or front passenger side impact air bag may have been installed.",
+        "Consequence": "In an event of a side impact crash, an incorrect side airbag may not deploy as intended, increasing the risk of injury.",
+        "Remedy": "Volkswagen has inspected and replaced the side air bags, free of charge.  The recall was completed in April 2019.  Owners may contact Volkswagen customer service at 1-800-893-5298.  Volkswagen's number for this recall is 69Y8.",
+        "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+        "ModelYear": "2020",
+        "Make": "VOLKSWAGEN",
+        "Model": "PASSAT"
+      },
+      {
+        "Manufacturer": "Volkswagen Group of America, Inc.",
+        "NHTSACampaignNumber": "20V533000",
+        "parkIt": false,
+        "parkOutSide": false,
+        "overTheAirUpdate": false,
+        "ReportReceivedDate": "02/09/2020",
+        "Component": "AIR BAGS:PASSENGER SIDE FRONTAL:CUSHION",
+        "Summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2020 Passat vehicles.  The passenger frontal air bag may have been folded incorrectly affecting its deployment force.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occupant Crash Protection.\"",
+        "Consequence": "An incorrectly folded air bag can deploy with too much force, increasing the risk of injury.",
+        "Remedy": "Volkswagen will notify owners, and dealers will replace the passenger frontal air bag, free of charge.  The recall began October 14, 2020.  Owners may contact Volkswagen customer service at 1-888-241-2289.  Volkswagen's number for this recall is 69AY.",
+        "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+        "ModelYear": "2020",
+        "Make": "VOLKSWAGEN",
+        "Model": "PASSAT"
+      }
+    ],
+    "scraped_at": "2026-04-02T16:44:42.527529",
+    "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020",
+    "type": "json_api"
+  }
+]
