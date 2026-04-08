@@ -9,6 +9,9 @@ from api.client import fetch_all_vehicles
 from extraction.pdf_extractor import extract_all_pdfs
 from extraction.word_extractor import extract_all_word_docs
 from extraction.excel_extractor import extract_all_excel
+from scraping.scraper import run_scraper
+from scraping.dynamic_scraper import run_dynamic_scraper
+from ocr.ocr_utils import run_ocr_pipeline
 
 def run_pipeline():
     logging.info("Pipeline started")
@@ -18,7 +21,6 @@ def run_pipeline():
     vehicles = fetch_all_vehicles(pages=3)
     logging.info(f"Fetched data for {len(vehicles)} vehicles")
 
-    # Save to MongoDB and S3
     for vehicle in vehicles:
         save_to_mongo(vehicle, "nhtsa_api")
         make = vehicle["make"]
@@ -32,19 +34,34 @@ def run_pipeline():
         upload_file_to_s3(file_path, filename)
 
     # Extract PDF documents
-    logging.info("Step 3: Extracting PDF documents")
+    logging.info("Step 2: Extracting PDF documents")
     pdf_results = extract_all_pdfs()
     logging.info(f"Extracted {len(pdf_results)} PDF files")
 
     # Extract Word documents
-    logging.info("Step 4: Extracting Word documents")
+    logging.info("Step 3: Extracting Word documents")
     word_results = extract_all_word_docs()
     logging.info(f"Extracted {len(word_results)} Word files")
 
     # Extract Excel files
-    logging.info("Step 5: Extracting Excel files")
+    logging.info("Step 4: Extracting Excel files")
     excel_results = extract_all_excel()
     logging.info(f"Extracted {len(excel_results)} Excel files")
+
+    # Web scraping
+    logging.info("Step 5: Running web scraper")
+    scraped_results = run_scraper()
+    logging.info(f"Scraped {len(scraped_results)} records")
+
+    # Dynamic scraping
+    logging.info("Step 6: Running dynamic scraper")
+    dynamic_results = run_dynamic_scraper()
+    logging.info(f"Dynamic scraped {len(dynamic_results)} records")
+
+    # OCR
+    logging.info("Step 7: Running OCR pipeline")
+    ocr_results = run_ocr_pipeline()
+    logging.info(f"OCR processed {len(ocr_results)} files")
 
     logging.info("Pipeline finished successfully")
 

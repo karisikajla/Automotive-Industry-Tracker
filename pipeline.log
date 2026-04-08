@@ -1,0 +1,781 @@
+2026-03-12 16:24:36,023 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 16:24:36,045 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 16:24:36,045 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 16:24:36,055 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:43:39,494 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 18:43:39,528 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 18:43:39,528 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 18:43:39,543 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:43:39,543 - ERROR - File not found: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 18:47:06,394 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 18:47:06,395 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 18:47:06,395 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 18:47:06,395 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:47:06,397 - ERROR - File not found: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 18:47:55,678 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 18:47:55,678 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 18:47:55,678 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 18:47:55,678 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:47:55,678 - INFO - Successfully read text file: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 18:50:13,517 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 18:50:13,517 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 18:50:13,519 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 18:50:13,519 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 18:50:13,520 - INFO - Successfully read text file: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 19:01:46,336 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 19:01:46,336 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 19:01:46,336 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 19:01:46,341 - INFO - Successfully read JSON file: data/raw/nhtsa/recall_cupra_formentor.json
+2026-03-12 19:01:46,341 - INFO - Successfully read text file: data/raw/nhtsa/complaint_audi_a4.txt
+2026-03-12 19:01:46,341 - INFO - Successfully read image file: data/raw/listings/audi_a4.jpg
+2026-03-12 19:01:46,341 - INFO - Successfully read SRT file: data/raw/subtitles/complaint_audi_a4.srt
+2026-03-29 22:37:29,527 - INFO - Starting PDF extraction: C:\Users\AjlaDzinic\Documents\Automotive-Industry-Tracker-main\data\raw\pdf\automotive_report_normal.pdf
+2026-03-29 22:37:29,586 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-03-29 22:38:00,031 - ERROR - MongoDB error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69c98d8977b674b637b5734a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-03-29 22:38:00,056 - INFO - PDF extraction complete: C:\Users\AjlaDzinic\Documents\Automotive-Industry-Tracker-main\data\raw\pdf\automotive_report_normal.pdf
+2026-03-29 22:38:00,056 - INFO - Starting PDF extraction: C:\Users\AjlaDzinic\Documents\Automotive-Industry-Tracker-main\data\raw\pdf\automotive_report_twocolumn.pdf
+2026-03-29 22:38:00,117 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-02 18:22:52,026 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:22:52,215 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:22:52,225 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:22:52,225 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:22:52,225 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:22:52,256 - INFO - Saved to MongoDB with id: 69ce97dce4f8224f80221cac
+2026-04-02 18:22:52,256 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:22:52,530 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:22:52,564 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:22:52,567 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:22:52,567 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:22:52,578 - INFO - Saved to MongoDB with id: 69ce97dce4f8224f80221cae
+2026-04-02 18:22:52,579 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:23:42,296 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:23:42,482 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:23:42,495 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:23:42,496 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:23:42,496 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:23:42,510 - INFO - Saved to MongoDB with id: 69ce980ea546e5e8e70604a1
+2026-04-02 18:23:42,510 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:23:42,589 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:23:42,618 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:23:42,621 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:23:42,621 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:23:42,633 - INFO - Saved to MongoDB with id: 69ce980ea546e5e8e70604a3
+2026-04-02 18:23:42,633 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:24:49,884 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:24:50,073 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:24:50,084 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:24:50,085 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:24:50,085 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:24:50,099 - INFO - Saved to MongoDB with id: 69ce985261fb655ab1ba466f
+2026-04-02 18:24:50,099 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:24:50,185 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:24:50,214 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:24:50,218 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:24:50,218 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:24:50,229 - INFO - Saved to MongoDB with id: 69ce985261fb655ab1ba4671
+2026-04-02 18:24:50,229 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:24:50,285 - INFO - Pipeline started
+2026-04-02 18:24:50,285 - INFO - Step 1: Fetching data from NHTSA API
+2026-04-02 18:24:50,918 - INFO - Fetched recalls for Audi A4 2020
+2026-04-02 18:24:50,923 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-02 18:24:51,986 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-02 18:24:51,991 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-02 18:24:52,866 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-02 18:24:52,873 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-02 18:24:53,378 - INFO - Fetched data for 3 vehicles
+2026-04-02 18:24:53,389 - INFO - Saved to MongoDB with id: 69ce985561fb655ab1ba4673
+2026-04-02 18:24:53,389 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:24:53,393 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-02 18:24:53,398 - INFO - Saved to MongoDB with id: 69ce985561fb655ab1ba4675
+2026-04-02 18:24:53,398 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:24:53,399 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-02 18:24:53,408 - INFO - Saved to MongoDB with id: 69ce985561fb655ab1ba4677
+2026-04-02 18:24:53,408 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:24:53,409 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-02 18:24:53,409 - INFO - Step 2: Extracting PDF documents
+2026-04-02 18:24:53,409 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:24:53,436 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-02 18:24:53,442 - INFO - Saved to MongoDB with id: 69ce985561fb655ab1ba4679
+2026-04-02 18:24:53,442 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:24:53,442 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:24:53,461 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-02 18:24:53,465 - INFO - Saved to MongoDB with id: 69ce985561fb655ab1ba467b
+2026-04-02 18:24:53,466 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:24:53,466 - INFO - Extracted 2 PDF files
+2026-04-02 18:24:53,466 - INFO - Step 3: Extracting Word documents
+2026-04-02 18:24:53,466 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:24:53,656 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:24:53,663 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:24:53,664 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:24:53,664 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:24:53,670 - INFO - Saved to MongoDB with id: 69ce985561fb655ab1ba467d
+2026-04-02 18:24:53,670 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:24:53,670 - INFO - Extracted 1 Word files
+2026-04-02 18:24:53,670 - INFO - Step 4: Extracting Excel files
+2026-04-02 18:24:53,670 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:24:53,699 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:24:53,704 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:24:53,704 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:24:53,709 - INFO - Saved to MongoDB with id: 69ce985561fb655ab1ba467f
+2026-04-02 18:24:53,709 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:24:53,709 - INFO - Extracted 1 Excel files
+2026-04-02 18:24:53,709 - INFO - Step 5: Running web scraper
+2026-04-02 18:24:54,012 - WARNING - robots.txt DISALLOWS scraping: https://www.autoevolution.com/cars/audi/a4/
+2026-04-02 18:24:54,012 - WARNING - Scraping not allowed by robots.txt
+2026-04-02 18:24:54,012 - INFO - Scraped 0 records
+2026-04-02 18:24:54,012 - INFO - Step 6: Running dynamic scraper
+2026-04-02 18:24:54,012 - INFO - Running dynamic scraper
+2026-04-02 18:24:54,012 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-02 18:24:54,013 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-02 18:24:55,806 - INFO - Saved to MongoDB with id: 69ce985761fb655ab1ba4681
+2026-04-02 18:24:55,806 - INFO - Fetched 3 recalls for Audi A4
+2026-04-02 18:24:55,806 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-02 18:24:57,598 - INFO - Saved to MongoDB with id: 69ce985961fb655ab1ba4683
+2026-04-02 18:24:57,599 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-02 18:24:57,599 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-02 18:24:59,406 - INFO - Saved to MongoDB with id: 69ce985b61fb655ab1ba4685
+2026-04-02 18:24:59,407 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-02 18:24:59,409 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-02 18:24:59,410 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-02 18:24:59,410 - INFO - Dynamic scraped 3 records
+2026-04-02 18:24:59,410 - INFO - Step 7: Running OCR pipeline
+2026-04-02 18:24:59,410 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:25:05,077 - INFO - Raw OCR complete for test_scan.png
+2026-04-02 18:25:05,569 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-02 18:25:05,578 - INFO - Saved to MongoDB with id: 69ce986161fb655ab1ba4687
+2026-04-02 18:25:05,578 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:26:46,800 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:26:46,989 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:26:47,000 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:26:47,001 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:26:47,001 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:26:47,016 - INFO - Saved to MongoDB with id: 69ce98c767415c9b6aae0b23
+2026-04-02 18:26:47,017 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:26:47,107 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:26:47,137 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:26:47,140 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:26:47,140 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:26:47,161 - INFO - Saved to MongoDB with id: 69ce98c767415c9b6aae0b25
+2026-04-02 18:26:47,161 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:26:47,219 - INFO - Pipeline started
+2026-04-02 18:26:47,220 - INFO - Step 1: Fetching data from NHTSA API
+2026-04-02 18:26:47,512 - INFO - Fetched recalls for Audi A4 2020
+2026-04-02 18:26:47,516 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-02 18:26:48,272 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-02 18:26:48,274 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-02 18:26:49,067 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-02 18:26:49,071 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-02 18:26:49,576 - INFO - Fetched data for 3 vehicles
+2026-04-02 18:26:49,590 - INFO - Saved to MongoDB with id: 69ce98c967415c9b6aae0b27
+2026-04-02 18:26:49,590 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:26:49,593 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-02 18:26:49,600 - INFO - Saved to MongoDB with id: 69ce98c967415c9b6aae0b29
+2026-04-02 18:26:49,600 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:26:49,601 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-02 18:26:49,609 - INFO - Saved to MongoDB with id: 69ce98c967415c9b6aae0b2b
+2026-04-02 18:26:49,609 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:26:49,610 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-02 18:26:49,611 - INFO - Step 2: Extracting PDF documents
+2026-04-02 18:26:49,611 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:26:49,639 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-02 18:26:49,648 - INFO - Saved to MongoDB with id: 69ce98c967415c9b6aae0b2d
+2026-04-02 18:26:49,648 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:26:49,648 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:26:49,668 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-02 18:26:49,671 - INFO - Saved to MongoDB with id: 69ce98c967415c9b6aae0b2f
+2026-04-02 18:26:49,671 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:26:49,671 - INFO - Extracted 2 PDF files
+2026-04-02 18:26:49,672 - INFO - Step 3: Extracting Word documents
+2026-04-02 18:26:49,672 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:26:49,861 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:26:49,869 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:26:49,870 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:26:49,870 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:26:49,875 - INFO - Saved to MongoDB with id: 69ce98c967415c9b6aae0b31
+2026-04-02 18:26:49,875 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:26:49,875 - INFO - Extracted 1 Word files
+2026-04-02 18:26:49,875 - INFO - Step 4: Extracting Excel files
+2026-04-02 18:26:49,875 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:26:49,905 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:26:49,909 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:26:49,910 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:26:49,913 - INFO - Saved to MongoDB with id: 69ce98c967415c9b6aae0b33
+2026-04-02 18:26:49,913 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:26:49,913 - INFO - Extracted 1 Excel files
+2026-04-02 18:26:49,913 - INFO - Step 5: Running web scraper
+2026-04-02 18:26:50,166 - WARNING - robots.txt DISALLOWS scraping: https://www.autoevolution.com/cars/audi/a4/
+2026-04-02 18:26:50,167 - WARNING - Scraping not allowed by robots.txt
+2026-04-02 18:26:50,167 - INFO - Scraped 0 records
+2026-04-02 18:26:50,167 - INFO - Step 6: Running dynamic scraper
+2026-04-02 18:26:50,167 - INFO - Running dynamic scraper
+2026-04-02 18:26:50,167 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-02 18:26:50,168 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-02 18:26:51,961 - INFO - Saved to MongoDB with id: 69ce98cb67415c9b6aae0b35
+2026-04-02 18:26:51,961 - INFO - Fetched 3 recalls for Audi A4
+2026-04-02 18:26:51,961 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-02 18:26:53,755 - INFO - Saved to MongoDB with id: 69ce98cd67415c9b6aae0b37
+2026-04-02 18:26:53,756 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-02 18:26:53,756 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-02 18:26:55,566 - INFO - Saved to MongoDB with id: 69ce98cf67415c9b6aae0b39
+2026-04-02 18:26:55,567 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-02 18:26:55,569 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-02 18:26:55,570 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-02 18:26:55,570 - INFO - Dynamic scraped 3 records
+2026-04-02 18:26:55,570 - INFO - Step 7: Running OCR pipeline
+2026-04-02 18:26:55,570 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:26:56,271 - INFO - Raw OCR complete for test_scan.png
+2026-04-02 18:26:56,765 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-02 18:26:56,772 - INFO - Saved to MongoDB with id: 69ce98d067415c9b6aae0b3b
+2026-04-02 18:26:56,772 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:28:01,726 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:28:01,912 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:28:01,923 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:28:01,924 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:28:01,924 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:28:01,938 - INFO - Saved to MongoDB with id: 69ce9911fe75c9ba2d06e243
+2026-04-02 18:28:01,938 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:28:02,026 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:28:02,055 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:28:02,058 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:28:02,058 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:28:02,068 - INFO - Saved to MongoDB with id: 69ce9912fe75c9ba2d06e245
+2026-04-02 18:28:02,068 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:28:02,125 - INFO - Pipeline started
+2026-04-02 18:28:02,125 - INFO - Step 1: Fetching data from NHTSA API
+2026-04-02 18:28:02,510 - INFO - Fetched recalls for Audi A4 2020
+2026-04-02 18:28:02,514 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-02 18:28:03,317 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-02 18:28:03,321 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-02 18:28:04,146 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-02 18:28:04,152 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-02 18:28:04,658 - INFO - Fetched data for 3 vehicles
+2026-04-02 18:28:04,673 - INFO - Saved to MongoDB with id: 69ce9914fe75c9ba2d06e247
+2026-04-02 18:28:04,673 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:28:04,676 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-02 18:28:04,693 - INFO - Saved to MongoDB with id: 69ce9914fe75c9ba2d06e249
+2026-04-02 18:28:04,694 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:28:04,695 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-02 18:28:04,701 - INFO - Saved to MongoDB with id: 69ce9914fe75c9ba2d06e24b
+2026-04-02 18:28:04,702 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:28:04,702 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-02 18:28:04,702 - INFO - Step 2: Extracting PDF documents
+2026-04-02 18:28:04,703 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:28:04,731 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-02 18:28:04,737 - INFO - Saved to MongoDB with id: 69ce9914fe75c9ba2d06e24d
+2026-04-02 18:28:04,737 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:28:04,737 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:28:04,756 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-02 18:28:04,761 - INFO - Saved to MongoDB with id: 69ce9914fe75c9ba2d06e24f
+2026-04-02 18:28:04,761 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:28:04,761 - INFO - Extracted 2 PDF files
+2026-04-02 18:28:04,761 - INFO - Step 3: Extracting Word documents
+2026-04-02 18:28:04,761 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:28:04,949 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:28:04,957 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:28:04,957 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:28:04,958 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:28:04,962 - INFO - Saved to MongoDB with id: 69ce9914fe75c9ba2d06e251
+2026-04-02 18:28:04,962 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:28:04,962 - INFO - Extracted 1 Word files
+2026-04-02 18:28:04,962 - INFO - Step 4: Extracting Excel files
+2026-04-02 18:28:04,962 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:28:04,991 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:28:04,996 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:28:04,996 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:28:05,000 - INFO - Saved to MongoDB with id: 69ce9914fe75c9ba2d06e253
+2026-04-02 18:28:05,000 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:28:05,000 - INFO - Extracted 1 Excel files
+2026-04-02 18:28:05,000 - INFO - Step 5: Running web scraper
+2026-04-02 18:28:05,267 - WARNING - robots.txt DISALLOWS scraping: https://www.autoevolution.com/cars/audi/a4/
+2026-04-02 18:28:05,268 - WARNING - Scraping not allowed by robots.txt
+2026-04-02 18:28:05,268 - INFO - Scraped 0 records
+2026-04-02 18:28:05,268 - INFO - Step 6: Running dynamic scraper
+2026-04-02 18:28:05,268 - INFO - Running dynamic scraper
+2026-04-02 18:28:05,268 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-02 18:28:05,268 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-02 18:28:07,080 - INFO - Saved to MongoDB with id: 69ce9917fe75c9ba2d06e255
+2026-04-02 18:28:07,080 - INFO - Fetched 3 recalls for Audi A4
+2026-04-02 18:28:07,080 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-02 18:28:08,996 - INFO - Saved to MongoDB with id: 69ce9918fe75c9ba2d06e257
+2026-04-02 18:28:08,996 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-02 18:28:08,996 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-02 18:28:10,803 - INFO - Saved to MongoDB with id: 69ce991afe75c9ba2d06e259
+2026-04-02 18:28:10,803 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-02 18:28:10,805 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-02 18:28:10,806 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-02 18:28:10,806 - INFO - Dynamic scraped 3 records
+2026-04-02 18:28:10,807 - INFO - Step 7: Running OCR pipeline
+2026-04-02 18:28:10,807 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:28:11,550 - INFO - Raw OCR complete for test_scan.png
+2026-04-02 18:28:12,043 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-02 18:28:12,051 - INFO - Saved to MongoDB with id: 69ce991cfe75c9ba2d06e25b
+2026-04-02 18:28:12,051 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:28:12,052 - INFO - OCR pipeline complete. Processed 1 files
+2026-04-02 18:28:12,052 - INFO - OCR processed 1 files
+2026-04-02 18:28:12,052 - INFO - Pipeline finished successfully
+2026-04-02 18:36:05,779 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:36:05,964 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:36:05,977 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:36:05,978 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:36:05,978 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:36:05,991 - INFO - Saved to MongoDB with id: 69ce9af5da4b9121dfed4df3
+2026-04-02 18:36:05,991 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:36:06,081 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:36:06,110 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:36:06,113 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:36:06,113 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:36:06,124 - INFO - Saved to MongoDB with id: 69ce9af6da4b9121dfed4df5
+2026-04-02 18:36:06,124 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:36:06,182 - INFO - Pipeline started
+2026-04-02 18:36:06,182 - INFO - Step 1: Fetching data from NHTSA API
+2026-04-02 18:36:06,572 - INFO - Fetched recalls for Audi A4 2020
+2026-04-02 18:36:06,578 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-02 18:36:07,497 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-02 18:36:07,502 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-02 18:36:08,465 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-02 18:36:08,471 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-02 18:36:08,977 - INFO - Fetched data for 3 vehicles
+2026-04-02 18:36:08,987 - INFO - Saved to MongoDB with id: 69ce9af8da4b9121dfed4df7
+2026-04-02 18:36:08,988 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:36:08,990 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-02 18:36:09,005 - INFO - Saved to MongoDB with id: 69ce9af8da4b9121dfed4df9
+2026-04-02 18:36:09,005 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:36:09,006 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-02 18:36:09,010 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4dfb
+2026-04-02 18:36:09,010 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:36:09,011 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-02 18:36:09,011 - INFO - Step 2: Extracting PDF documents
+2026-04-02 18:36:09,011 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:36:09,037 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-02 18:36:09,042 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4dfd
+2026-04-02 18:36:09,042 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:36:09,042 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:36:09,061 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-02 18:36:09,065 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4dff
+2026-04-02 18:36:09,065 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:36:09,065 - INFO - Extracted 2 PDF files
+2026-04-02 18:36:09,065 - INFO - Step 3: Extracting Word documents
+2026-04-02 18:36:09,065 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:36:09,250 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:36:09,257 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:36:09,258 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:36:09,258 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:36:09,263 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e01
+2026-04-02 18:36:09,263 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:36:09,263 - INFO - Extracted 1 Word files
+2026-04-02 18:36:09,263 - INFO - Step 4: Extracting Excel files
+2026-04-02 18:36:09,263 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:36:09,292 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:36:09,298 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:36:09,298 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:36:09,306 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e03
+2026-04-02 18:36:09,306 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:36:09,306 - INFO - Extracted 1 Excel files
+2026-04-02 18:36:09,306 - INFO - Step 5: Running web scraper
+2026-04-02 18:36:09,306 - INFO - Running web scraper
+2026-04-02 18:36:09,307 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_1.html
+2026-04-02 18:36:09,307 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_2.html
+2026-04-02 18:36:09,307 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_3.html
+2026-04-02 18:36:09,307 - INFO - Starting local HTML scraping
+2026-04-02 18:36:09,307 - INFO - Scraping local page 1: page_1.html
+2026-04-02 18:36:09,309 - INFO - Scraped: Audi A4 2020
+2026-04-02 18:36:09,309 - INFO - Scraped: Audi A4 2019
+2026-04-02 18:36:09,309 - INFO - Scraped: Audi A4 2018
+2026-04-02 18:36:09,309 - INFO - Scraping local page 2: page_2.html
+2026-04-02 18:36:09,311 - INFO - Scraped: Volkswagen Golf 2020
+2026-04-02 18:36:09,311 - INFO - Scraped: Volkswagen Golf 2019
+2026-04-02 18:36:09,311 - INFO - Scraped: Volkswagen Golf GTI 2020
+2026-04-02 18:36:09,311 - INFO - Scraping local page 3: page_3.html
+2026-04-02 18:36:09,312 - INFO - Scraped: Volkswagen Passat 2020
+2026-04-02 18:36:09,312 - INFO - Scraped: Volkswagen Passat 2019
+2026-04-02 18:36:09,312 - INFO - Scraped: Skoda Octavia 2020
+2026-04-02 18:36:09,312 - INFO - Saved scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/scraped_results.json
+2026-04-02 18:36:09,317 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e05
+2026-04-02 18:36:09,321 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e07
+2026-04-02 18:36:09,325 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e09
+2026-04-02 18:36:09,332 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e0b
+2026-04-02 18:36:09,336 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e0d
+2026-04-02 18:36:09,338 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e0f
+2026-04-02 18:36:09,341 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e11
+2026-04-02 18:36:09,345 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e13
+2026-04-02 18:36:09,347 - INFO - Saved to MongoDB with id: 69ce9af9da4b9121dfed4e15
+2026-04-02 18:36:09,348 - INFO - Local scraping complete. Total records: 9
+2026-04-02 18:36:09,348 - INFO - Scraped 9 records
+2026-04-02 18:36:09,348 - INFO - Step 6: Running dynamic scraper
+2026-04-02 18:36:09,348 - INFO - Running dynamic scraper
+2026-04-02 18:36:09,348 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-02 18:36:09,348 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-02 18:36:11,137 - INFO - Saved to MongoDB with id: 69ce9afbda4b9121dfed4e17
+2026-04-02 18:36:11,138 - INFO - Fetched 3 recalls for Audi A4
+2026-04-02 18:36:11,138 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-02 18:36:12,986 - INFO - Saved to MongoDB with id: 69ce9afcda4b9121dfed4e19
+2026-04-02 18:36:12,986 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-02 18:36:12,986 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-02 18:36:15,793 - INFO - Saved to MongoDB with id: 69ce9affda4b9121dfed4e1b
+2026-04-02 18:36:15,794 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-02 18:36:15,795 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-02 18:36:15,796 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-02 18:36:15,796 - INFO - Dynamic scraped 3 records
+2026-04-02 18:36:15,796 - INFO - Step 7: Running OCR pipeline
+2026-04-02 18:36:15,797 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:36:16,516 - INFO - Raw OCR complete for test_scan.png
+2026-04-02 18:36:17,023 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-02 18:36:17,030 - INFO - Saved to MongoDB with id: 69ce9b01da4b9121dfed4e1d
+2026-04-02 18:36:17,030 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:36:17,031 - INFO - OCR pipeline complete. Processed 1 files
+2026-04-02 18:36:17,031 - INFO - OCR processed 1 files
+2026-04-02 18:36:17,031 - INFO - Pipeline finished successfully
+2026-04-02 18:40:42,941 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:40:43,128 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:40:43,141 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:40:43,142 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:40:43,142 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:40:43,154 - INFO - Saved to MongoDB with id: 69ce9c0b620dc61849e6fc31
+2026-04-02 18:40:43,155 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:40:43,236 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:40:43,266 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:40:43,269 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:40:43,269 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:40:43,279 - INFO - Saved to MongoDB with id: 69ce9c0b620dc61849e6fc33
+2026-04-02 18:40:43,279 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:40:43,336 - INFO - Pipeline started
+2026-04-02 18:40:43,336 - INFO - Step 1: Fetching data from NHTSA API
+2026-04-02 18:40:43,645 - INFO - Fetched recalls for Audi A4 2020
+2026-04-02 18:40:43,647 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-02 18:40:44,445 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-02 18:40:44,451 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-02 18:40:45,249 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-02 18:40:45,253 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-02 18:40:45,759 - INFO - Fetched data for 3 vehicles
+2026-04-02 18:40:45,769 - INFO - Saved to MongoDB with id: 69ce9c0d620dc61849e6fc35
+2026-04-02 18:40:45,770 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:40:45,772 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-02 18:40:45,777 - INFO - Saved to MongoDB with id: 69ce9c0d620dc61849e6fc37
+2026-04-02 18:40:45,777 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:40:45,778 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-02 18:40:45,789 - INFO - Saved to MongoDB with id: 69ce9c0d620dc61849e6fc39
+2026-04-02 18:40:45,789 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:40:45,790 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-02 18:40:45,790 - INFO - Step 2: Extracting PDF documents
+2026-04-02 18:40:45,790 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:40:45,819 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-02 18:40:45,824 - INFO - Saved to MongoDB with id: 69ce9c0d620dc61849e6fc3b
+2026-04-02 18:40:45,824 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:40:45,824 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:40:45,843 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-02 18:40:45,847 - INFO - Saved to MongoDB with id: 69ce9c0d620dc61849e6fc3d
+2026-04-02 18:40:45,848 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:40:45,848 - INFO - Extracted 2 PDF files
+2026-04-02 18:40:45,848 - INFO - Step 3: Extracting Word documents
+2026-04-02 18:40:45,848 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:40:46,036 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:40:46,044 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:40:46,044 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:40:46,044 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:40:46,050 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc3f
+2026-04-02 18:40:46,050 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:40:46,050 - INFO - Extracted 1 Word files
+2026-04-02 18:40:46,050 - INFO - Step 4: Extracting Excel files
+2026-04-02 18:40:46,050 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:40:46,079 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:40:46,084 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:40:46,084 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:40:46,088 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc41
+2026-04-02 18:40:46,088 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:40:46,088 - INFO - Extracted 1 Excel files
+2026-04-02 18:40:46,088 - INFO - Step 5: Running web scraper
+2026-04-02 18:40:46,088 - INFO - Running web scraper
+2026-04-02 18:40:46,089 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_1.html
+2026-04-02 18:40:46,089 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_2.html
+2026-04-02 18:40:46,089 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_3.html
+2026-04-02 18:40:46,089 - INFO - Starting local HTML scraping
+2026-04-02 18:40:46,089 - INFO - Scraping local page 1: page_1.html
+2026-04-02 18:40:46,092 - INFO - Scraped: Audi A4 2020
+2026-04-02 18:40:46,092 - INFO - Scraped: Audi A4 2019
+2026-04-02 18:40:46,092 - INFO - Scraped: Audi A4 2018
+2026-04-02 18:40:46,092 - INFO - Scraping local page 2: page_2.html
+2026-04-02 18:40:46,093 - INFO - Scraped: Volkswagen Golf 2020
+2026-04-02 18:40:46,093 - INFO - Scraped: Volkswagen Golf 2019
+2026-04-02 18:40:46,093 - INFO - Scraped: Volkswagen Golf GTI 2020
+2026-04-02 18:40:46,093 - INFO - Scraping local page 3: page_3.html
+2026-04-02 18:40:46,094 - INFO - Scraped: Volkswagen Passat 2020
+2026-04-02 18:40:46,094 - INFO - Scraped: Volkswagen Passat 2019
+2026-04-02 18:40:46,094 - INFO - Scraped: Skoda Octavia 2020
+2026-04-02 18:40:46,094 - INFO - Saved scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/scraped_results.json
+2026-04-02 18:40:46,099 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc43
+2026-04-02 18:40:46,104 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc45
+2026-04-02 18:40:46,108 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc47
+2026-04-02 18:40:46,111 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc49
+2026-04-02 18:40:46,115 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc4b
+2026-04-02 18:40:46,118 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc4d
+2026-04-02 18:40:46,122 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc4f
+2026-04-02 18:40:46,125 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc51
+2026-04-02 18:40:46,129 - INFO - Saved to MongoDB with id: 69ce9c0e620dc61849e6fc53
+2026-04-02 18:40:46,129 - INFO - Local scraping complete. Total records: 9
+2026-04-02 18:40:46,129 - INFO - Scraped 9 records
+2026-04-02 18:40:46,129 - INFO - Step 6: Running dynamic scraper
+2026-04-02 18:40:46,129 - INFO - Running dynamic scraper
+2026-04-02 18:40:46,129 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-02 18:40:46,129 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-02 18:40:47,949 - INFO - Saved to MongoDB with id: 69ce9c0f620dc61849e6fc55
+2026-04-02 18:40:47,949 - INFO - Fetched 3 recalls for Audi A4
+2026-04-02 18:40:47,949 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-02 18:40:49,777 - INFO - Saved to MongoDB with id: 69ce9c11620dc61849e6fc57
+2026-04-02 18:40:49,777 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-02 18:40:49,777 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-02 18:40:51,577 - INFO - Saved to MongoDB with id: 69ce9c13620dc61849e6fc59
+2026-04-02 18:40:51,577 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-02 18:40:51,578 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-02 18:40:51,580 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-02 18:40:51,580 - INFO - Dynamic scraped 3 records
+2026-04-02 18:40:51,580 - INFO - Step 7: Running OCR pipeline
+2026-04-02 18:40:51,580 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:40:52,294 - INFO - Raw OCR complete for test_scan.png
+2026-04-02 18:40:52,787 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-02 18:40:52,795 - INFO - Saved to MongoDB with id: 69ce9c14620dc61849e6fc5b
+2026-04-02 18:40:52,795 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:40:52,795 - INFO - Starting OCR on scanned PDF: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-02 18:40:57,302 - INFO - OCR page 1 of scanned_report.pdf
+2026-04-02 18:40:57,309 - INFO - Saved to MongoDB with id: 69ce9c19620dc61849e6fc5d
+2026-04-02 18:40:57,309 - INFO - Scanned PDF OCR saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-02 18:40:57,309 - INFO - OCR pipeline complete. Processed 2 files
+2026-04-02 18:40:57,309 - INFO - OCR processed 2 files
+2026-04-02 18:40:57,309 - INFO - Pipeline finished successfully
+2026-04-02 18:43:12,469 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:43:12,657 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:43:12,670 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:43:12,670 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:43:12,670 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:43:12,684 - INFO - Saved to MongoDB with id: 69ce9ca03ce684bd3c84a4a5
+2026-04-02 18:43:12,684 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:43:12,773 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:43:12,802 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:43:12,805 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:43:12,806 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:43:12,814 - INFO - Saved to MongoDB with id: 69ce9ca03ce684bd3c84a4a7
+2026-04-02 18:43:12,814 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:43:12,873 - INFO - Pipeline started
+2026-04-02 18:43:12,873 - INFO - Step 1: Fetching data from NHTSA API
+2026-04-02 18:43:13,246 - INFO - Fetched recalls for Audi A4 2020
+2026-04-02 18:43:13,249 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-02 18:43:14,168 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-02 18:43:14,174 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-02 18:43:15,046 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-02 18:43:15,050 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-02 18:43:15,556 - INFO - Fetched data for 3 vehicles
+2026-04-02 18:43:15,566 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4a9
+2026-04-02 18:43:15,566 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:43:15,569 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-02 18:43:15,575 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4ab
+2026-04-02 18:43:15,576 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:43:15,577 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-02 18:43:15,584 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4ad
+2026-04-02 18:43:15,584 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:43:15,585 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-02 18:43:15,585 - INFO - Step 2: Extracting PDF documents
+2026-04-02 18:43:15,585 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:43:15,614 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-02 18:43:15,620 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4af
+2026-04-02 18:43:15,620 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:43:15,620 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:43:15,640 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-02 18:43:15,643 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4b1
+2026-04-02 18:43:15,644 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:43:15,644 - INFO - Extracted 2 PDF files
+2026-04-02 18:43:15,644 - INFO - Step 3: Extracting Word documents
+2026-04-02 18:43:15,644 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:43:15,833 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:43:15,841 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:43:15,842 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:43:15,842 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:43:15,847 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4b3
+2026-04-02 18:43:15,847 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:43:15,847 - INFO - Extracted 1 Word files
+2026-04-02 18:43:15,847 - INFO - Step 4: Extracting Excel files
+2026-04-02 18:43:15,847 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:43:15,876 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:43:15,881 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:43:15,883 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:43:15,888 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4b5
+2026-04-02 18:43:15,888 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:43:15,888 - INFO - Extracted 1 Excel files
+2026-04-02 18:43:15,888 - INFO - Step 5: Running web scraper
+2026-04-02 18:43:15,888 - INFO - Running web scraper
+2026-04-02 18:43:15,888 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_1.html
+2026-04-02 18:43:15,888 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_2.html
+2026-04-02 18:43:15,889 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_3.html
+2026-04-02 18:43:15,889 - INFO - Starting local HTML scraping
+2026-04-02 18:43:15,889 - INFO - Scraping local page 1: page_1.html
+2026-04-02 18:43:15,891 - INFO - Scraped: Audi A4 2020
+2026-04-02 18:43:15,891 - INFO - Scraped: Audi A4 2019
+2026-04-02 18:43:15,891 - INFO - Scraped: Audi A4 2018
+2026-04-02 18:43:15,891 - INFO - Scraping local page 2: page_2.html
+2026-04-02 18:43:15,892 - INFO - Scraped: Volkswagen Golf 2020
+2026-04-02 18:43:15,892 - INFO - Scraped: Volkswagen Golf 2019
+2026-04-02 18:43:15,892 - INFO - Scraped: Volkswagen Golf GTI 2020
+2026-04-02 18:43:15,892 - INFO - Scraping local page 3: page_3.html
+2026-04-02 18:43:15,893 - INFO - Scraped: Volkswagen Passat 2020
+2026-04-02 18:43:15,893 - INFO - Scraped: Volkswagen Passat 2019
+2026-04-02 18:43:15,893 - INFO - Scraped: Skoda Octavia 2020
+2026-04-02 18:43:15,893 - INFO - Saved scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/scraped_results.json
+2026-04-02 18:43:15,899 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4b7
+2026-04-02 18:43:15,902 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4b9
+2026-04-02 18:43:15,906 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4bb
+2026-04-02 18:43:15,908 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4bd
+2026-04-02 18:43:15,912 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4bf
+2026-04-02 18:43:15,915 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4c1
+2026-04-02 18:43:15,917 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4c3
+2026-04-02 18:43:15,920 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4c5
+2026-04-02 18:43:15,925 - INFO - Saved to MongoDB with id: 69ce9ca33ce684bd3c84a4c7
+2026-04-02 18:43:15,925 - INFO - Local scraping complete. Total records: 9
+2026-04-02 18:43:15,925 - INFO - Scraped 9 records
+2026-04-02 18:43:15,925 - INFO - Step 6: Running dynamic scraper
+2026-04-02 18:43:15,925 - INFO - Running dynamic scraper
+2026-04-02 18:43:15,925 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-02 18:43:15,925 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-02 18:43:17,824 - INFO - Saved to MongoDB with id: 69ce9ca53ce684bd3c84a4c9
+2026-04-02 18:43:17,824 - INFO - Fetched 3 recalls for Audi A4
+2026-04-02 18:43:17,824 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-02 18:43:19,698 - INFO - Saved to MongoDB with id: 69ce9ca73ce684bd3c84a4cb
+2026-04-02 18:43:19,699 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-02 18:43:19,699 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-02 18:43:21,537 - INFO - Saved to MongoDB with id: 69ce9ca93ce684bd3c84a4cd
+2026-04-02 18:43:21,538 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-02 18:43:21,539 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-02 18:43:21,540 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-02 18:43:21,540 - INFO - Starting Selenium scraping: https://www.wikipedia.org/wiki/Audi
+2026-04-02 18:43:21,541 - ERROR - Selenium error: No module named 'selenium'
+2026-04-02 18:43:21,541 - INFO - Dynamic scraped 3 records
+2026-04-02 18:43:21,541 - INFO - Step 7: Running OCR pipeline
+2026-04-02 18:43:21,541 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:43:22,261 - INFO - Raw OCR complete for test_scan.png
+2026-04-02 18:43:22,753 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-02 18:43:22,760 - INFO - Saved to MongoDB with id: 69ce9caa3ce684bd3c84a4cf
+2026-04-02 18:43:22,761 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:43:22,761 - INFO - Starting OCR on scanned PDF: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-02 18:43:23,242 - INFO - OCR page 1 of scanned_report.pdf
+2026-04-02 18:43:23,250 - INFO - Saved to MongoDB with id: 69ce9cab3ce684bd3c84a4d1
+2026-04-02 18:43:23,251 - INFO - Scanned PDF OCR saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-02 18:43:23,251 - INFO - OCR pipeline complete. Processed 2 files
+2026-04-02 18:43:23,251 - INFO - OCR processed 2 files
+2026-04-02 18:43:23,251 - INFO - Pipeline finished successfully
+2026-04-02 18:44:33,646 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:44:33,839 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:44:33,852 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:44:33,853 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:44:33,853 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:44:33,866 - INFO - Saved to MongoDB with id: 69ce9cf18845b477bcc4cd5f
+2026-04-02 18:44:33,867 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:44:33,954 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:44:33,984 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:44:33,989 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:44:33,989 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:44:33,999 - INFO - Saved to MongoDB with id: 69ce9cf18845b477bcc4cd61
+2026-04-02 18:44:33,999 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:44:34,054 - INFO - Pipeline started
+2026-04-02 18:44:34,054 - INFO - Step 1: Fetching data from NHTSA API
+2026-04-02 18:44:34,403 - INFO - Fetched recalls for Audi A4 2020
+2026-04-02 18:44:34,404 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-02 18:44:35,286 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-02 18:44:35,291 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-02 18:44:36,166 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-02 18:44:36,171 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-02 18:44:36,673 - INFO - Fetched data for 3 vehicles
+2026-04-02 18:44:36,684 - INFO - Saved to MongoDB with id: 69ce9cf48845b477bcc4cd63
+2026-04-02 18:44:36,685 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:44:36,688 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-02 18:44:36,694 - INFO - Saved to MongoDB with id: 69ce9cf48845b477bcc4cd65
+2026-04-02 18:44:36,695 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:44:36,696 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-02 18:44:36,702 - INFO - Saved to MongoDB with id: 69ce9cf48845b477bcc4cd67
+2026-04-02 18:44:36,702 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-02 18:44:36,703 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-02 18:44:36,703 - INFO - Step 2: Extracting PDF documents
+2026-04-02 18:44:36,703 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:44:36,731 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-02 18:44:36,736 - INFO - Saved to MongoDB with id: 69ce9cf48845b477bcc4cd69
+2026-04-02 18:44:36,737 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-02 18:44:36,737 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:44:36,757 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-02 18:44:36,761 - INFO - Saved to MongoDB with id: 69ce9cf48845b477bcc4cd6b
+2026-04-02 18:44:36,762 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-02 18:44:36,762 - INFO - Extracted 2 PDF files
+2026-04-02 18:44:36,762 - INFO - Step 3: Extracting Word documents
+2026-04-02 18:44:36,762 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:44:36,956 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-02 18:44:36,964 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-02 18:44:36,964 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-02 18:44:36,965 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-02 18:44:36,969 - INFO - Saved to MongoDB with id: 69ce9cf48845b477bcc4cd6d
+2026-04-02 18:44:36,969 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-02 18:44:36,969 - INFO - Extracted 1 Word files
+2026-04-02 18:44:36,969 - INFO - Step 4: Extracting Excel files
+2026-04-02 18:44:36,969 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:44:36,999 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-02 18:44:37,003 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-02 18:44:37,003 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-02 18:44:37,008 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd6f
+2026-04-02 18:44:37,008 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-02 18:44:37,008 - INFO - Extracted 1 Excel files
+2026-04-02 18:44:37,008 - INFO - Step 5: Running web scraper
+2026-04-02 18:44:37,008 - INFO - Running web scraper
+2026-04-02 18:44:37,008 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_1.html
+2026-04-02 18:44:37,009 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_2.html
+2026-04-02 18:44:37,009 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_3.html
+2026-04-02 18:44:37,009 - INFO - Starting local HTML scraping
+2026-04-02 18:44:37,009 - INFO - Scraping local page 1: page_1.html
+2026-04-02 18:44:37,011 - INFO - Scraped: Audi A4 2020
+2026-04-02 18:44:37,012 - INFO - Scraped: Audi A4 2019
+2026-04-02 18:44:37,012 - INFO - Scraped: Audi A4 2018
+2026-04-02 18:44:37,012 - INFO - Scraping local page 2: page_2.html
+2026-04-02 18:44:37,013 - INFO - Scraped: Volkswagen Golf 2020
+2026-04-02 18:44:37,013 - INFO - Scraped: Volkswagen Golf 2019
+2026-04-02 18:44:37,013 - INFO - Scraped: Volkswagen Golf GTI 2020
+2026-04-02 18:44:37,013 - INFO - Scraping local page 3: page_3.html
+2026-04-02 18:44:37,014 - INFO - Scraped: Volkswagen Passat 2020
+2026-04-02 18:44:37,014 - INFO - Scraped: Volkswagen Passat 2019
+2026-04-02 18:44:37,014 - INFO - Scraped: Skoda Octavia 2020
+2026-04-02 18:44:37,014 - INFO - Saved scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/scraped_results.json
+2026-04-02 18:44:37,020 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd71
+2026-04-02 18:44:37,022 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd73
+2026-04-02 18:44:37,026 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd75
+2026-04-02 18:44:37,029 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd77
+2026-04-02 18:44:37,033 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd79
+2026-04-02 18:44:37,037 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd7b
+2026-04-02 18:44:37,040 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd7d
+2026-04-02 18:44:37,044 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd7f
+2026-04-02 18:44:37,046 - INFO - Saved to MongoDB with id: 69ce9cf58845b477bcc4cd81
+2026-04-02 18:44:37,046 - INFO - Local scraping complete. Total records: 9
+2026-04-02 18:44:37,046 - INFO - Scraped 9 records
+2026-04-02 18:44:37,046 - INFO - Step 6: Running dynamic scraper
+2026-04-02 18:44:37,047 - INFO - Running dynamic scraper
+2026-04-02 18:44:37,047 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-02 18:44:37,047 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-02 18:44:38,904 - INFO - Saved to MongoDB with id: 69ce9cf68845b477bcc4cd83
+2026-04-02 18:44:38,904 - INFO - Fetched 3 recalls for Audi A4
+2026-04-02 18:44:38,904 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-02 18:44:40,737 - INFO - Saved to MongoDB with id: 69ce9cf88845b477bcc4cd85
+2026-04-02 18:44:40,737 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-02 18:44:40,737 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-02 18:44:42,536 - INFO - Saved to MongoDB with id: 69ce9cfa8845b477bcc4cd87
+2026-04-02 18:44:42,536 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-02 18:44:42,538 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-02 18:44:42,539 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-02 18:44:42,539 - INFO - Starting Selenium scraping: https://www.wikipedia.org/wiki/Audi
+2026-04-02 18:45:05,264 - INFO - Saved to MongoDB with id: 69ce9d118845b477bcc4cd89
+2026-04-02 18:45:05,265 - INFO - Selenium scraping complete: Audi - Wikipedia
+2026-04-02 18:45:05,265 - INFO - Selenium scraping successful
+2026-04-02 18:45:05,265 - INFO - Dynamic scraped 3 records
+2026-04-02 18:45:05,265 - INFO - Step 7: Running OCR pipeline
+2026-04-02 18:45:05,265 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:45:05,963 - INFO - Raw OCR complete for test_scan.png
+2026-04-02 18:45:06,475 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-02 18:45:06,482 - INFO - Saved to MongoDB with id: 69ce9d128845b477bcc4cd8b
+2026-04-02 18:45:06,482 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-02 18:45:06,482 - INFO - Starting OCR on scanned PDF: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-02 18:45:06,962 - INFO - OCR page 1 of scanned_report.pdf
+2026-04-02 18:45:06,966 - INFO - Saved to MongoDB with id: 69ce9d128845b477bcc4cd8d
+2026-04-02 18:45:06,967 - INFO - Scanned PDF OCR saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-02 18:45:06,967 - INFO - OCR pipeline complete. Processed 2 files
+2026-04-02 18:45:06,967 - INFO - OCR processed 2 files
+2026-04-02 18:45:06,967 - INFO - Pipeline finished successfully

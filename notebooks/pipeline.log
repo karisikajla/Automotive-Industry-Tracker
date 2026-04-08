@@ -1,0 +1,4 @@
+2026-03-12 16:46:28,555 - INFO - Successfully read JSON file: ../data/raw/nhtsa/recall_audi_a4.json
+2026-03-12 16:48:41,112 - INFO - Successfully read JSON file: ../data/raw/nhtsa/recall_volkswagen_golf.json
+2026-03-12 16:48:41,115 - INFO - Successfully read JSON file: ../data/raw/nhtsa/recall_skoda_octavia.json
+2026-03-12 16:48:41,121 - INFO - Successfully read JSON file: ../data/raw/nhtsa/recall_cupra_formentor.json
