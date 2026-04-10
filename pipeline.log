@@ -779,3 +779,1123 @@
 2026-04-02 18:45:06,967 - INFO - OCR pipeline complete. Processed 2 files
 2026-04-02 18:45:06,967 - INFO - OCR processed 2 files
 2026-04-02 18:45:06,967 - INFO - Pipeline finished successfully
+2026-04-10 12:53:28,585 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 12:53:28,779 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-10 12:53:28,787 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-10 12:53:28,788 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-10 12:53:28,788 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-10 12:53:28,826 - INFO - Saved to MongoDB with id: 69d8d6a8408f1036e66aaacd
+2026-04-10 12:53:28,826 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 12:53:29,104 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 12:53:29,138 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-10 12:53:29,142 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-10 12:53:29,142 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-10 12:53:29,153 - INFO - Saved to MongoDB with id: 69d8d6a9408f1036e66aaacf
+2026-04-10 12:53:29,153 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 12:54:30,895 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 12:54:31,086 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-10 12:54:31,097 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-10 12:54:31,098 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-10 12:54:31,098 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-10 12:54:31,112 - INFO - Saved to MongoDB with id: 69d8d6e711ed9b3077f5a5a5
+2026-04-10 12:54:31,112 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 12:54:31,194 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 12:54:31,223 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-10 12:54:31,227 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-10 12:54:31,227 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-10 12:54:31,238 - INFO - Saved to MongoDB with id: 69d8d6e711ed9b3077f5a5a7
+2026-04-10 12:54:31,238 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 12:54:31,302 - INFO - Pipeline started
+2026-04-10 12:54:31,302 - INFO - Fetching data from NHTSA API
+2026-04-10 12:54:31,867 - INFO - Fetched recalls for Audi A4 2020
+2026-04-10 12:54:31,873 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-10 12:54:32,873 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-10 12:54:32,879 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-10 12:54:34,375 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-10 12:54:34,378 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-10 12:54:34,884 - INFO - Fetched data for 3 vehicles
+2026-04-10 12:54:34,897 - INFO - Saved to MongoDB with id: 69d8d6ea11ed9b3077f5a5a9
+2026-04-10 12:54:34,897 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 12:54:34,900 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-10 12:54:34,908 - INFO - Saved to MongoDB with id: 69d8d6ea11ed9b3077f5a5ab
+2026-04-10 12:54:34,908 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 12:54:34,909 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-10 12:54:34,914 - INFO - Saved to MongoDB with id: 69d8d6ea11ed9b3077f5a5ad
+2026-04-10 12:54:34,914 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 12:54:34,915 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-10 12:54:34,915 - INFO - Extracting PDF documents
+2026-04-10 12:54:34,915 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-10 12:54:34,947 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-10 12:54:34,953 - INFO - Saved to MongoDB with id: 69d8d6ea11ed9b3077f5a5af
+2026-04-10 12:54:34,953 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-10 12:54:34,953 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-10 12:54:34,974 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-10 12:54:34,978 - INFO - Saved to MongoDB with id: 69d8d6ea11ed9b3077f5a5b1
+2026-04-10 12:54:34,978 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-10 12:54:34,978 - INFO - Extracted 2 PDF files
+2026-04-10 12:54:34,978 - INFO - Extracting Word documents
+2026-04-10 12:54:34,978 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 12:54:35,169 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-10 12:54:35,176 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-10 12:54:35,177 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-10 12:54:35,177 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-10 12:54:35,181 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5b3
+2026-04-10 12:54:35,181 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 12:54:35,181 - INFO - Extracted 1 Word files
+2026-04-10 12:54:35,181 - INFO - Extracting Excel files
+2026-04-10 12:54:35,182 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 12:54:35,211 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-10 12:54:35,214 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-10 12:54:35,214 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-10 12:54:35,219 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5b5
+2026-04-10 12:54:35,220 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 12:54:35,220 - INFO - Extracted 1 Excel files
+2026-04-10 12:54:35,220 - INFO - Running web scraper
+2026-04-10 12:54:35,220 - INFO - Running web scraper
+2026-04-10 12:54:35,220 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_1.html
+2026-04-10 12:54:35,220 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_2.html
+2026-04-10 12:54:35,221 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_3.html
+2026-04-10 12:54:35,221 - INFO - Starting local HTML scraping
+2026-04-10 12:54:35,221 - INFO - Scraping local page 1: page_1.html
+2026-04-10 12:54:35,223 - INFO - Scraped: Audi A4 2020
+2026-04-10 12:54:35,224 - INFO - Scraped: Audi A4 2019
+2026-04-10 12:54:35,224 - INFO - Scraped: Audi A4 2018
+2026-04-10 12:54:35,224 - INFO - Scraping local page 2: page_2.html
+2026-04-10 12:54:35,225 - INFO - Scraped: Volkswagen Golf 2020
+2026-04-10 12:54:35,225 - INFO - Scraped: Volkswagen Golf 2019
+2026-04-10 12:54:35,225 - INFO - Scraped: Volkswagen Golf GTI 2020
+2026-04-10 12:54:35,225 - INFO - Scraping local page 3: page_3.html
+2026-04-10 12:54:35,226 - INFO - Scraped: Volkswagen Passat 2020
+2026-04-10 12:54:35,226 - INFO - Scraped: Volkswagen Passat 2019
+2026-04-10 12:54:35,226 - INFO - Scraped: Skoda Octavia 2020
+2026-04-10 12:54:35,226 - INFO - Saved scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/scraped_results.json
+2026-04-10 12:54:35,233 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5b7
+2026-04-10 12:54:35,240 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5b9
+2026-04-10 12:54:35,243 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5bb
+2026-04-10 12:54:35,245 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5bd
+2026-04-10 12:54:35,249 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5bf
+2026-04-10 12:54:35,253 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5c1
+2026-04-10 12:54:35,255 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5c3
+2026-04-10 12:54:35,260 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5c5
+2026-04-10 12:54:35,264 - INFO - Saved to MongoDB with id: 69d8d6eb11ed9b3077f5a5c7
+2026-04-10 12:54:35,264 - INFO - Local scraping complete. Total records: 9
+2026-04-10 12:54:35,264 - INFO - Scraped 9 records
+2026-04-10 12:54:35,264 - INFO - Running dynamic scraper
+2026-04-10 12:54:35,264 - INFO - Running dynamic scraper
+2026-04-10 12:54:35,264 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-10 12:54:35,264 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-10 12:54:37,055 - INFO - Saved to MongoDB with id: 69d8d6ed11ed9b3077f5a5c9
+2026-04-10 12:54:37,056 - INFO - Fetched 3 recalls for Audi A4
+2026-04-10 12:54:37,056 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-10 12:54:38,789 - INFO - Saved to MongoDB with id: 69d8d6ee11ed9b3077f5a5cb
+2026-04-10 12:54:38,790 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-10 12:54:38,790 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-10 12:54:40,465 - INFO - Saved to MongoDB with id: 69d8d6f011ed9b3077f5a5cd
+2026-04-10 12:54:40,466 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-10 12:54:40,469 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-10 12:54:40,470 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-10 12:54:40,470 - INFO - Starting Selenium scraping: https://www.wikipedia.org/wiki/Audi
+2026-04-10 12:54:46,311 - INFO - Saved to MongoDB with id: 69d8d6f611ed9b3077f5a5cf
+2026-04-10 12:54:46,312 - INFO - Selenium scraping complete: Audi - Wikipedia
+2026-04-10 12:54:46,312 - INFO - Selenium scraping successful
+2026-04-10 12:54:46,312 - INFO - Dynamic scraped 3 records
+2026-04-10 12:54:46,312 - INFO - Running OCR pipeline
+2026-04-10 12:54:46,312 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 12:54:47,636 - INFO - Raw OCR complete for test_scan.png
+2026-04-10 12:54:48,127 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-10 12:54:48,136 - INFO - Saved to MongoDB with id: 69d8d6f811ed9b3077f5a5d1
+2026-04-10 12:54:48,136 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 12:54:48,136 - INFO - Starting OCR on scanned PDF: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-10 12:54:49,639 - INFO - OCR page 1 of scanned_report.pdf
+2026-04-10 12:54:49,644 - INFO - Saved to MongoDB with id: 69d8d6f911ed9b3077f5a5d3
+2026-04-10 12:54:49,644 - INFO - Scanned PDF OCR saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-10 12:54:49,644 - INFO - OCR pipeline complete. Processed 2 files
+2026-04-10 12:54:49,644 - INFO - OCR processed 2 files
+2026-04-10 12:54:49,644 - INFO - Downloading vehicle images
+2026-04-10 12:54:49,981 - INFO - Downloading: audi_a4.jpg from https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg/960px-Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg
+2026-04-10 12:54:50,423 - INFO - Downloaded: audi_a4.jpg (161090 bytes)
+2026-04-10 12:54:50,847 - INFO - Downloading: volkswagen_golf.jpg from https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2020_Volkswagen_Golf_Style_1.5_Front.jpg/960px-2020_Volkswagen_Golf_Style_1.5_Front.jpg
+2026-04-10 12:54:51,312 - INFO - Downloaded: volkswagen_golf.jpg (124620 bytes)
+2026-04-10 12:54:51,680 - INFO - Downloading: volkswagen_passat.jpg from https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg/960px-VW_Passat_Variant_Elegance_%28B9%29_%E2%80%93_f_18052025.jpg
+2026-04-10 12:54:52,068 - INFO - Downloaded: volkswagen_passat.jpg (150270 bytes)
+2026-04-10 12:54:52,491 - WARNING - No image found for Audi RS6
+2026-04-10 12:54:52,891 - INFO - Downloading: volkswagen_id4.jpg from https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/2025_Volkswagen_ID4_Pro_Redspot_front.jpg/960px-2025_Volkswagen_ID4_Pro_Redspot_front.jpg
+2026-04-10 12:54:53,332 - INFO - Downloaded: volkswagen_id4.jpg (135157 bytes)
+2026-04-10 12:54:53,332 - INFO - Downloaded 4 images
+2026-04-10 12:54:53,333 - INFO - Downloaded 4 images
+2026-04-10 12:54:53,333 - INFO - Batch processing images
+2026-04-10 12:54:53,333 - INFO - Starting batch processing of 5 images
+2026-04-10 12:54:53,415 - INFO - Processing: audi_a4.jpg
+2026-04-10 12:54:53,416 - INFO - Inspected audi_a4.jpg: 960x500 JPEG RGB
+2026-04-10 12:54:53,432 - INFO - Resized audi_a4.jpg to 640x480
+2026-04-10 12:54:53,447 - INFO - Resized audi_a4.jpg to 800x600
+2026-04-10 12:54:53,451 - INFO - Generated thumbnail for audi_a4.jpg: (128, 67)
+2026-04-10 12:54:53,456 - INFO - Generated fixed thumbnail for audi_a4.jpg: (200, 200)
+2026-04-10 12:54:53,459 - INFO - Cropped audi_a4.jpg with box (0, 0, 960, 250)
+2026-04-10 12:54:53,504 - INFO - Converted audi_a4.jpg to WebP
+2026-04-10 12:54:53,509 - INFO - Converted audi_a4.jpg to grayscale
+2026-04-10 12:54:53,515 - INFO - Saved optimised JPEG for audi_a4.jpg
+2026-04-10 12:54:53,539 - INFO - Applied filters to audi_a4.jpg
+2026-04-10 12:54:53,558 - INFO - Applied enhancements to audi_a4.jpg
+2026-04-10 12:54:53,558 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 12:54:53,558 - INFO - EXIF summary for audi_a4.jpg: Unknown Unknown
+2026-04-10 12:54:53,565 - INFO - Saved to MongoDB with id: 69d8d6fd11ed9b3077f5a5d5
+2026-04-10 12:54:53,565 - INFO - Saved metadata to MongoDB for audi_a4.jpg
+2026-04-10 12:54:53,565 - INFO - Processing: volkswagen_golf.jpg
+2026-04-10 12:54:53,566 - INFO - Inspected volkswagen_golf.jpg: 960x490 JPEG RGB
+2026-04-10 12:54:53,576 - INFO - Resized volkswagen_golf.jpg to 640x480
+2026-04-10 12:54:53,588 - INFO - Resized volkswagen_golf.jpg to 800x600
+2026-04-10 12:54:53,591 - INFO - Generated thumbnail for volkswagen_golf.jpg: (128, 65)
+2026-04-10 12:54:53,596 - INFO - Generated fixed thumbnail for volkswagen_golf.jpg: (200, 200)
+2026-04-10 12:54:53,599 - INFO - Cropped volkswagen_golf.jpg with box (0, 0, 960, 245)
+2026-04-10 12:54:53,638 - INFO - Converted volkswagen_golf.jpg to WebP
+2026-04-10 12:54:53,642 - INFO - Converted volkswagen_golf.jpg to grayscale
+2026-04-10 12:54:53,647 - INFO - Saved optimised JPEG for volkswagen_golf.jpg
+2026-04-10 12:54:53,672 - INFO - Applied filters to volkswagen_golf.jpg
+2026-04-10 12:54:53,692 - INFO - Applied enhancements to volkswagen_golf.jpg
+2026-04-10 12:54:53,692 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 12:54:53,692 - INFO - EXIF summary for volkswagen_golf.jpg: Unknown Unknown
+2026-04-10 12:54:53,736 - INFO - Saved to MongoDB with id: 69d8d6fd11ed9b3077f5a5d7
+2026-04-10 12:54:53,736 - INFO - Saved metadata to MongoDB for volkswagen_golf.jpg
+2026-04-10 12:54:53,736 - INFO - Processing: volkswagen_id4.jpg
+2026-04-10 12:54:53,736 - INFO - Inspected volkswagen_id4.jpg: 960x533 JPEG RGB
+2026-04-10 12:54:53,749 - INFO - Resized volkswagen_id4.jpg to 640x480
+2026-04-10 12:54:53,762 - INFO - Resized volkswagen_id4.jpg to 800x600
+2026-04-10 12:54:53,766 - INFO - Generated thumbnail for volkswagen_id4.jpg: (128, 71)
+2026-04-10 12:54:53,771 - INFO - Generated fixed thumbnail for volkswagen_id4.jpg: (200, 200)
+2026-04-10 12:54:53,774 - INFO - Cropped volkswagen_id4.jpg with box (0, 0, 960, 266)
+2026-04-10 12:54:53,818 - INFO - Converted volkswagen_id4.jpg to WebP
+2026-04-10 12:54:53,822 - INFO - Converted volkswagen_id4.jpg to grayscale
+2026-04-10 12:54:53,827 - INFO - Saved optimised JPEG for volkswagen_id4.jpg
+2026-04-10 12:54:53,853 - INFO - Applied filters to volkswagen_id4.jpg
+2026-04-10 12:54:53,873 - INFO - Applied enhancements to volkswagen_id4.jpg
+2026-04-10 12:54:53,873 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 12:54:53,873 - INFO - EXIF summary for volkswagen_id4.jpg: Unknown Unknown
+2026-04-10 12:54:53,878 - INFO - Saved to MongoDB with id: 69d8d6fd11ed9b3077f5a5d9
+2026-04-10 12:54:53,878 - INFO - Saved metadata to MongoDB for volkswagen_id4.jpg
+2026-04-10 12:54:53,878 - INFO - Processing: test_scan.png
+2026-04-10 12:54:53,879 - INFO - Inspected test_scan.png: 1946x1946 WEBP RGBA
+2026-04-10 12:54:53,984 - INFO - Resized test_scan.png to 640x480
+2026-04-10 12:54:54,107 - INFO - Resized test_scan.png to 800x600
+2026-04-10 12:54:54,142 - INFO - Generated thumbnail for test_scan.png: (128, 128)
+2026-04-10 12:54:54,200 - INFO - Generated fixed thumbnail for test_scan.png: (200, 200)
+2026-04-10 12:54:54,267 - INFO - Cropped test_scan.png with box (0, 0, 1946, 973)
+2026-04-10 12:54:54,451 - INFO - Converted test_scan.png to WebP
+2026-04-10 12:54:54,513 - INFO - Converted test_scan.png to grayscale
+2026-04-10 12:54:54,557 - INFO - Saved optimised JPEG for test_scan.png
+2026-04-10 12:54:54,980 - INFO - Applied filters to test_scan.png
+2026-04-10 12:54:55,313 - INFO - Applied enhancements to test_scan.png
+2026-04-10 12:54:55,314 - INFO - Extracted 6 EXIF tags from test_scan.png
+2026-04-10 12:54:55,314 - WARNING - No GPS data in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 12:54:55,314 - INFO - EXIF summary for test_scan.png: Unknown Unknown
+2026-04-10 12:54:55,319 - INFO - Saved to MongoDB with id: 69d8d6ff11ed9b3077f5a5db
+2026-04-10 12:54:55,319 - INFO - Saved metadata to MongoDB for test_scan.png
+2026-04-10 12:54:55,319 - INFO - Processing: volkswagen_passat.jpg
+2026-04-10 12:54:55,319 - INFO - Inspected volkswagen_passat.jpg: 960x484 JPEG RGB
+2026-04-10 12:54:55,330 - INFO - Resized volkswagen_passat.jpg to 640x480
+2026-04-10 12:54:55,343 - INFO - Resized volkswagen_passat.jpg to 800x600
+2026-04-10 12:54:55,347 - INFO - Generated thumbnail for volkswagen_passat.jpg: (128, 65)
+2026-04-10 12:54:55,352 - INFO - Generated fixed thumbnail for volkswagen_passat.jpg: (200, 200)
+2026-04-10 12:54:55,355 - INFO - Cropped volkswagen_passat.jpg with box (0, 0, 960, 242)
+2026-04-10 12:54:55,399 - INFO - Converted volkswagen_passat.jpg to WebP
+2026-04-10 12:54:55,403 - INFO - Converted volkswagen_passat.jpg to grayscale
+2026-04-10 12:54:55,409 - INFO - Saved optimised JPEG for volkswagen_passat.jpg
+2026-04-10 12:54:55,437 - INFO - Applied filters to volkswagen_passat.jpg
+2026-04-10 12:54:55,455 - INFO - Applied enhancements to volkswagen_passat.jpg
+2026-04-10 12:54:55,456 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 12:54:55,456 - INFO - EXIF summary for volkswagen_passat.jpg: Unknown Unknown
+2026-04-10 12:54:55,462 - INFO - Saved to MongoDB with id: 69d8d6ff11ed9b3077f5a5dd
+2026-04-10 12:54:55,462 - INFO - Saved metadata to MongoDB for volkswagen_passat.jpg
+2026-04-10 12:54:55,463 - INFO - Batch processing complete. Processed 5 images
+2026-04-10 12:54:55,463 - INFO - Processed 5 images
+2026-04-10 12:54:55,463 - INFO - Processing EXIF samples
+2026-04-10 12:54:55,463 - WARNING - EXIF samples directory not found: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples
+2026-04-10 12:54:55,463 - INFO - Processed 0 EXIF samples
+2026-04-10 12:54:55,463 - INFO - Pipeline finished successfully
+2026-04-10 13:10:45,032 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:10:45,223 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-10 13:10:45,233 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-10 13:10:45,234 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-10 13:10:45,234 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-10 13:10:45,258 - INFO - Saved to MongoDB with id: 69d8dab5a8d258efeee364cc
+2026-04-10 13:10:45,258 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:10:45,355 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:10:45,384 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-10 13:10:45,387 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-10 13:10:45,388 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-10 13:10:45,398 - INFO - Saved to MongoDB with id: 69d8dab5a8d258efeee364ce
+2026-04-10 13:10:45,398 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:10:45,463 - INFO - Pipeline started
+2026-04-10 13:10:45,463 - INFO - Fetching data from NHTSA API
+2026-04-10 13:10:45,943 - INFO - Fetched recalls for Audi A4 2020
+2026-04-10 13:10:45,947 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-10 13:10:46,900 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-10 13:10:46,903 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-10 13:10:47,949 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-10 13:10:47,953 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-10 13:10:48,455 - INFO - Fetched data for 3 vehicles
+2026-04-10 13:10:48,467 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364d0
+2026-04-10 13:10:48,467 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 13:10:48,470 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-10 13:10:48,480 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364d2
+2026-04-10 13:10:48,480 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 13:10:48,481 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-10 13:10:48,494 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364d4
+2026-04-10 13:10:48,494 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 13:10:48,496 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-10 13:10:48,496 - INFO - Extracting PDF documents
+2026-04-10 13:10:48,496 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-10 13:10:48,527 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-10 13:10:48,532 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364d6
+2026-04-10 13:10:48,532 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-10 13:10:48,532 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-10 13:10:48,553 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-10 13:10:48,557 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364d8
+2026-04-10 13:10:48,557 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-10 13:10:48,557 - INFO - Extracted 2 PDF files
+2026-04-10 13:10:48,557 - INFO - Extracting Word documents
+2026-04-10 13:10:48,557 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:10:48,749 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-10 13:10:48,756 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-10 13:10:48,757 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-10 13:10:48,757 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-10 13:10:48,764 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364da
+2026-04-10 13:10:48,764 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:10:48,764 - INFO - Extracted 1 Word files
+2026-04-10 13:10:48,764 - INFO - Extracting Excel files
+2026-04-10 13:10:48,765 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:10:48,794 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-10 13:10:48,798 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-10 13:10:48,798 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-10 13:10:48,802 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364dc
+2026-04-10 13:10:48,802 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:10:48,802 - INFO - Extracted 1 Excel files
+2026-04-10 13:10:48,802 - INFO - Running web scraper
+2026-04-10 13:10:48,802 - INFO - Running web scraper
+2026-04-10 13:10:48,802 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_1.html
+2026-04-10 13:10:48,802 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_2.html
+2026-04-10 13:10:48,802 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_3.html
+2026-04-10 13:10:48,803 - INFO - Starting local HTML scraping
+2026-04-10 13:10:48,803 - INFO - Scraping local page 1: page_1.html
+2026-04-10 13:10:48,804 - INFO - Scraped: Audi A4 2020
+2026-04-10 13:10:48,804 - INFO - Scraped: Audi A4 2019
+2026-04-10 13:10:48,804 - INFO - Scraped: Audi A4 2018
+2026-04-10 13:10:48,804 - INFO - Scraping local page 2: page_2.html
+2026-04-10 13:10:48,805 - INFO - Scraped: Volkswagen Golf 2020
+2026-04-10 13:10:48,805 - INFO - Scraped: Volkswagen Golf 2019
+2026-04-10 13:10:48,805 - INFO - Scraped: Volkswagen Golf GTI 2020
+2026-04-10 13:10:48,805 - INFO - Scraping local page 3: page_3.html
+2026-04-10 13:10:48,806 - INFO - Scraped: Volkswagen Passat 2020
+2026-04-10 13:10:48,806 - INFO - Scraped: Volkswagen Passat 2019
+2026-04-10 13:10:48,806 - INFO - Scraped: Skoda Octavia 2020
+2026-04-10 13:10:48,807 - INFO - Saved scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/scraped_results.json
+2026-04-10 13:10:48,811 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364de
+2026-04-10 13:10:48,818 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364e0
+2026-04-10 13:10:48,862 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364e2
+2026-04-10 13:10:48,892 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364e4
+2026-04-10 13:10:48,896 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364e6
+2026-04-10 13:10:48,898 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364e8
+2026-04-10 13:10:48,917 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364ea
+2026-04-10 13:10:48,924 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364ec
+2026-04-10 13:10:48,931 - INFO - Saved to MongoDB with id: 69d8dab8a8d258efeee364ee
+2026-04-10 13:10:48,931 - INFO - Local scraping complete. Total records: 9
+2026-04-10 13:10:48,931 - INFO - Scraped 9 records
+2026-04-10 13:10:48,931 - INFO - Running dynamic scraper
+2026-04-10 13:10:48,931 - INFO - Running dynamic scraper
+2026-04-10 13:10:48,931 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-10 13:10:48,931 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-10 13:10:50,706 - INFO - Saved to MongoDB with id: 69d8dabaa8d258efeee364f0
+2026-04-10 13:10:50,707 - INFO - Fetched 3 recalls for Audi A4
+2026-04-10 13:10:50,707 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-10 13:10:52,386 - INFO - Saved to MongoDB with id: 69d8dabca8d258efeee364f2
+2026-04-10 13:10:52,386 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-10 13:10:52,387 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-10 13:10:54,064 - INFO - Saved to MongoDB with id: 69d8dabea8d258efeee364f4
+2026-04-10 13:10:54,064 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-10 13:10:54,066 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-10 13:10:54,067 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-10 13:10:54,067 - INFO - Starting Selenium scraping: https://www.wikipedia.org/wiki/Audi
+2026-04-10 13:10:58,871 - INFO - Saved to MongoDB with id: 69d8dac2a8d258efeee364f6
+2026-04-10 13:10:58,871 - INFO - Selenium scraping complete: Audi - Wikipedia
+2026-04-10 13:10:58,871 - INFO - Selenium scraping successful
+2026-04-10 13:10:58,871 - INFO - Dynamic scraped 3 records
+2026-04-10 13:10:58,871 - INFO - Running OCR pipeline
+2026-04-10 13:10:58,871 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 13:10:58,999 - INFO - Raw OCR complete for audi_a4.jpg
+2026-04-10 13:10:59,127 - INFO - Preprocessed OCR complete for audi_a4.jpg
+2026-04-10 13:10:59,134 - INFO - Saved to MongoDB with id: 69d8dac3a8d258efeee364f8
+2026-04-10 13:10:59,135 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 13:10:59,135 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 13:10:59,234 - INFO - Raw OCR complete for volkswagen_golf.jpg
+2026-04-10 13:10:59,342 - INFO - Preprocessed OCR complete for volkswagen_golf.jpg
+2026-04-10 13:10:59,347 - INFO - Saved to MongoDB with id: 69d8dac3a8d258efeee364fa
+2026-04-10 13:10:59,347 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 13:10:59,347 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 13:10:59,444 - INFO - Raw OCR complete for volkswagen_id4.jpg
+2026-04-10 13:10:59,555 - INFO - Preprocessed OCR complete for volkswagen_id4.jpg
+2026-04-10 13:10:59,560 - INFO - Saved to MongoDB with id: 69d8dac3a8d258efeee364fc
+2026-04-10 13:10:59,560 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 13:10:59,560 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 13:11:00,231 - INFO - Raw OCR complete for test_scan.png
+2026-04-10 13:11:00,724 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-10 13:11:00,729 - INFO - Saved to MongoDB with id: 69d8dac4a8d258efeee364fe
+2026-04-10 13:11:00,729 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 13:11:00,729 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 13:11:00,832 - INFO - Raw OCR complete for volkswagen_passat.jpg
+2026-04-10 13:11:00,954 - INFO - Preprocessed OCR complete for volkswagen_passat.jpg
+2026-04-10 13:11:00,959 - INFO - Saved to MongoDB with id: 69d8dac4a8d258efeee36500
+2026-04-10 13:11:00,959 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 13:11:00,959 - INFO - Starting OCR on scanned PDF: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-10 13:11:01,445 - INFO - OCR page 1 of scanned_report.pdf
+2026-04-10 13:11:01,449 - INFO - Saved to MongoDB with id: 69d8dac5a8d258efeee36502
+2026-04-10 13:11:01,450 - INFO - Scanned PDF OCR saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-10 13:11:01,450 - INFO - OCR pipeline complete. Processed 6 files
+2026-04-10 13:11:01,450 - INFO - OCR processed 6 files
+2026-04-10 13:11:01,450 - INFO - Downloading vehicle images
+2026-04-10 13:11:01,450 - INFO - Already exists, skipping: audi_a4.jpg
+2026-04-10 13:11:01,450 - INFO - Already exists, skipping: volkswagen_golf.jpg
+2026-04-10 13:11:01,450 - INFO - Already exists, skipping: volkswagen_passat.jpg
+2026-04-10 13:11:01,849 - WARNING - No image found for Audi RS6
+2026-04-10 13:11:01,849 - INFO - Already exists, skipping: volkswagen_id4.jpg
+2026-04-10 13:11:01,849 - INFO - Downloaded 4 images
+2026-04-10 13:11:01,850 - INFO - Downloaded 4 images
+2026-04-10 13:11:01,850 - INFO - Batch processing images
+2026-04-10 13:11:01,850 - INFO - Starting batch processing of 5 images
+2026-04-10 13:11:01,883 - INFO - Processing: audi_a4.jpg
+2026-04-10 13:11:01,884 - INFO - Inspected audi_a4.jpg: 960x500 JPEG RGB
+2026-04-10 13:11:01,899 - INFO - Resized audi_a4.jpg to 640x480
+2026-04-10 13:11:01,914 - INFO - Resized audi_a4.jpg to 800x600
+2026-04-10 13:11:01,918 - INFO - Generated thumbnail for audi_a4.jpg: (128, 67)
+2026-04-10 13:11:01,923 - INFO - Generated fixed thumbnail for audi_a4.jpg: (200, 200)
+2026-04-10 13:11:01,927 - INFO - Cropped audi_a4.jpg with box (0, 0, 960, 250)
+2026-04-10 13:11:01,971 - INFO - Converted audi_a4.jpg to WebP
+2026-04-10 13:11:01,975 - INFO - Converted audi_a4.jpg to grayscale
+2026-04-10 13:11:01,982 - INFO - Saved optimised JPEG for audi_a4.jpg
+2026-04-10 13:11:02,007 - INFO - Applied filters to audi_a4.jpg
+2026-04-10 13:11:02,026 - INFO - Applied enhancements to audi_a4.jpg
+2026-04-10 13:11:02,026 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 13:11:02,026 - INFO - EXIF summary for audi_a4.jpg: Unknown Unknown
+2026-04-10 13:11:02,034 - INFO - Saved to MongoDB with id: 69d8dac6a8d258efeee36504
+2026-04-10 13:11:02,034 - INFO - Saved metadata to MongoDB for audi_a4.jpg
+2026-04-10 13:11:02,034 - INFO - Processing: volkswagen_golf.jpg
+2026-04-10 13:11:02,035 - INFO - Inspected volkswagen_golf.jpg: 960x490 JPEG RGB
+2026-04-10 13:11:02,045 - INFO - Resized volkswagen_golf.jpg to 640x480
+2026-04-10 13:11:02,062 - INFO - Resized volkswagen_golf.jpg to 800x600
+2026-04-10 13:11:02,066 - INFO - Generated thumbnail for volkswagen_golf.jpg: (128, 65)
+2026-04-10 13:11:02,071 - INFO - Generated fixed thumbnail for volkswagen_golf.jpg: (200, 200)
+2026-04-10 13:11:02,073 - INFO - Cropped volkswagen_golf.jpg with box (0, 0, 960, 245)
+2026-04-10 13:11:02,113 - INFO - Converted volkswagen_golf.jpg to WebP
+2026-04-10 13:11:02,117 - INFO - Converted volkswagen_golf.jpg to grayscale
+2026-04-10 13:11:02,122 - INFO - Saved optimised JPEG for volkswagen_golf.jpg
+2026-04-10 13:11:02,146 - INFO - Applied filters to volkswagen_golf.jpg
+2026-04-10 13:11:02,163 - INFO - Applied enhancements to volkswagen_golf.jpg
+2026-04-10 13:11:02,164 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 13:11:02,164 - INFO - EXIF summary for volkswagen_golf.jpg: Unknown Unknown
+2026-04-10 13:11:02,171 - INFO - Saved to MongoDB with id: 69d8dac6a8d258efeee36506
+2026-04-10 13:11:02,172 - INFO - Saved metadata to MongoDB for volkswagen_golf.jpg
+2026-04-10 13:11:02,172 - INFO - Processing: volkswagen_id4.jpg
+2026-04-10 13:11:02,172 - INFO - Inspected volkswagen_id4.jpg: 960x533 JPEG RGB
+2026-04-10 13:11:02,184 - INFO - Resized volkswagen_id4.jpg to 640x480
+2026-04-10 13:11:02,196 - INFO - Resized volkswagen_id4.jpg to 800x600
+2026-04-10 13:11:02,200 - INFO - Generated thumbnail for volkswagen_id4.jpg: (128, 71)
+2026-04-10 13:11:02,205 - INFO - Generated fixed thumbnail for volkswagen_id4.jpg: (200, 200)
+2026-04-10 13:11:02,208 - INFO - Cropped volkswagen_id4.jpg with box (0, 0, 960, 266)
+2026-04-10 13:11:02,253 - INFO - Converted volkswagen_id4.jpg to WebP
+2026-04-10 13:11:02,257 - INFO - Converted volkswagen_id4.jpg to grayscale
+2026-04-10 13:11:02,263 - INFO - Saved optimised JPEG for volkswagen_id4.jpg
+2026-04-10 13:11:02,289 - INFO - Applied filters to volkswagen_id4.jpg
+2026-04-10 13:11:02,308 - INFO - Applied enhancements to volkswagen_id4.jpg
+2026-04-10 13:11:02,308 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 13:11:02,308 - INFO - EXIF summary for volkswagen_id4.jpg: Unknown Unknown
+2026-04-10 13:11:02,317 - INFO - Saved to MongoDB with id: 69d8dac6a8d258efeee36508
+2026-04-10 13:11:02,317 - INFO - Saved metadata to MongoDB for volkswagen_id4.jpg
+2026-04-10 13:11:02,318 - INFO - Processing: test_scan.png
+2026-04-10 13:11:02,321 - INFO - Inspected test_scan.png: 1946x1946 WEBP RGBA
+2026-04-10 13:11:02,422 - INFO - Resized test_scan.png to 640x480
+2026-04-10 13:11:02,545 - INFO - Resized test_scan.png to 800x600
+2026-04-10 13:11:02,580 - INFO - Generated thumbnail for test_scan.png: (128, 128)
+2026-04-10 13:11:02,638 - INFO - Generated fixed thumbnail for test_scan.png: (200, 200)
+2026-04-10 13:11:02,704 - INFO - Cropped test_scan.png with box (0, 0, 1946, 973)
+2026-04-10 13:11:02,903 - INFO - Converted test_scan.png to WebP
+2026-04-10 13:11:02,963 - INFO - Converted test_scan.png to grayscale
+2026-04-10 13:11:03,007 - INFO - Saved optimised JPEG for test_scan.png
+2026-04-10 13:11:03,427 - INFO - Applied filters to test_scan.png
+2026-04-10 13:11:03,757 - INFO - Applied enhancements to test_scan.png
+2026-04-10 13:11:03,758 - INFO - Extracted 6 EXIF tags from test_scan.png
+2026-04-10 13:11:03,758 - WARNING - No GPS data in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 13:11:03,758 - INFO - EXIF summary for test_scan.png: Unknown Unknown
+2026-04-10 13:11:08,768 - INFO - Saved to MongoDB with id: 69d8dac7a8d258efeee3650a
+2026-04-10 13:11:08,770 - INFO - Saved metadata to MongoDB for test_scan.png
+2026-04-10 13:11:08,771 - INFO - Processing: volkswagen_passat.jpg
+2026-04-10 13:11:08,772 - INFO - Inspected volkswagen_passat.jpg: 960x484 JPEG RGB
+2026-04-10 13:11:08,799 - INFO - Resized volkswagen_passat.jpg to 640x480
+2026-04-10 13:11:08,819 - INFO - Resized volkswagen_passat.jpg to 800x600
+2026-04-10 13:11:08,823 - INFO - Generated thumbnail for volkswagen_passat.jpg: (128, 65)
+2026-04-10 13:11:08,829 - INFO - Generated fixed thumbnail for volkswagen_passat.jpg: (200, 200)
+2026-04-10 13:11:08,832 - INFO - Cropped volkswagen_passat.jpg with box (0, 0, 960, 242)
+2026-04-10 13:11:08,879 - INFO - Converted volkswagen_passat.jpg to WebP
+2026-04-10 13:11:08,882 - INFO - Converted volkswagen_passat.jpg to grayscale
+2026-04-10 13:11:08,888 - INFO - Saved optimised JPEG for volkswagen_passat.jpg
+2026-04-10 13:11:08,913 - INFO - Applied filters to volkswagen_passat.jpg
+2026-04-10 13:11:08,931 - INFO - Applied enhancements to volkswagen_passat.jpg
+2026-04-10 13:11:08,931 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 13:11:08,931 - INFO - EXIF summary for volkswagen_passat.jpg: Unknown Unknown
+2026-04-10 13:11:08,937 - INFO - Saved to MongoDB with id: 69d8dacca8d258efeee3650c
+2026-04-10 13:11:08,937 - INFO - Saved metadata to MongoDB for volkswagen_passat.jpg
+2026-04-10 13:11:08,937 - INFO - Batch processing complete. Processed 5 images
+2026-04-10 13:11:08,937 - INFO - Processed 5 images
+2026-04-10 13:11:08,937 - INFO - Processing EXIF samples
+2026-04-10 13:11:08,937 - INFO - Processed 0 EXIF samples
+2026-04-10 13:11:08,937 - INFO - Processed 0 EXIF samples
+2026-04-10 13:11:08,937 - INFO - Pipeline finished successfully
+2026-04-10 13:17:43,601 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:17:43,796 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-10 13:17:43,810 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-10 13:17:43,810 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-10 13:17:43,810 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-10 13:17:43,826 - INFO - Saved to MongoDB with id: 69d8dc57a8cb634e78e98569
+2026-04-10 13:17:43,827 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:17:43,917 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:17:43,946 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-10 13:17:43,950 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-10 13:17:43,950 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-10 13:17:43,964 - INFO - Saved to MongoDB with id: 69d8dc57a8cb634e78e9856b
+2026-04-10 13:17:43,964 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:17:44,030 - INFO - Pipeline started
+2026-04-10 13:17:44,030 - INFO - Fetching data from NHTSA API
+2026-04-10 13:17:44,326 - INFO - Fetched recalls for Audi A4 2020
+2026-04-10 13:17:44,327 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-10 13:17:44,991 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-10 13:17:44,997 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-10 13:17:45,660 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-10 13:17:45,664 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-10 13:17:46,168 - INFO - Fetched data for 3 vehicles
+2026-04-10 13:17:46,173 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e9856d
+2026-04-10 13:17:46,173 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 13:17:46,176 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-10 13:17:46,182 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e9856f
+2026-04-10 13:17:46,182 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 13:17:46,183 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-10 13:17:46,192 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98571
+2026-04-10 13:17:46,193 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 13:17:46,193 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-10 13:17:46,193 - INFO - Extracting PDF documents
+2026-04-10 13:17:46,194 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-10 13:17:46,222 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-10 13:17:46,228 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98573
+2026-04-10 13:17:46,228 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-10 13:17:46,228 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-10 13:17:46,248 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-10 13:17:46,252 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98575
+2026-04-10 13:17:46,252 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-10 13:17:46,252 - INFO - Extracted 2 PDF files
+2026-04-10 13:17:46,252 - INFO - Extracting Word documents
+2026-04-10 13:17:46,252 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:17:46,445 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-10 13:17:46,453 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-10 13:17:46,454 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-10 13:17:46,454 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-10 13:17:46,459 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98577
+2026-04-10 13:17:46,459 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:17:46,459 - INFO - Extracted 1 Word files
+2026-04-10 13:17:46,459 - INFO - Extracting Excel files
+2026-04-10 13:17:46,459 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:17:46,489 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-10 13:17:46,493 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-10 13:17:46,494 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-10 13:17:46,499 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98579
+2026-04-10 13:17:46,499 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:17:46,499 - INFO - Extracted 1 Excel files
+2026-04-10 13:17:46,499 - INFO - Running web scraper
+2026-04-10 13:17:46,499 - INFO - Running web scraper
+2026-04-10 13:17:46,500 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_1.html
+2026-04-10 13:17:46,500 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_2.html
+2026-04-10 13:17:46,500 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_3.html
+2026-04-10 13:17:46,500 - INFO - Starting local HTML scraping
+2026-04-10 13:17:46,500 - INFO - Scraping local page 1: page_1.html
+2026-04-10 13:17:46,502 - INFO - Scraped: Audi A4 2020
+2026-04-10 13:17:46,502 - INFO - Scraped: Audi A4 2019
+2026-04-10 13:17:46,502 - INFO - Scraped: Audi A4 2018
+2026-04-10 13:17:46,502 - INFO - Scraping local page 2: page_2.html
+2026-04-10 13:17:46,503 - INFO - Scraped: Volkswagen Golf 2020
+2026-04-10 13:17:46,503 - INFO - Scraped: Volkswagen Golf 2019
+2026-04-10 13:17:46,503 - INFO - Scraped: Volkswagen Golf GTI 2020
+2026-04-10 13:17:46,503 - INFO - Scraping local page 3: page_3.html
+2026-04-10 13:17:46,504 - INFO - Scraped: Volkswagen Passat 2020
+2026-04-10 13:17:46,504 - INFO - Scraped: Volkswagen Passat 2019
+2026-04-10 13:17:46,504 - INFO - Scraped: Skoda Octavia 2020
+2026-04-10 13:17:46,505 - INFO - Saved scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/scraped_results.json
+2026-04-10 13:17:46,512 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e9857b
+2026-04-10 13:17:46,516 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e9857d
+2026-04-10 13:17:46,521 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e9857f
+2026-04-10 13:17:46,524 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98581
+2026-04-10 13:17:46,529 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98583
+2026-04-10 13:17:46,534 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98585
+2026-04-10 13:17:46,539 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98587
+2026-04-10 13:17:46,543 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e98589
+2026-04-10 13:17:46,546 - INFO - Saved to MongoDB with id: 69d8dc5aa8cb634e78e9858b
+2026-04-10 13:17:46,546 - INFO - Local scraping complete. Total records: 9
+2026-04-10 13:17:46,546 - INFO - Scraped 9 records
+2026-04-10 13:17:46,546 - INFO - Running dynamic scraper
+2026-04-10 13:17:46,546 - INFO - Running dynamic scraper
+2026-04-10 13:17:46,546 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-10 13:17:46,546 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-10 13:17:48,205 - INFO - Saved to MongoDB with id: 69d8dc5ca8cb634e78e9858d
+2026-04-10 13:17:48,206 - INFO - Fetched 3 recalls for Audi A4
+2026-04-10 13:17:48,206 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-10 13:17:49,886 - INFO - Saved to MongoDB with id: 69d8dc5da8cb634e78e9858f
+2026-04-10 13:17:49,887 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-10 13:17:49,887 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-10 13:17:51,636 - INFO - Saved to MongoDB with id: 69d8dc5fa8cb634e78e98591
+2026-04-10 13:17:51,636 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-10 13:17:51,638 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-10 13:17:51,640 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-10 13:17:51,640 - INFO - Starting Selenium scraping: https://www.wikipedia.org/wiki/Audi
+2026-04-10 13:17:55,816 - INFO - Saved to MongoDB with id: 69d8dc63a8cb634e78e98593
+2026-04-10 13:17:55,816 - INFO - Selenium scraping complete: Audi - Wikipedia
+2026-04-10 13:17:55,816 - INFO - Selenium scraping successful
+2026-04-10 13:17:55,816 - INFO - Dynamic scraped 3 records
+2026-04-10 13:17:55,816 - INFO - Running OCR pipeline
+2026-04-10 13:17:55,817 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 13:17:55,945 - INFO - Raw OCR complete for audi_a4.jpg
+2026-04-10 13:17:56,077 - INFO - Preprocessed OCR complete for audi_a4.jpg
+2026-04-10 13:17:56,084 - INFO - Saved to MongoDB with id: 69d8dc64a8cb634e78e98595
+2026-04-10 13:17:56,084 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 13:17:56,084 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 13:17:56,184 - INFO - Raw OCR complete for volkswagen_golf.jpg
+2026-04-10 13:17:56,293 - INFO - Preprocessed OCR complete for volkswagen_golf.jpg
+2026-04-10 13:17:56,298 - INFO - Saved to MongoDB with id: 69d8dc64a8cb634e78e98597
+2026-04-10 13:17:56,298 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 13:17:56,299 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 13:17:56,397 - INFO - Raw OCR complete for volkswagen_id4.jpg
+2026-04-10 13:17:56,513 - INFO - Preprocessed OCR complete for volkswagen_id4.jpg
+2026-04-10 13:17:56,518 - INFO - Saved to MongoDB with id: 69d8dc64a8cb634e78e98599
+2026-04-10 13:17:56,518 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 13:17:56,518 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 13:17:57,182 - INFO - Raw OCR complete for test_scan.png
+2026-04-10 13:17:57,675 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-10 13:17:57,680 - INFO - Saved to MongoDB with id: 69d8dc65a8cb634e78e9859b
+2026-04-10 13:17:57,680 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 13:17:57,680 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 13:17:57,782 - INFO - Raw OCR complete for volkswagen_passat.jpg
+2026-04-10 13:17:57,904 - INFO - Preprocessed OCR complete for volkswagen_passat.jpg
+2026-04-10 13:17:57,909 - INFO - Saved to MongoDB with id: 69d8dc65a8cb634e78e9859d
+2026-04-10 13:17:57,909 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 13:17:57,909 - INFO - Starting OCR on scanned PDF: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-10 13:17:58,390 - INFO - OCR page 1 of scanned_report.pdf
+2026-04-10 13:17:58,395 - INFO - Saved to MongoDB with id: 69d8dc66a8cb634e78e9859f
+2026-04-10 13:17:58,395 - INFO - Scanned PDF OCR saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-10 13:17:58,395 - INFO - OCR pipeline complete. Processed 6 files
+2026-04-10 13:17:58,395 - INFO - OCR processed 6 files
+2026-04-10 13:17:58,395 - INFO - Downloading vehicle images
+2026-04-10 13:17:58,395 - INFO - Already exists, skipping: audi_a4.jpg
+2026-04-10 13:17:58,395 - INFO - Already exists, skipping: volkswagen_golf.jpg
+2026-04-10 13:17:58,395 - INFO - Already exists, skipping: volkswagen_passat.jpg
+2026-04-10 13:17:58,723 - WARNING - No image found for Audi RS6
+2026-04-10 13:17:58,724 - INFO - Already exists, skipping: volkswagen_id4.jpg
+2026-04-10 13:17:58,724 - INFO - Downloaded 4 images
+2026-04-10 13:17:58,724 - INFO - Downloaded 4 images
+2026-04-10 13:17:58,725 - INFO - Batch processing images
+2026-04-10 13:17:58,725 - INFO - Starting batch processing of 5 images
+2026-04-10 13:17:58,757 - INFO - Processing: audi_a4.jpg
+2026-04-10 13:17:58,758 - INFO - Inspected audi_a4.jpg: 960x500 JPEG RGB
+2026-04-10 13:17:58,773 - INFO - Resized audi_a4.jpg to 640x480
+2026-04-10 13:17:58,789 - INFO - Resized audi_a4.jpg to 800x600
+2026-04-10 13:17:58,793 - INFO - Generated thumbnail for audi_a4.jpg: (128, 67)
+2026-04-10 13:17:58,798 - INFO - Generated fixed thumbnail for audi_a4.jpg: (200, 200)
+2026-04-10 13:17:58,802 - INFO - Cropped audi_a4.jpg with box (0, 0, 960, 250)
+2026-04-10 13:17:58,847 - INFO - Converted audi_a4.jpg to WebP
+2026-04-10 13:17:58,851 - INFO - Converted audi_a4.jpg to grayscale
+2026-04-10 13:17:58,857 - INFO - Saved optimised JPEG for audi_a4.jpg
+2026-04-10 13:17:58,882 - INFO - Applied filters to audi_a4.jpg
+2026-04-10 13:17:58,901 - INFO - Applied enhancements to audi_a4.jpg
+2026-04-10 13:17:58,901 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 13:17:58,901 - INFO - EXIF summary for audi_a4.jpg: Unknown Unknown
+2026-04-10 13:17:58,908 - INFO - Saved to MongoDB with id: 69d8dc66a8cb634e78e985a1
+2026-04-10 13:17:58,908 - INFO - Saved metadata to MongoDB for audi_a4.jpg
+2026-04-10 13:17:58,909 - INFO - Processing: volkswagen_golf.jpg
+2026-04-10 13:17:58,909 - INFO - Inspected volkswagen_golf.jpg: 960x490 JPEG RGB
+2026-04-10 13:17:58,919 - INFO - Resized volkswagen_golf.jpg to 640x480
+2026-04-10 13:17:58,931 - INFO - Resized volkswagen_golf.jpg to 800x600
+2026-04-10 13:17:58,935 - INFO - Generated thumbnail for volkswagen_golf.jpg: (128, 65)
+2026-04-10 13:17:58,940 - INFO - Generated fixed thumbnail for volkswagen_golf.jpg: (200, 200)
+2026-04-10 13:17:58,942 - INFO - Cropped volkswagen_golf.jpg with box (0, 0, 960, 245)
+2026-04-10 13:17:58,982 - INFO - Converted volkswagen_golf.jpg to WebP
+2026-04-10 13:17:58,985 - INFO - Converted volkswagen_golf.jpg to grayscale
+2026-04-10 13:17:58,990 - INFO - Saved optimised JPEG for volkswagen_golf.jpg
+2026-04-10 13:17:59,015 - INFO - Applied filters to volkswagen_golf.jpg
+2026-04-10 13:17:59,033 - INFO - Applied enhancements to volkswagen_golf.jpg
+2026-04-10 13:17:59,033 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 13:17:59,033 - INFO - EXIF summary for volkswagen_golf.jpg: Unknown Unknown
+2026-04-10 13:17:59,043 - INFO - Saved to MongoDB with id: 69d8dc67a8cb634e78e985a3
+2026-04-10 13:17:59,043 - INFO - Saved metadata to MongoDB for volkswagen_golf.jpg
+2026-04-10 13:17:59,043 - INFO - Processing: volkswagen_id4.jpg
+2026-04-10 13:17:59,043 - INFO - Inspected volkswagen_id4.jpg: 960x533 JPEG RGB
+2026-04-10 13:17:59,054 - INFO - Resized volkswagen_id4.jpg to 640x480
+2026-04-10 13:17:59,067 - INFO - Resized volkswagen_id4.jpg to 800x600
+2026-04-10 13:17:59,070 - INFO - Generated thumbnail for volkswagen_id4.jpg: (128, 71)
+2026-04-10 13:17:59,076 - INFO - Generated fixed thumbnail for volkswagen_id4.jpg: (200, 200)
+2026-04-10 13:17:59,079 - INFO - Cropped volkswagen_id4.jpg with box (0, 0, 960, 266)
+2026-04-10 13:17:59,123 - INFO - Converted volkswagen_id4.jpg to WebP
+2026-04-10 13:17:59,127 - INFO - Converted volkswagen_id4.jpg to grayscale
+2026-04-10 13:17:59,135 - INFO - Saved optimised JPEG for volkswagen_id4.jpg
+2026-04-10 13:17:59,161 - INFO - Applied filters to volkswagen_id4.jpg
+2026-04-10 13:17:59,179 - INFO - Applied enhancements to volkswagen_id4.jpg
+2026-04-10 13:17:59,180 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 13:17:59,180 - INFO - EXIF summary for volkswagen_id4.jpg: Unknown Unknown
+2026-04-10 13:17:59,183 - INFO - Saved to MongoDB with id: 69d8dc67a8cb634e78e985a5
+2026-04-10 13:17:59,183 - INFO - Saved metadata to MongoDB for volkswagen_id4.jpg
+2026-04-10 13:17:59,184 - INFO - Processing: test_scan.png
+2026-04-10 13:17:59,187 - INFO - Inspected test_scan.png: 1946x1946 WEBP RGBA
+2026-04-10 13:17:59,287 - INFO - Resized test_scan.png to 640x480
+2026-04-10 13:17:59,415 - INFO - Resized test_scan.png to 800x600
+2026-04-10 13:17:59,450 - INFO - Generated thumbnail for test_scan.png: (128, 128)
+2026-04-10 13:17:59,509 - INFO - Generated fixed thumbnail for test_scan.png: (200, 200)
+2026-04-10 13:17:59,575 - INFO - Cropped test_scan.png with box (0, 0, 1946, 973)
+2026-04-10 13:17:59,766 - INFO - Converted test_scan.png to WebP
+2026-04-10 13:17:59,825 - INFO - Converted test_scan.png to grayscale
+2026-04-10 13:17:59,869 - INFO - Saved optimised JPEG for test_scan.png
+2026-04-10 13:18:00,286 - INFO - Applied filters to test_scan.png
+2026-04-10 13:18:00,616 - INFO - Applied enhancements to test_scan.png
+2026-04-10 13:18:00,617 - INFO - Extracted 6 EXIF tags from test_scan.png
+2026-04-10 13:18:00,618 - WARNING - No GPS data in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 13:18:00,618 - INFO - EXIF summary for test_scan.png: Unknown Unknown
+2026-04-10 13:18:00,624 - INFO - Saved to MongoDB with id: 69d8dc68a8cb634e78e985a7
+2026-04-10 13:18:00,624 - INFO - Saved metadata to MongoDB for test_scan.png
+2026-04-10 13:18:00,624 - INFO - Processing: volkswagen_passat.jpg
+2026-04-10 13:18:00,624 - INFO - Inspected volkswagen_passat.jpg: 960x484 JPEG RGB
+2026-04-10 13:18:00,635 - INFO - Resized volkswagen_passat.jpg to 640x480
+2026-04-10 13:18:00,648 - INFO - Resized volkswagen_passat.jpg to 800x600
+2026-04-10 13:18:00,651 - INFO - Generated thumbnail for volkswagen_passat.jpg: (128, 65)
+2026-04-10 13:18:00,656 - INFO - Generated fixed thumbnail for volkswagen_passat.jpg: (200, 200)
+2026-04-10 13:18:00,659 - INFO - Cropped volkswagen_passat.jpg with box (0, 0, 960, 242)
+2026-04-10 13:18:00,703 - INFO - Converted volkswagen_passat.jpg to WebP
+2026-04-10 13:18:00,708 - INFO - Converted volkswagen_passat.jpg to grayscale
+2026-04-10 13:18:00,714 - INFO - Saved optimised JPEG for volkswagen_passat.jpg
+2026-04-10 13:18:00,739 - INFO - Applied filters to volkswagen_passat.jpg
+2026-04-10 13:18:00,757 - INFO - Applied enhancements to volkswagen_passat.jpg
+2026-04-10 13:18:00,757 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 13:18:00,757 - INFO - EXIF summary for volkswagen_passat.jpg: Unknown Unknown
+2026-04-10 13:18:00,764 - INFO - Saved to MongoDB with id: 69d8dc68a8cb634e78e985a9
+2026-04-10 13:18:00,764 - INFO - Saved metadata to MongoDB for volkswagen_passat.jpg
+2026-04-10 13:18:00,764 - INFO - Batch processing complete. Processed 5 images
+2026-04-10 13:18:00,764 - INFO - Processed 5 images
+2026-04-10 13:18:00,764 - INFO - Processing EXIF samples
+2026-04-10 13:18:00,765 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC'
+2026-04-10 13:18:00,765 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC'
+2026-04-10 13:18:00,765 - INFO - EXIF summary for IMG_9026.HEIC: Unknown Unknown
+2026-04-10 13:18:00,765 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC'
+2026-04-10 13:18:00,765 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC'
+2026-04-10 13:18:00,765 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC'
+2026-04-10 13:18:00,765 - INFO - EXIF summary for IMG_2387.HEIC: Unknown Unknown
+2026-04-10 13:18:00,766 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC'
+2026-04-10 13:18:00,766 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC'
+2026-04-10 13:18:00,766 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC'
+2026-04-10 13:18:00,766 - INFO - EXIF summary for IMG_3406.HEIC: Unknown Unknown
+2026-04-10 13:18:00,766 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC'
+2026-04-10 13:18:00,767 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC'
+2026-04-10 13:18:00,767 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC'
+2026-04-10 13:18:00,767 - INFO - EXIF summary for IMG_4509.HEIC: Unknown Unknown
+2026-04-10 13:18:00,767 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC'
+2026-04-10 13:18:00,767 - INFO - Processed 4 EXIF samples
+2026-04-10 13:18:00,767 - INFO - Processed 4 EXIF samples
+2026-04-10 13:18:00,767 - INFO - Pipeline finished successfully
+2026-04-10 13:22:11,506 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:22:11,697 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-10 13:22:11,709 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-10 13:22:11,710 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-10 13:22:11,710 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-10 13:22:11,727 - INFO - Saved to MongoDB with id: 69d8dd6313d34e085da3c834
+2026-04-10 13:22:11,727 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:22:11,817 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:22:11,846 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-10 13:22:11,850 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-10 13:22:11,850 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-10 13:22:11,863 - INFO - Saved to MongoDB with id: 69d8dd6313d34e085da3c836
+2026-04-10 13:22:11,863 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:22:11,927 - INFO - Pipeline started
+2026-04-10 13:22:11,928 - INFO - Fetching data from NHTSA API
+2026-04-10 13:22:12,190 - INFO - Fetched recalls for Audi A4 2020
+2026-04-10 13:22:12,194 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-04-10 13:22:12,865 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-04-10 13:22:12,869 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-04-10 13:22:13,568 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-04-10 13:22:13,572 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-04-10 13:22:14,074 - INFO - Fetched data for 3 vehicles
+2026-04-10 13:22:14,085 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c838
+2026-04-10 13:22:14,085 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 13:22:14,087 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-04-10 13:22:14,113 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c83a
+2026-04-10 13:22:14,114 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 13:22:14,115 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-04-10 13:22:14,120 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c83c
+2026-04-10 13:22:14,121 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-04-10 13:22:14,121 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-04-10 13:22:14,121 - INFO - Extracting PDF documents
+2026-04-10 13:22:14,121 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-10 13:22:14,142 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-04-10 13:22:14,147 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c83e
+2026-04-10 13:22:14,147 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-04-10 13:22:14,147 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-10 13:22:14,166 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-04-10 13:22:14,170 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c840
+2026-04-10 13:22:14,170 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-04-10 13:22:14,170 - INFO - Extracted 2 PDF files
+2026-04-10 13:22:14,170 - INFO - Extracting Word documents
+2026-04-10 13:22:14,170 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:22:14,360 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-04-10 13:22:14,368 - INFO - Extracted table 0 from automotive_report.docx
+2026-04-10 13:22:14,368 - INFO - Extracted table 1 from automotive_report.docx
+2026-04-10 13:22:14,368 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-04-10 13:22:14,373 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c842
+2026-04-10 13:22:14,373 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-04-10 13:22:14,373 - INFO - Extracted 1 Word files
+2026-04-10 13:22:14,373 - INFO - Extracting Excel files
+2026-04-10 13:22:14,373 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:22:14,402 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-04-10 13:22:14,406 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-04-10 13:22:14,406 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-04-10 13:22:14,409 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c844
+2026-04-10 13:22:14,409 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-04-10 13:22:14,409 - INFO - Extracted 1 Excel files
+2026-04-10 13:22:14,409 - INFO - Running web scraper
+2026-04-10 13:22:14,409 - INFO - Running web scraper
+2026-04-10 13:22:14,410 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_1.html
+2026-04-10 13:22:14,410 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_2.html
+2026-04-10 13:22:14,410 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_3.html
+2026-04-10 13:22:14,410 - INFO - Starting local HTML scraping
+2026-04-10 13:22:14,410 - INFO - Scraping local page 1: page_1.html
+2026-04-10 13:22:14,412 - INFO - Scraped: Audi A4 2020
+2026-04-10 13:22:14,412 - INFO - Scraped: Audi A4 2019
+2026-04-10 13:22:14,412 - INFO - Scraped: Audi A4 2018
+2026-04-10 13:22:14,412 - INFO - Scraping local page 2: page_2.html
+2026-04-10 13:22:14,413 - INFO - Scraped: Volkswagen Golf 2020
+2026-04-10 13:22:14,413 - INFO - Scraped: Volkswagen Golf 2019
+2026-04-10 13:22:14,413 - INFO - Scraped: Volkswagen Golf GTI 2020
+2026-04-10 13:22:14,413 - INFO - Scraping local page 3: page_3.html
+2026-04-10 13:22:14,414 - INFO - Scraped: Volkswagen Passat 2020
+2026-04-10 13:22:14,414 - INFO - Scraped: Volkswagen Passat 2019
+2026-04-10 13:22:14,414 - INFO - Scraped: Skoda Octavia 2020
+2026-04-10 13:22:14,414 - INFO - Saved scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/scraped_results.json
+2026-04-10 13:22:14,419 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c846
+2026-04-10 13:22:14,422 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c848
+2026-04-10 13:22:14,425 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c84a
+2026-04-10 13:22:14,427 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c84c
+2026-04-10 13:22:14,430 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c84e
+2026-04-10 13:22:14,434 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c850
+2026-04-10 13:22:14,437 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c852
+2026-04-10 13:22:14,441 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c854
+2026-04-10 13:22:14,444 - INFO - Saved to MongoDB with id: 69d8dd6613d34e085da3c856
+2026-04-10 13:22:14,444 - INFO - Local scraping complete. Total records: 9
+2026-04-10 13:22:14,444 - INFO - Scraped 9 records
+2026-04-10 13:22:14,444 - INFO - Running dynamic scraper
+2026-04-10 13:22:14,444 - INFO - Running dynamic scraper
+2026-04-10 13:22:14,444 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-04-10 13:22:14,444 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-04-10 13:22:16,117 - INFO - Saved to MongoDB with id: 69d8dd6813d34e085da3c858
+2026-04-10 13:22:16,117 - INFO - Fetched 3 recalls for Audi A4
+2026-04-10 13:22:16,117 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-04-10 13:22:17,753 - INFO - Saved to MongoDB with id: 69d8dd6913d34e085da3c85a
+2026-04-10 13:22:17,753 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-04-10 13:22:17,753 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-04-10 13:22:19,551 - INFO - Saved to MongoDB with id: 69d8dd6b13d34e085da3c85c
+2026-04-10 13:22:19,551 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-04-10 13:22:19,553 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-04-10 13:22:19,555 - INFO - Dynamic scraping complete. Total: 3 records
+2026-04-10 13:22:19,555 - INFO - Starting Selenium scraping: https://www.wikipedia.org/wiki/Audi
+2026-04-10 13:22:23,722 - INFO - Saved to MongoDB with id: 69d8dd6f13d34e085da3c85e
+2026-04-10 13:22:23,723 - INFO - Selenium scraping complete: Audi - Wikipedia
+2026-04-10 13:22:23,723 - INFO - Selenium scraping successful
+2026-04-10 13:22:23,723 - INFO - Dynamic scraped 3 records
+2026-04-10 13:22:23,723 - INFO - Running OCR pipeline
+2026-04-10 13:22:23,723 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 13:22:23,853 - INFO - Raw OCR complete for audi_a4.jpg
+2026-04-10 13:22:23,981 - INFO - Preprocessed OCR complete for audi_a4.jpg
+2026-04-10 13:22:23,989 - INFO - Saved to MongoDB with id: 69d8dd6f13d34e085da3c860
+2026-04-10 13:22:23,989 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 13:22:23,989 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 13:22:24,092 - INFO - Raw OCR complete for volkswagen_golf.jpg
+2026-04-10 13:22:24,198 - INFO - Preprocessed OCR complete for volkswagen_golf.jpg
+2026-04-10 13:22:24,204 - INFO - Saved to MongoDB with id: 69d8dd7013d34e085da3c862
+2026-04-10 13:22:24,204 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 13:22:24,204 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 13:22:24,299 - INFO - Raw OCR complete for volkswagen_id4.jpg
+2026-04-10 13:22:24,405 - INFO - Preprocessed OCR complete for volkswagen_id4.jpg
+2026-04-10 13:22:24,410 - INFO - Saved to MongoDB with id: 69d8dd7013d34e085da3c864
+2026-04-10 13:22:24,410 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 13:22:24,410 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 13:22:25,071 - INFO - Raw OCR complete for test_scan.png
+2026-04-10 13:22:25,565 - INFO - Preprocessed OCR complete for test_scan.png
+2026-04-10 13:22:25,570 - INFO - Saved to MongoDB with id: 69d8dd7113d34e085da3c866
+2026-04-10 13:22:25,570 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 13:22:25,570 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 13:22:25,674 - INFO - Raw OCR complete for volkswagen_passat.jpg
+2026-04-10 13:22:25,794 - INFO - Preprocessed OCR complete for volkswagen_passat.jpg
+2026-04-10 13:22:25,799 - INFO - Saved to MongoDB with id: 69d8dd7113d34e085da3c868
+2026-04-10 13:22:25,799 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 13:22:25,799 - INFO - Starting OCR on scanned PDF: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-10 13:22:26,282 - INFO - OCR page 1 of scanned_report.pdf
+2026-04-10 13:22:26,286 - INFO - Saved to MongoDB with id: 69d8dd7213d34e085da3c86a
+2026-04-10 13:22:26,286 - INFO - Scanned PDF OCR saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-04-10 13:22:26,286 - INFO - OCR pipeline complete. Processed 6 files
+2026-04-10 13:22:26,286 - INFO - OCR processed 6 files
+2026-04-10 13:22:26,286 - INFO - Downloading vehicle images
+2026-04-10 13:22:26,286 - INFO - Already exists, skipping: audi_a4.jpg
+2026-04-10 13:22:26,286 - INFO - Already exists, skipping: volkswagen_golf.jpg
+2026-04-10 13:22:26,286 - INFO - Already exists, skipping: volkswagen_passat.jpg
+2026-04-10 13:22:26,622 - WARNING - No image found for Audi RS6
+2026-04-10 13:22:26,622 - INFO - Already exists, skipping: volkswagen_id4.jpg
+2026-04-10 13:22:26,622 - INFO - Downloaded 4 images
+2026-04-10 13:22:26,622 - INFO - Downloaded 4 images
+2026-04-10 13:22:26,623 - INFO - Batch processing images
+2026-04-10 13:22:26,623 - INFO - Starting batch processing of 5 images
+2026-04-10 13:22:26,650 - INFO - Processing: audi_a4.jpg
+2026-04-10 13:22:26,650 - INFO - Inspected audi_a4.jpg: 960x500 JPEG RGB
+2026-04-10 13:22:26,667 - INFO - Resized audi_a4.jpg to 640x480
+2026-04-10 13:22:26,683 - INFO - Resized audi_a4.jpg to 800x600
+2026-04-10 13:22:26,686 - INFO - Generated thumbnail for audi_a4.jpg: (128, 67)
+2026-04-10 13:22:26,692 - INFO - Generated fixed thumbnail for audi_a4.jpg: (200, 200)
+2026-04-10 13:22:26,695 - INFO - Cropped audi_a4.jpg with box (0, 0, 960, 250)
+2026-04-10 13:22:26,741 - INFO - Converted audi_a4.jpg to WebP
+2026-04-10 13:22:26,745 - INFO - Converted audi_a4.jpg to grayscale
+2026-04-10 13:22:26,752 - INFO - Saved optimised JPEG for audi_a4.jpg
+2026-04-10 13:22:26,777 - INFO - Applied filters to audi_a4.jpg
+2026-04-10 13:22:26,796 - INFO - Applied enhancements to audi_a4.jpg
+2026-04-10 13:22:26,796 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-04-10 13:22:26,796 - INFO - EXIF summary for audi_a4.jpg: Unknown Unknown
+2026-04-10 13:22:26,803 - INFO - Saved to MongoDB with id: 69d8dd7213d34e085da3c86c
+2026-04-10 13:22:26,803 - INFO - Saved metadata to MongoDB for audi_a4.jpg
+2026-04-10 13:22:26,803 - INFO - Processing: volkswagen_golf.jpg
+2026-04-10 13:22:26,804 - INFO - Inspected volkswagen_golf.jpg: 960x490 JPEG RGB
+2026-04-10 13:22:26,814 - INFO - Resized volkswagen_golf.jpg to 640x480
+2026-04-10 13:22:26,827 - INFO - Resized volkswagen_golf.jpg to 800x600
+2026-04-10 13:22:26,830 - INFO - Generated thumbnail for volkswagen_golf.jpg: (128, 65)
+2026-04-10 13:22:26,835 - INFO - Generated fixed thumbnail for volkswagen_golf.jpg: (200, 200)
+2026-04-10 13:22:26,838 - INFO - Cropped volkswagen_golf.jpg with box (0, 0, 960, 245)
+2026-04-10 13:22:26,878 - INFO - Converted volkswagen_golf.jpg to WebP
+2026-04-10 13:22:26,881 - INFO - Converted volkswagen_golf.jpg to grayscale
+2026-04-10 13:22:26,886 - INFO - Saved optimised JPEG for volkswagen_golf.jpg
+2026-04-10 13:22:26,910 - INFO - Applied filters to volkswagen_golf.jpg
+2026-04-10 13:22:26,927 - INFO - Applied enhancements to volkswagen_golf.jpg
+2026-04-10 13:22:26,927 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-04-10 13:22:26,927 - INFO - EXIF summary for volkswagen_golf.jpg: Unknown Unknown
+2026-04-10 13:22:26,949 - INFO - Saved to MongoDB with id: 69d8dd7213d34e085da3c86e
+2026-04-10 13:22:26,949 - INFO - Saved metadata to MongoDB for volkswagen_golf.jpg
+2026-04-10 13:22:26,949 - INFO - Processing: volkswagen_id4.jpg
+2026-04-10 13:22:26,950 - INFO - Inspected volkswagen_id4.jpg: 960x533 JPEG RGB
+2026-04-10 13:22:26,961 - INFO - Resized volkswagen_id4.jpg to 640x480
+2026-04-10 13:22:26,974 - INFO - Resized volkswagen_id4.jpg to 800x600
+2026-04-10 13:22:26,977 - INFO - Generated thumbnail for volkswagen_id4.jpg: (128, 71)
+2026-04-10 13:22:26,983 - INFO - Generated fixed thumbnail for volkswagen_id4.jpg: (200, 200)
+2026-04-10 13:22:26,986 - INFO - Cropped volkswagen_id4.jpg with box (0, 0, 960, 266)
+2026-04-10 13:22:27,034 - INFO - Converted volkswagen_id4.jpg to WebP
+2026-04-10 13:22:27,039 - INFO - Converted volkswagen_id4.jpg to grayscale
+2026-04-10 13:22:27,056 - INFO - Saved optimised JPEG for volkswagen_id4.jpg
+2026-04-10 13:22:27,082 - INFO - Applied filters to volkswagen_id4.jpg
+2026-04-10 13:22:27,101 - INFO - Applied enhancements to volkswagen_id4.jpg
+2026-04-10 13:22:27,101 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-04-10 13:22:27,101 - INFO - EXIF summary for volkswagen_id4.jpg: Unknown Unknown
+2026-04-10 13:22:27,105 - INFO - Saved to MongoDB with id: 69d8dd7313d34e085da3c870
+2026-04-10 13:22:27,105 - INFO - Saved metadata to MongoDB for volkswagen_id4.jpg
+2026-04-10 13:22:27,105 - INFO - Processing: test_scan.png
+2026-04-10 13:22:27,109 - INFO - Inspected test_scan.png: 1946x1946 WEBP RGBA
+2026-04-10 13:22:27,210 - INFO - Resized test_scan.png to 640x480
+2026-04-10 13:22:27,334 - INFO - Resized test_scan.png to 800x600
+2026-04-10 13:22:27,370 - INFO - Generated thumbnail for test_scan.png: (128, 128)
+2026-04-10 13:22:27,427 - INFO - Generated fixed thumbnail for test_scan.png: (200, 200)
+2026-04-10 13:22:27,494 - INFO - Cropped test_scan.png with box (0, 0, 1946, 973)
+2026-04-10 13:22:27,681 - INFO - Converted test_scan.png to WebP
+2026-04-10 13:22:27,742 - INFO - Converted test_scan.png to grayscale
+2026-04-10 13:22:27,786 - INFO - Saved optimised JPEG for test_scan.png
+2026-04-10 13:22:28,203 - INFO - Applied filters to test_scan.png
+2026-04-10 13:22:28,546 - INFO - Applied enhancements to test_scan.png
+2026-04-10 13:22:28,546 - INFO - Extracted 6 EXIF tags from test_scan.png
+2026-04-10 13:22:28,547 - WARNING - No GPS data in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-04-10 13:22:28,547 - INFO - EXIF summary for test_scan.png: Unknown Unknown
+2026-04-10 13:22:28,551 - INFO - Saved to MongoDB with id: 69d8dd7413d34e085da3c872
+2026-04-10 13:22:28,551 - INFO - Saved metadata to MongoDB for test_scan.png
+2026-04-10 13:22:28,551 - INFO - Processing: volkswagen_passat.jpg
+2026-04-10 13:22:28,552 - INFO - Inspected volkswagen_passat.jpg: 960x484 JPEG RGB
+2026-04-10 13:22:28,562 - INFO - Resized volkswagen_passat.jpg to 640x480
+2026-04-10 13:22:28,575 - INFO - Resized volkswagen_passat.jpg to 800x600
+2026-04-10 13:22:28,578 - INFO - Generated thumbnail for volkswagen_passat.jpg: (128, 65)
+2026-04-10 13:22:28,583 - INFO - Generated fixed thumbnail for volkswagen_passat.jpg: (200, 200)
+2026-04-10 13:22:28,587 - INFO - Cropped volkswagen_passat.jpg with box (0, 0, 960, 242)
+2026-04-10 13:22:28,636 - INFO - Converted volkswagen_passat.jpg to WebP
+2026-04-10 13:22:28,640 - INFO - Converted volkswagen_passat.jpg to grayscale
+2026-04-10 13:22:28,646 - INFO - Saved optimised JPEG for volkswagen_passat.jpg
+2026-04-10 13:22:28,671 - INFO - Applied filters to volkswagen_passat.jpg
+2026-04-10 13:22:28,690 - INFO - Applied enhancements to volkswagen_passat.jpg
+2026-04-10 13:22:28,690 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-04-10 13:22:28,690 - INFO - EXIF summary for volkswagen_passat.jpg: Unknown Unknown
+2026-04-10 13:22:28,694 - INFO - Saved to MongoDB with id: 69d8dd7413d34e085da3c874
+2026-04-10 13:22:28,695 - INFO - Saved metadata to MongoDB for volkswagen_passat.jpg
+2026-04-10 13:22:28,695 - INFO - Batch processing complete. Processed 5 images
+2026-04-10 13:22:28,695 - INFO - Processed 5 images
+2026-04-10 13:22:28,695 - INFO - Processing EXIF samples
+2026-04-10 13:22:28,695 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC'
+2026-04-10 13:22:28,695 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC'
+2026-04-10 13:22:28,695 - INFO - EXIF summary for IMG_9026.HEIC: Unknown Unknown
+2026-04-10 13:22:28,696 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC'
+2026-04-10 13:22:28,696 - INFO - Extracted 12 EXIF tags from IMG_9026.jpg
+2026-04-10 13:22:28,696 - INFO - Extracted GPS data from IMG_9026.jpg
+2026-04-10 13:22:28,696 - INFO - EXIF summary for IMG_9026.jpg: Apple iPhone 16 Pro
+2026-04-10 13:22:30,323 - INFO - Stripped EXIF from IMG_9026.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean.jpg
+2026-04-10 13:22:30,325 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC'
+2026-04-10 13:22:30,325 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC'
+2026-04-10 13:22:30,325 - INFO - EXIF summary for IMG_2387.HEIC: Unknown Unknown
+2026-04-10 13:22:30,325 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC'
+2026-04-10 13:22:30,325 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC'
+2026-04-10 13:22:30,326 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC'
+2026-04-10 13:22:30,326 - INFO - EXIF summary for IMG_3406.HEIC: Unknown Unknown
+2026-04-10 13:22:30,326 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC'
+2026-04-10 13:22:30,326 - INFO - Extracted 12 EXIF tags from IMG_3406.jpg
+2026-04-10 13:22:30,326 - INFO - Extracted GPS data from IMG_3406.jpg
+2026-04-10 13:22:30,327 - INFO - EXIF summary for IMG_3406.jpg: Apple iPhone 16 Pro
+2026-04-10 13:22:33,738 - INFO - Stripped EXIF from IMG_3406.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean.jpg
+2026-04-10 13:22:33,740 - INFO - Extracted 12 EXIF tags from IMG_4509.jpg
+2026-04-10 13:22:33,740 - INFO - Extracted GPS data from IMG_4509.jpg
+2026-04-10 13:22:33,741 - INFO - EXIF summary for IMG_4509.jpg: Apple iPhone 16 Pro
+2026-04-10 13:22:36,445 - INFO - Stripped EXIF from IMG_4509.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean.jpg
+2026-04-10 13:22:36,446 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC'
+2026-04-10 13:22:36,446 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC'
+2026-04-10 13:22:36,446 - INFO - EXIF summary for IMG_4509.HEIC: Unknown Unknown
+2026-04-10 13:22:36,447 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC'
+2026-04-10 13:22:36,448 - INFO - Extracted 12 EXIF tags from IMG_2387.jpg
+2026-04-10 13:22:36,448 - INFO - Extracted GPS data from IMG_2387.jpg
+2026-04-10 13:22:36,448 - INFO - EXIF summary for IMG_2387.jpg: Apple iPhone 16 Pro
+2026-04-10 13:22:37,767 - INFO - Stripped EXIF from IMG_2387.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean.jpg
+2026-04-10 13:22:37,767 - INFO - Processed 8 EXIF samples
+2026-04-10 13:22:37,767 - INFO - Processed 8 EXIF samples
+2026-04-10 13:22:37,767 - INFO - Pipeline finished successfully
+2026-04-10 13:37:43,450 - ERROR - Google Drive authentication error: No module named 'google'
+2026-04-10 13:38:32,385 - ERROR - Google Drive authentication error: [Errno 2] No such file or directory: 'credentials.json'
+2026-04-10 13:41:22,391 - ERROR - Google Drive authentication error: [Errno 2] No such file or directory: 'credentials.json'
+2026-04-10 13:42:22,281 - ERROR - Google Drive authentication error: [Errno 2] No such file or directory: 'credentials.json'
+2026-04-10 13:44:09,541 - ERROR - Google Drive authentication error: [Errno 2] No such file or directory: 'credentials.json'
+2026-04-10 13:45:51,242 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=77949333136-vjmrav6di4bkgoda048iavj3e0iescvs.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A63382%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file&state=8psnV2AcJppymYtFD0z6Cs6DP0evEW&code_challenge=WHYxOG0I7NnZ2xhGTq889xn6h1XRjUNNWUp-c2AWU-4&code_challenge_method=S256&access_type=offline
+2026-04-10 13:46:08,621 - INFO - "GET /?state=8psnV2AcJppymYtFD0z6Cs6DP0evEW&iss=https://accounts.google.com&code=4/0Aci98E9PMd3Zcb65BhqrhEUIWAu0h02IB9bXUwFcwO1xuf66LjiFNpvrMmaTTKXQJ9JtIA&scope=https://www.googleapis.com/auth/drive.file HTTP/1.1" 200 65
+2026-04-10 13:46:08,954 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:33,570 - INFO - Starting batch upload of 13 files to Google Drive
+2026-04-10 13:47:33,873 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:33,874 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:34,411 - ERROR - Error uploading data/processed/webp/audi_a4.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:34,413 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:34,415 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:34,911 - ERROR - Error uploading data/processed/webp/volkswagen_passat.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:34,913 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:34,915 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:35,427 - ERROR - Error uploading data/processed/webp/volkswagen_golf.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:35,428 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:35,431 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:35,957 - ERROR - Error uploading data/processed/webp/test_scan.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:35,958 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:35,960 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:36,491 - ERROR - Error uploading data/processed/webp/volkswagen_id4.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:36,493 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:36,495 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:36,996 - ERROR - Error uploading data/processed/thumbnails/audi_a4_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:36,998 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:37,001 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:37,538 - ERROR - Error uploading data/processed/thumbnails/volkswagen_passat_fixed_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:37,540 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:37,543 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:38,059 - ERROR - Error uploading data/processed/thumbnails/volkswagen_passat_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:38,061 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:38,063 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:38,640 - ERROR - Error uploading data/processed/thumbnails/volkswagen_id4_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:38,643 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:38,645 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:39,128 - ERROR - Error uploading data/processed/thumbnails/volkswagen_id4_fixed_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:39,130 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:39,133 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:39,609 - ERROR - Error uploading data/processed/thumbnails/volkswagen_golf_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:39,611 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:39,613 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:40,133 - ERROR - Error uploading data/processed/thumbnails/volkswagen_golf_fixed_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:40,137 - INFO - Google Drive authenticated successfully
+2026-04-10 13:47:40,140 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:47:40,668 - ERROR - Error uploading data/processed/thumbnails/audi_a4_fixed_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:47:40,669 - INFO - Uploaded 0 files to Google Drive
+2026-04-10 13:50:01,912 - INFO - Starting batch upload of 13 files to Google Drive
+2026-04-10 13:50:02,179 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:02,180 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:02,825 - ERROR - Error uploading data/processed/webp/audi_a4.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:02,827 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:02,830 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:03,364 - ERROR - Error uploading data/processed/webp/volkswagen_passat.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:03,366 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:03,369 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:03,985 - ERROR - Error uploading data/processed/webp/volkswagen_golf.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:03,988 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:03,990 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:04,565 - ERROR - Error uploading data/processed/webp/test_scan.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:04,567 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:04,575 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:05,034 - ERROR - Error uploading data/processed/webp/volkswagen_id4.webp to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:05,035 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:05,038 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:05,589 - ERROR - Error uploading data/processed/thumbnails/audi_a4_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:05,591 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:05,593 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:06,082 - ERROR - Error uploading data/processed/thumbnails/volkswagen_passat_fixed_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:06,083 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:06,085 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:06,605 - ERROR - Error uploading data/processed/thumbnails/volkswagen_passat_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:06,607 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:06,610 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:07,129 - ERROR - Error uploading data/processed/thumbnails/volkswagen_id4_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:07,131 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:07,134 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:07,709 - ERROR - Error uploading data/processed/thumbnails/volkswagen_id4_fixed_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:07,711 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:07,713 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:08,179 - ERROR - Error uploading data/processed/thumbnails/volkswagen_golf_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:08,181 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:08,183 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:08,703 - ERROR - Error uploading data/processed/thumbnails/volkswagen_golf_fixed_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:08,705 - INFO - Google Drive authenticated successfully
+2026-04-10 13:50:08,707 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:50:09,227 - ERROR - Error uploading data/processed/thumbnails/audi_a4_fixed_thumb.jpg to Google Drive: <HttpError 404 when requesting None returned "File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.". Details: "[{'message': 'File not found: FOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZFFOLDER_ID=1ERqp67fTWFt5j7T_IhVK2Am6-Fs3YKZF.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-04-10 13:50:09,228 - INFO - Uploaded 0 files to Google Drive
+2026-04-10 13:51:58,278 - INFO - Starting batch upload of 13 files to Google Drive
+2026-04-10 13:51:58,549 - INFO - Google Drive authenticated successfully
+2026-04-10 13:51:58,550 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:01,428 - INFO - Uploaded audi_a4.webp to Google Drive. File ID: 1brvYLmgBBr4-Sv1AehsZ1tDKmgn43oSV
+2026-04-10 13:52:01,429 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:01,432 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:04,065 - INFO - Uploaded volkswagen_passat.webp to Google Drive. File ID: 14OAQF7NXrQC7pOMdpOg9SWZIUOLBcE6h
+2026-04-10 13:52:04,067 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:04,070 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:06,301 - INFO - Uploaded volkswagen_golf.webp to Google Drive. File ID: 1TB-NgZSe-zevnCt7oIIcAQJI7z8d_R0l
+2026-04-10 13:52:06,302 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:06,305 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:10,331 - INFO - Uploaded test_scan.webp to Google Drive. File ID: 1vRXoDGtRxeK8wWOQ7SkvyFBQuBHpn3L1
+2026-04-10 13:52:10,331 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:10,332 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:12,802 - INFO - Uploaded volkswagen_id4.webp to Google Drive. File ID: 1hUdr_qWITYSGxXYU7wsBDzQy5rbx-TjM
+2026-04-10 13:52:12,804 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:12,807 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:14,835 - INFO - Uploaded audi_a4_thumb.jpg to Google Drive. File ID: 1YnN0nAmr7gRZUZtevjt8RbTLHAx4GTJo
+2026-04-10 13:52:14,837 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:14,839 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:17,210 - INFO - Uploaded volkswagen_passat_fixed_thumb.jpg to Google Drive. File ID: 1_JqHLLfaBvpnghV7AkbLY3lYqBSvUFxG
+2026-04-10 13:52:17,212 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:17,215 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:19,448 - INFO - Uploaded volkswagen_passat_thumb.jpg to Google Drive. File ID: 1XvHKiPQuM7OqjKaWK5hZgHazkKIE5nQ5
+2026-04-10 13:52:19,450 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:19,453 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:21,511 - INFO - Uploaded volkswagen_id4_thumb.jpg to Google Drive. File ID: 1baCaALBDLQIhmRvPxoQrhF4GUHhKvxSd
+2026-04-10 13:52:21,513 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:21,515 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:23,523 - INFO - Uploaded volkswagen_id4_fixed_thumb.jpg to Google Drive. File ID: 1HTFs3SXuCm88u6_uUcV0guVE13sTLanE
+2026-04-10 13:52:23,525 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:23,527 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:26,083 - INFO - Uploaded volkswagen_golf_thumb.jpg to Google Drive. File ID: 1e1SsOTIlDrad9EMaYEl2GgZ7TDW9WRk7
+2026-04-10 13:52:26,084 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:26,087 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:28,050 - INFO - Uploaded volkswagen_golf_fixed_thumb.jpg to Google Drive. File ID: 15jOQt1dCHqeIGZNmlfQshDo4MDcfu774
+2026-04-10 13:52:28,052 - INFO - Google Drive authenticated successfully
+2026-04-10 13:52:28,054 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-10 13:52:30,255 - INFO - Uploaded audi_a4_fixed_thumb.jpg to Google Drive. File ID: 1m3-CpQHOUhccxJsZrjsv-4MsguwHI5Cw
+2026-04-10 13:52:30,256 - INFO - Uploaded 13 files to Google Drive

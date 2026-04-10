@@ -53,7 +53,7 @@
         "Model": "A4"
       }
     ],
-    "scraped_at": "2026-04-02T16:44:38.887915",
+    "scraped_at": "2026-04-10T11:22:16.101186",
     "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020",
     "type": "json_api"
   },
@@ -96,7 +96,7 @@
         "Model": "GOLF"
       }
     ],
-    "scraped_at": "2026-04-02T16:44:40.727864",
+    "scraped_at": "2026-04-10T11:22:17.747575",
     "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020",
     "type": "json_api"
   },
@@ -154,7 +154,7 @@
         "Model": "PASSAT"
       }
     ],
-    "scraped_at": "2026-04-02T16:44:42.527529",
+    "scraped_at": "2026-04-10T11:22:19.542729",
     "source": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020",
     "type": "json_api"
   }

@@ -4,7 +4,7 @@
     "description": "Luxury sedan with 2.0L TFSI engine, 190hp. Known for premium interior and advanced driver assistance.",
     "price": "$39,900",
     "link": "/cars/audi-a4-2020",
-    "scraped_at": "2026-04-02T16:44:37.011858",
+    "scraped_at": "2026-04-10T11:22:14.412328",
     "source": "local_html/page_1.html",
     "page": 1
   },
@@ -13,7 +13,7 @@
     "description": "Previous generation A4 with quattro all-wheel drive. Excellent safety ratings from NHTSA.",
     "price": "$36,500",
     "link": "/cars/audi-a4-2019",
-    "scraped_at": "2026-04-02T16:44:37.012072",
+    "scraped_at": "2026-04-10T11:22:14.412512",
     "source": "local_html/page_1.html",
     "page": 1
   },
@@ -22,7 +22,7 @@
     "description": "Reliable executive sedan. NHTSA recall issued for airbag inflator replacement.",
     "price": "$33,200",
     "link": "/cars/audi-a4-2018",
-    "scraped_at": "2026-04-02T16:44:37.012223",
+    "scraped_at": "2026-04-10T11:22:14.412635",
     "source": "local_html/page_1.html",
     "page": 1
   },
@@ -31,7 +31,7 @@
     "description": "Compact hatchback with 1.4L TSI engine. Popular choice in European markets.",
     "price": "$23,195",
     "link": "/cars/volkswagen-golf-2020",
-    "scraped_at": "2026-04-02T16:44:37.013352",
+    "scraped_at": "2026-04-10T11:22:14.413399",
     "source": "local_html/page_2.html",
     "page": 2
   },
@@ -40,7 +40,7 @@
     "description": "Award-winning hatchback. NHTSA recall for brake system defect affecting 8,200 units.",
     "price": "$21,500",
     "link": "/cars/volkswagen-golf-2019",
-    "scraped_at": "2026-04-02T16:44:37.013501",
+    "scraped_at": "2026-04-10T11:22:14.413531",
     "source": "local_html/page_2.html",
     "page": 2
   },
@@ -49,7 +49,7 @@
     "description": "Performance variant with 228hp turbocharged engine and sport suspension.",
     "price": "$29,995",
     "link": "/cars/volkswagen-golf-gti-2020",
-    "scraped_at": "2026-04-02T16:44:37.013714",
+    "scraped_at": "2026-04-10T11:22:14.413655",
     "source": "local_html/page_2.html",
     "page": 2
   },
@@ -58,7 +58,7 @@
     "description": "Midsize sedan with spacious interior. NHTSA recall for fuel pump defect.",
     "price": "$24,990",
     "link": "/cars/volkswagen-passat-2020",
-    "scraped_at": "2026-04-02T16:44:37.014464",
+    "scraped_at": "2026-04-10T11:22:14.414329",
     "source": "local_html/page_3.html",
     "page": 3
   },
@@ -67,7 +67,7 @@
     "description": "Business-class sedan with advanced connectivity features and comfort.",
     "price": "$22,800",
     "link": "/cars/volkswagen-passat-2019",
-    "scraped_at": "2026-04-02T16:44:37.014589",
+    "scraped_at": "2026-04-10T11:22:14.414450",
     "source": "local_html/page_3.html",
     "page": 3
   },
@@ -76,7 +76,7 @@
     "description": "Czech-made sedan offering exceptional value. Part of VW Group platform.",
     "price": "$19,990",
     "link": "/cars/skoda-octavia-2020",
-    "scraped_at": "2026-04-02T16:44:37.014704",
+    "scraped_at": "2026-04-10T11:22:14.414566",
     "source": "local_html/page_3.html",
     "page": 3
   }

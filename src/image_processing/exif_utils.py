@@ -104,7 +104,7 @@ def process_exif_samples():
         return results
 
     for filename in os.listdir(EXIF_DIR):
-        if filename.endswith((".jpg", ".jpeg", ".JPG", ".JPEG")):
+        if filename.endswith((".jpg", ".jpeg", ".JPG", ".JPEG", ".heic", ".HEIC")):
             filepath = os.path.join(EXIF_DIR, filename)
             summary = get_exif_summary(filepath)
             if summary:
