@@ -1,0 +1,446 @@
+{
+  "source_file": "/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/extracted_from_video.mp3",
+  "language": "en",
+  "language_probability": 0.9144,
+  "duration": 66.29,
+  "model": "base",
+  "segments": [
+    {
+      "start": 2.66,
+      "end": 16.28,
+      "text": "Who we are, it's where we come from, and where we are going, intelligence that's playful,",
+      "words": [
+        {
+          "word": " Who",
+          "start": 2.66,
+          "end": 3.4,
+          "probability": 0.6376
+        },
+        {
+          "word": " we",
+          "start": 3.4,
+          "end": 3.56,
+          "probability": 0.7892
+        },
+        {
+          "word": " are,",
+          "start": 3.56,
+          "end": 3.88,
+          "probability": 0.9982
+        },
+        {
+          "word": " it's",
+          "start": 4.2,
+          "end": 5.8,
+          "probability": 0.9462
+        },
+        {
+          "word": " where",
+          "start": 5.8,
+          "end": 5.98,
+          "probability": 0.998
+        },
+        {
+          "word": " we",
+          "start": 5.98,
+          "end": 6.14,
+          "probability": 0.9988
+        },
+        {
+          "word": " come",
+          "start": 6.14,
+          "end": 6.36,
+          "probability": 0.9961
+        },
+        {
+          "word": " from,",
+          "start": 6.36,
+          "end": 6.8,
+          "probability": 0.9988
+        },
+        {
+          "word": " and",
+          "start": 7.18,
+          "end": 9.04,
+          "probability": 0.9628
+        },
+        {
+          "word": " where",
+          "start": 9.04,
+          "end": 9.24,
+          "probability": 0.995
+        },
+        {
+          "word": " we",
+          "start": 9.24,
+          "end": 9.44,
+          "probability": 0.9989
+        },
+        {
+          "word": " are",
+          "start": 9.44,
+          "end": 9.54,
+          "probability": 0.8935
+        },
+        {
+          "word": " going,",
+          "start": 9.54,
+          "end": 10.0,
+          "probability": 0.9981
+        },
+        {
+          "word": " intelligence",
+          "start": 10.58,
+          "end": 14.46,
+          "probability": 0.911
+        },
+        {
+          "word": " that's",
+          "start": 14.46,
+          "end": 15.92,
+          "probability": 0.8036
+        },
+        {
+          "word": " playful,",
+          "start": 15.92,
+          "end": 16.28,
+          "probability": 0.9839
+        }
+      ]
+    },
+    {
+      "start": 16.28,
+      "end": 33.18,
+      "text": "a thrill, speed, adrenaline, or off-road, beauty that makes us smile, a surge of emotion,",
+      "words": [
+        {
+          "word": " a",
+          "start": 16.28,
+          "end": 16.72,
+          "probability": 0.0431
+        },
+        {
+          "word": " thrill,",
+          "start": 16.72,
+          "end": 17.68,
+          "probability": 0.7894
+        },
+        {
+          "word": " speed,",
+          "start": 17.8,
+          "end": 20.78,
+          "probability": 0.9678
+        },
+        {
+          "word": " adrenaline,",
+          "start": 21.08,
+          "end": 22.7,
+          "probability": 0.9854
+        },
+        {
+          "word": " or",
+          "start": 23.32,
+          "end": 25.38,
+          "probability": 0.2625
+        },
+        {
+          "word": " off",
+          "start": 25.38,
+          "end": 26.88,
+          "probability": 0.3581
+        },
+        {
+          "word": "-road,",
+          "start": 26.88,
+          "end": 27.16,
+          "probability": 0.8461
+        },
+        {
+          "word": " beauty",
+          "start": 27.72,
+          "end": 29.0,
+          "probability": 0.9595
+        },
+        {
+          "word": " that",
+          "start": 29.0,
+          "end": 30.28,
+          "probability": 0.5386
+        },
+        {
+          "word": " makes",
+          "start": 30.28,
+          "end": 30.46,
+          "probability": 0.9944
+        },
+        {
+          "word": " us",
+          "start": 30.46,
+          "end": 30.7,
+          "probability": 0.9336
+        },
+        {
+          "word": " smile,",
+          "start": 30.7,
+          "end": 31.18,
+          "probability": 0.9969
+        },
+        {
+          "word": " a",
+          "start": 31.76,
+          "end": 32.12,
+          "probability": 0.9497
+        },
+        {
+          "word": " surge",
+          "start": 32.12,
+          "end": 32.52,
+          "probability": 0.9966
+        },
+        {
+          "word": " of",
+          "start": 32.52,
+          "end": 32.72,
+          "probability": 0.9969
+        },
+        {
+          "word": " emotion,",
+          "start": 32.72,
+          "end": 33.18,
+          "probability": 0.9744
+        }
+      ]
+    },
+    {
+      "start": 34.18,
+      "end": 47.18,
+      "text": "bold and peaceful, unstoppable, unlimited, intensity, even in a cloud of dust,",
+      "words": [
+        {
+          "word": " bold",
+          "start": 34.18,
+          "end": 35.0,
+          "probability": 0.0152
+        },
+        {
+          "word": " and",
+          "start": 35.0,
+          "end": 36.0,
+          "probability": 0.8404
+        },
+        {
+          "word": " peaceful,",
+          "start": 36.0,
+          "end": 36.44,
+          "probability": 0.9956
+        },
+        {
+          "word": " unstoppable,",
+          "start": 36.76,
+          "end": 40.46,
+          "probability": 0.9497
+        },
+        {
+          "word": " unlimited,",
+          "start": 41.18,
+          "end": 42.44,
+          "probability": 0.9887
+        },
+        {
+          "word": " intensity,",
+          "start": 42.98,
+          "end": 44.5,
+          "probability": 0.9493
+        },
+        {
+          "word": " even",
+          "start": 44.9,
+          "end": 45.36,
+          "probability": 0.9979
+        },
+        {
+          "word": " in",
+          "start": 45.36,
+          "end": 45.5,
+          "probability": 0.9868
+        },
+        {
+          "word": " a",
+          "start": 45.5,
+          "end": 45.58,
+          "probability": 0.9818
+        },
+        {
+          "word": " cloud",
+          "start": 45.58,
+          "end": 45.86,
+          "probability": 0.9786
+        },
+        {
+          "word": " of",
+          "start": 45.86,
+          "end": 46.16,
+          "probability": 0.9975
+        },
+        {
+          "word": " dust,",
+          "start": 46.16,
+          "end": 47.18,
+          "probability": 0.9976
+        }
+      ]
+    },
+    {
+      "start": 48.74,
+      "end": 60.18,
+      "text": "that tingle that just ran down your spine, this is you, this is us, this is Audi.",
+      "words": [
+        {
+          "word": " that",
+          "start": 48.74,
+          "end": 49.66,
+          "probability": 0.8508
+        },
+        {
+          "word": " tingle",
+          "start": 49.66,
+          "end": 50.22,
+          "probability": 0.934
+        },
+        {
+          "word": " that",
+          "start": 50.22,
+          "end": 50.68,
+          "probability": 0.9392
+        },
+        {
+          "word": " just",
+          "start": 50.68,
+          "end": 50.94,
+          "probability": 0.9969
+        },
+        {
+          "word": " ran",
+          "start": 50.94,
+          "end": 51.2,
+          "probability": 0.9848
+        },
+        {
+          "word": " down",
+          "start": 51.2,
+          "end": 51.46,
+          "probability": 0.9959
+        },
+        {
+          "word": " your",
+          "start": 51.46,
+          "end": 51.68,
+          "probability": 0.9975
+        },
+        {
+          "word": " spine,",
+          "start": 51.68,
+          "end": 52.2,
+          "probability": 0.9953
+        },
+        {
+          "word": " this",
+          "start": 52.42,
+          "end": 54.02,
+          "probability": 0.8316
+        },
+        {
+          "word": " is",
+          "start": 54.02,
+          "end": 54.22,
+          "probability": 0.9915
+        },
+        {
+          "word": " you,",
+          "start": 54.22,
+          "end": 54.5,
+          "probability": 0.9813
+        },
+        {
+          "word": " this",
+          "start": 55.12,
+          "end": 56.1,
+          "probability": 0.995
+        },
+        {
+          "word": " is",
+          "start": 56.1,
+          "end": 56.36,
+          "probability": 0.9957
+        },
+        {
+          "word": " us,",
+          "start": 56.36,
+          "end": 56.68,
+          "probability": 0.9921
+        },
+        {
+          "word": " this",
+          "start": 57.34,
+          "end": 58.72,
+          "probability": 0.9923
+        },
+        {
+          "word": " is",
+          "start": 58.72,
+          "end": 59.74,
+          "probability": 0.9919
+        },
+        {
+          "word": " Audi.",
+          "start": 59.74,
+          "end": 60.18,
+          "probability": 0.8118
+        }
+      ]
+    },
+    {
+      "start": 64.86,
+      "end": 66.26,
+      "text": "Who we are, this is us.",
+      "words": [
+        {
+          "word": " Who",
+          "start": 64.86,
+          "end": 66.26,
+          "probability": 0.0011
+        },
+        {
+          "word": " we",
+          "start": 66.26,
+          "end": 66.26,
+          "probability": 0.0019
+        },
+        {
+          "word": " are,",
+          "start": 66.26,
+          "end": 66.26,
+          "probability": 0.1763
+        },
+        {
+          "word": " this",
+          "start": 66.26,
+          "end": 66.26,
+          "probability": 0.0112
+        },
+        {
+          "word": " is",
+          "start": 66.26,
+          "end": 66.26,
+          "probability": 0.6364
+        },
+        {
+          "word": " us.",
+          "start": 66.26,
+          "end": 66.26,
+          "probability": 0.0097
+        }
+      ]
+    }
+  ]
+}

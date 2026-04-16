@@ -4,9 +4,9 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from pydub import AudioSegment
-from src.logger import get_logger
+from utils.logger import logging as logger
 
-logger = get_logger()
+
 
 def trim_audio(audio, start_ms, end_ms):
     trimmed = audio[start_ms:end_ms]

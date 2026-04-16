@@ -4,9 +4,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from pydub import AudioSegment
-from src.logger import get_logger
-
-logger = get_logger()
+from utils.logger import logging as logger
 
 SUPPORTED_FORMATS = ["mp3", "wav", "flac", "ogg", "aac"]
 

@@ -6,9 +6,9 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".
 
 from faster_whisper import WhisperModel
 from pydub import AudioSegment
-from src.logger import get_logger
+from utils.logger import logging as logger
 
-logger = get_logger()
+
 
 _model = None
 

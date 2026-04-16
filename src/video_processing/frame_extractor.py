@@ -4,9 +4,9 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 import cv2
-from src.logger import get_logger
+from utils.logger import logging as logger
 
-logger = get_logger()
+
 
 def save_frame(video_path, t_seconds, output_path):
     cap = cv2.VideoCapture(video_path)

@@ -4,9 +4,9 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from moviepy import VideoFileClip
-from src.logger import get_logger
+from utils.logger import logging as logger
 
-logger = get_logger()
+
 
 def load_video(file_path):
     if not os.path.exists(file_path):
