@@ -15,6 +15,13 @@ from ocr.ocr_utils import run_ocr_pipeline
 from image_processing.downloader import download_vehicle_images
 from image_processing.batch import batch_process_images
 from image_processing.exif_utils import process_exif_samples
+from audio_processing.loader import load_all_audio, print_audio_info
+from audio_processing.processor import trim_audio, concatenate_audio, adjust_volume, apply_fade, convert_audio, save_audio
+from audio_processing.transcriber import transcribe_audio, save_transcript_json, save_transcript_txt, save_transcript_srt, chunked_transcribe
+from video_processing.loader import load_all_videos, print_video_info, extract_audio_from_video
+from video_processing.frame_extractor import extract_keyframes
+from storage.mongo import save_transcript_to_mongo
+from pydub import AudioSegment
 
 def run_pipeline():
     logging.info("Pipeline started")
@@ -80,6 +87,108 @@ def run_pipeline():
     logging.info("Processing EXIF samples")
     exif_results = process_exif_samples()
     logging.info(f"Processed {len(exif_results)} EXIF samples")
+
+    logging.info("Starting audio processing")
+    audio_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "raw", "audio"))
+    processed_audio_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "processed", "audio"))
+    os.makedirs(processed_audio_dir, exist_ok=True)
+
+    # Task 1 - Load and inspect all audio files
+    all_audio_info = load_all_audio(audio_dir)
+    logging.info(f"Loaded and inspected {len(all_audio_info)} audio files")
+    for info in all_audio_info:
+        print_audio_info(info)
+
+    audio_files = [f for f in os.listdir(audio_dir) if f.endswith((".mp3", ".wav", ".flac", ".ogg"))]
+
+    if audio_files:
+        audio1 = AudioSegment.from_file(os.path.join(audio_dir, audio_files[0]))
+
+        # Task 2 - Trim
+        trimmed = trim_audio(audio1, 0, 10000)
+        save_audio(trimmed, os.path.join(processed_audio_dir, "trimmed.wav"), format="wav")
+        logging.info("Trimmed audio saved")
+
+        # Task 3 - Concatenate
+        if len(audio_files) >= 2:
+            audio2 = AudioSegment.from_file(os.path.join(audio_dir, audio_files[1]))
+            combined = concatenate_audio([trimmed, audio2[:10000]])
+            save_audio(combined, os.path.join(processed_audio_dir, "concatenated.wav"), format="wav")
+            logging.info("Concatenated audio saved")
+
+        # Task 4 - Volume and fade
+        louder = adjust_volume(audio1[:10000], +5)
+        quieter = adjust_volume(audio1[:10000], -5)
+        faded = apply_fade(audio1[:15000], fade_in_ms=2000, fade_out_ms=2000)
+        save_audio(louder, os.path.join(processed_audio_dir, "louder.wav"), format="wav")
+        save_audio(quieter, os.path.join(processed_audio_dir, "quieter.wav"), format="wav")
+        save_audio(faded, os.path.join(processed_audio_dir, "faded.wav"), format="wav")
+        logging.info("Volume and fade audio saved")
+
+        # Task 5 - Convert format
+        convert_audio(audio1, os.path.join(processed_audio_dir, "converted.mp3"), format="mp3", bitrate="192k")
+        convert_audio(audio1, os.path.join(processed_audio_dir, "converted.flac"), format="flac")
+        logging.info("Audio format conversion complete")
+
+    logging.info("Starting video processing")
+    video_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "raw", "video"))
+    frames_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "processed", "frames"))
+    os.makedirs(frames_dir, exist_ok=True)
+
+    # Task 6 - Load and inspect videos, extract audio
+    all_video_info = load_all_videos(video_dir)
+    logging.info(f"Loaded and inspected {len(all_video_info)} video files")
+    for info in all_video_info:
+        print_video_info(info)
+
+    video_files = [f for f in os.listdir(video_dir) if f.endswith((".mp4", ".avi", ".mov", ".mkv", ".webm"))]
+
+    extracted_audio_path = None
+    if video_files:
+        first_video = os.path.join(video_dir, video_files[0])
+        extracted_audio_path = os.path.join(processed_audio_dir, "extracted_from_video.mp3")
+        extract_audio_from_video(first_video, extracted_audio_path)
+        logging.info(f"Audio extracted from video: {extracted_audio_path}")
+
+        # Task 7 - Extract keyframes
+        for video_file in video_files:
+            video_path = os.path.join(video_dir, video_file)
+            base_name = os.path.splitext(video_file)[0]
+            output_dir = os.path.join(frames_dir, base_name)
+            frames = extract_keyframes(video_path, output_dir, interval_seconds=10)
+            logging.info(f"Extracted {len(frames)} keyframes from {video_file}")
+
+    logging.info("Starting transcription")
+    transcripts_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "processed", "transcripts"))
+    os.makedirs(transcripts_dir, exist_ok=True)
+
+    if audio_files:
+        # Task 8 - Transcribe short audio
+        sample_file = os.path.join(audio_dir, audio_files[0])
+        result = transcribe_audio(sample_file)
+        base_name = os.path.splitext(audio_files[0])[0]
+        save_transcript_json(result, os.path.join(transcripts_dir, f"{base_name}.json"))
+        save_transcript_txt(result, os.path.join(transcripts_dir, f"{base_name}.txt"))
+        save_transcript_srt(result, os.path.join(transcripts_dir, f"{base_name}.srt"))
+        save_transcript_to_mongo(result)
+        logging.info(f"Short audio transcription complete: {audio_files[0]}")
+
+        # Task 9 - Transcribe audio from video
+        if extracted_audio_path and os.path.exists(extracted_audio_path):
+            video_transcript = transcribe_audio(extracted_audio_path)
+            save_transcript_json(video_transcript, os.path.join(transcripts_dir, "video_audio_transcript.json"))
+            save_transcript_txt(video_transcript, os.path.join(transcripts_dir, "video_audio_transcript.txt"))
+            save_transcript_srt(video_transcript, os.path.join(transcripts_dir, "video_audio_transcript.srt"))
+            save_transcript_to_mongo(video_transcript)
+            logging.info("Video audio transcription complete")
+
+        # Task 10 - Chunked transcription
+        long_file = os.path.join(audio_dir, audio_files[-1])
+        chunked_result = chunked_transcribe(long_file, chunk_duration_ms=300000)
+        save_transcript_to_mongo(chunked_result)
+        logging.info(f"Chunked transcription complete: {len(chunked_result['segments'])} segments")
+
+
 
     logging.info("Pipeline finished successfully")
 
