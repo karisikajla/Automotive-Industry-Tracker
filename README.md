@@ -1,8 +1,9 @@
 ## Lab 8 - NumPy, pandas, and Data Exploration
 
-Notebook: [lab8_analytics.ipynb](notebooks/lab8_analytics.ipynb)
+Notebook: [lab8_analytics.ipynb](https://github.com/karisikajla/Automotive-Industry-Tracker/blob/week8-lab/notebooks/lab8_analytics.ipynb)
 
 Google Drive charts: https://drive.google.com/drive/folders/1rO6bguWIrbKFzoHEMQbDt4clr9tY2Ffa?usp=sharing
+
 
 
 # Automotive Industry Tracker
