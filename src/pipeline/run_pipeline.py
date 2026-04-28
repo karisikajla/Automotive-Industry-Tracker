@@ -22,6 +22,12 @@ from video_processing.loader import load_all_videos, print_video_info, extract_a
 from video_processing.frame_extractor import extract_keyframes
 from storage.mongo import save_transcript_to_mongo
 from pydub import AudioSegment
+from analytics.numpy_ops import run_numpy_analysis
+from analytics.data_loader import load_from_mongodb, save_to_csv, compute_global_mean_rating, process_chunks_per_source, optimize_dtypes
+from analytics.explorer import run_exploration
+from analytics.selector import run_selection_demo
+from analytics.regex_ops import run_regex_analysis
+from analytics.quality_report import full_quality_audit, plot_missing_heatmap
 
 def run_pipeline():
     logging.info("Pipeline started")
@@ -188,7 +194,35 @@ def run_pipeline():
         save_transcript_to_mongo(chunked_result)
         logging.info(f"Chunked transcription complete: {len(chunked_result['segments'])} segments")
 
+    logging.info("Starting Lab 8 analytics")
 
+    run_numpy_analysis()
+    logging.info("NumPy analysis complete")
+
+    df = load_from_mongodb()
+    csv_path = save_to_csv(df)
+    logging.info(f"MongoDB data exported to CSV: {csv_path}")
+
+    mean_rating = compute_global_mean_rating()
+    logging.info(f"Global mean rating: {mean_rating}")
+
+    sources = process_chunks_per_source()
+    logging.info(f"Chunk processing per source complete: {list(sources.keys())}")
+
+    df = optimize_dtypes(df)
+
+    df, chart_paths = run_exploration(df)
+    logging.info(f"EDA complete, charts saved: {chart_paths}")
+
+    run_selection_demo(df)
+    logging.info("Selection demo complete")
+
+    run_regex_analysis(df)
+    logging.info("Regex analysis complete")
+
+    full_quality_audit(df)
+    plot_missing_heatmap(df)
+    logging.info("Quality audit complete")
 
     logging.info("Pipeline finished successfully")
 
