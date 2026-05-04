@@ -28,6 +28,8 @@ from analytics.explorer import run_exploration
 from analytics.selector import run_selection_demo
 from analytics.regex_ops import run_regex_analysis
 from analytics.quality_report import full_quality_audit, plot_missing_heatmap
+from cleaning.clean_pipeline import run_cleaning_pipeline
+from analytics.data_loader import load_from_csv
 
 def run_pipeline():
     logging.info("Pipeline started")
@@ -223,6 +225,12 @@ def run_pipeline():
     full_quality_audit(df)
     plot_missing_heatmap(df)
     logging.info("Quality audit complete")
+    
+    logging.info("Starting Lab 9 cleaning pipeline")
+    df_raw = load_from_csv()
+    if df_raw is not None:
+        df_clean = run_cleaning_pipeline(df_raw)
+        logging.info(f"Cleaning pipeline complete, final shape: {df_clean.shape}")
 
     logging.info("Pipeline finished successfully")
 
