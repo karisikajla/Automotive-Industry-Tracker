@@ -5855,3 +5855,224 @@
 2026-05-04 15:44:44,012 - INFO - Validation passed: 'version' dtype is float32
 2026-05-04 15:44:44,013 - INFO - All validations passed
 2026-05-04 15:44:44,016 - INFO - Cleaned dataset saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv, shape: (11, 42)
+2026-05-04 15:52:02,119 - INFO - Exact duplicate rows: 0
+2026-05-04 15:52:02,125 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:52:02,126 - INFO - Duplicate values in 'source': 0
+2026-05-04 15:52:02,127 - INFO - Dropped 0 rows with duplicate 'source'
+2026-05-04 15:52:02,446 - INFO - Starting type conversion
+2026-05-04 15:52:02,449 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:52:02,450 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:52:02,452 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:52:02,453 - INFO - Converted 'stored_at' to datetime
+2026-05-04 15:52:02,453 - INFO - Converted 'version' to float32
+2026-05-04 15:52:02,455 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:52:02,456 - INFO - Converted 'data.width' to float32
+2026-05-04 15:52:02,457 - INFO - Converted 'data.height' to float32
+2026-05-04 15:52:02,458 - INFO - Converted 'source' to category
+2026-05-04 15:52:02,459 - INFO - Converted '_collection' to category
+2026-05-04 15:52:02,459 - INFO - Converted 'data.make' to category
+2026-05-04 15:52:02,460 - INFO - Converted 'data.model' to category
+2026-05-04 15:52:02,461 - INFO - Converted 'data.type' to category
+2026-05-04 15:52:02,466 - INFO - Memory report - before: 0.04 MB, after: 0.04 MB, reduction: 0.00 MB
+2026-05-04 15:52:02,467 - INFO - Type conversion complete
+2026-05-04 15:52:02,677 - INFO - Starting validation
+2026-05-04 15:52:02,679 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:52:02,680 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:52:02,682 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:52:02,683 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:52:02,683 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:52:02,684 - INFO - All validations passed
+2026-05-04 15:52:02,885 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:52:02,886 - INFO - Starting cleaning pipeline
+2026-05-04 15:52:02,887 - INFO - Step 1: Dropping high missing columns
+2026-05-04 15:52:02,892 - INFO - Dropped 15 columns with >90.0% missing: ['data.pages', 'data.paragraphs', 'data.tables', 'data.sheets', 'data.raw_text', 'data.processed_text', 'data.text', 'source_file', 'language', 'language_probability', 'duration', 'model', 'segments', 'segment_count', 'stored_at']
+2026-05-04 15:52:02,893 - INFO - Step 2: Dropping rows with missing critical columns
+2026-05-04 15:52:02,895 - INFO - Dropped 24 rows with missing critical columns: ['source', '_collection']
+2026-05-04 15:52:02,896 - INFO - Step 3: Filling text fields
+2026-05-04 15:52:02,896 - INFO - Filled missing text in 'data.make' with 'unknown'
+2026-05-04 15:52:02,897 - INFO - Filled missing text in 'data.model' with 'unknown'
+2026-05-04 15:52:02,898 - INFO - Filled missing text in 'data.description' with 'unknown'
+2026-05-04 15:52:02,899 - INFO - Filled missing text in 'data.type' with 'unknown'
+2026-05-04 15:52:02,899 - INFO - Step 4: Replacing zeros with NaN
+2026-05-04 15:52:02,900 - INFO - Replaced 0 zeros with NaN in 'data.width'
+2026-05-04 15:52:02,901 - INFO - Replaced 0 zeros with NaN in 'data.height'
+2026-05-04 15:52:02,901 - INFO - Replaced 0 zeros with NaN in 'data.file_size_kb'
+2026-05-04 15:52:02,902 - INFO - Step 5: Filling numeric with median
+2026-05-04 15:52:02,903 - INFO - Filled 437 missing values in 'data.year' with median 2020.0000
+2026-05-04 15:52:02,904 - INFO - Filled 423 missing values in 'data.page' with median 2.0000
+2026-05-04 15:52:02,905 - INFO - Filled 507 missing values in 'data.width' with median 960.0000
+2026-05-04 15:52:02,906 - INFO - Filled 507 missing values in 'data.height' with median 500.0000
+2026-05-04 15:52:02,907 - INFO - Filled 507 missing values in 'data.file_size_kb' with median 131.9900
+2026-05-04 15:52:02,907 - INFO - Step 6: String cleaning
+2026-05-04 15:52:02,908 - INFO - Starting string cleaning
+2026-05-04 15:52:02,909 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:52:02,910 - INFO - Normalized source column: 'source'
+2026-05-04 15:52:02,911 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:52:02,912 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:52:02,914 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:52:02,914 - INFO - String cleaning complete
+2026-05-04 15:52:02,914 - INFO - Step 7: Deduplication
+2026-05-04 15:52:02,915 - INFO - Starting deduplication
+2026-05-04 15:52:02,919 - INFO - Exact duplicate rows: 0
+2026-05-04 15:52:02,923 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:52:02,924 - INFO - Duplicate values in 'source': 556
+2026-05-04 15:52:02,924 - INFO - Dropped 556 rows with duplicate 'source'
+2026-05-04 15:52:02,925 - INFO - Dropped 0 rows with duplicate title+date
+2026-05-04 15:52:02,926 - INFO - Deduplication complete
+2026-05-04 15:52:02,926 - INFO - Step 8: Type conversion
+2026-05-04 15:52:02,927 - INFO - Starting type conversion
+2026-05-04 15:52:02,928 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:52:02,929 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:52:02,930 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:52:02,930 - WARNING - Date column 'stored_at' not found
+2026-05-04 15:52:02,931 - INFO - Converted 'version' to float32
+2026-05-04 15:52:02,931 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:52:02,932 - INFO - Converted 'data.width' to float32
+2026-05-04 15:52:02,933 - INFO - Converted 'data.height' to float32
+2026-05-04 15:52:02,933 - INFO - Converted 'source' to category
+2026-05-04 15:52:02,934 - INFO - Converted '_collection' to category
+2026-05-04 15:52:02,934 - INFO - Converted 'data.make' to category
+2026-05-04 15:52:02,935 - INFO - Converted 'data.model' to category
+2026-05-04 15:52:02,935 - INFO - Converted 'data.type' to category
+2026-05-04 15:52:02,938 - INFO - Memory report - before: 0.02 MB, after: 0.02 MB, reduction: 0.00 MB
+2026-05-04 15:52:02,938 - INFO - Type conversion complete
+2026-05-04 15:52:02,938 - INFO - Step 9: Validation
+2026-05-04 15:52:02,939 - INFO - Starting validation
+2026-05-04 15:52:02,939 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:52:02,940 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:52:02,940 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:52:02,941 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:52:02,941 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:52:02,942 - INFO - All validations passed
+2026-05-04 15:52:02,944 - INFO - Cleaned dataset saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv, shape: (11, 42)
+2026-05-04 15:52:12,401 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:52:12,404 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:52:12,409 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:52:12,413 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:52:14,494 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:52:14,497 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:52:14,503 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:52:14,507 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:52:14,512 - INFO - Starting string cleaning
+2026-05-04 15:52:14,514 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:52:14,515 - INFO - Normalized source column: 'source'
+2026-05-04 15:52:14,517 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:52:14,518 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:52:14,520 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:52:14,521 - INFO - String cleaning complete
+2026-05-04 15:53:35,451 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:53:35,453 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:53:35,457 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:53:35,460 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:53:35,466 - INFO - Starting string cleaning
+2026-05-04 15:53:35,466 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:53:35,467 - INFO - Normalized source column: 'source'
+2026-05-04 15:53:35,468 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:53:35,469 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:53:35,472 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:53:35,472 - INFO - String cleaning complete
+2026-05-04 15:55:43,499 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:55:43,501 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:55:43,504 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:55:43,507 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:55:43,514 - INFO - Starting string cleaning
+2026-05-04 15:55:43,515 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:55:43,516 - INFO - Normalized source column: 'source'
+2026-05-04 15:55:43,517 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:55:43,520 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:55:43,530 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:55:43,535 - INFO - String cleaning complete
+2026-05-04 15:55:43,554 - INFO - Invalid dates in 'fetched_at': 0
+2026-05-04 15:55:43,555 - INFO - Invalid language codes in 'language': 0
+2026-05-04 15:55:43,556 - INFO - Extracted numbers from text in 80 rows
+2026-05-04 15:55:43,557 - INFO - Short overviews (< 30 chars): 0
+2026-05-04 15:55:43,569 - INFO - Exact duplicate rows: 0
+2026-05-04 15:55:43,572 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:55:43,573 - INFO - Duplicate values in 'source': 579
+2026-05-04 15:55:43,573 - INFO - Dropped 579 rows with duplicate 'source'
+2026-05-04 15:55:43,577 - INFO - Starting type conversion
+2026-05-04 15:55:43,579 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:55:43,580 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:55:43,581 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:55:43,582 - INFO - Converted 'stored_at' to datetime
+2026-05-04 15:55:43,583 - INFO - Converted 'version' to float32
+2026-05-04 15:55:43,583 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:55:43,584 - INFO - Converted 'data.width' to float32
+2026-05-04 15:55:43,585 - INFO - Converted 'data.height' to float32
+2026-05-04 15:55:43,585 - INFO - Converted 'source' to category
+2026-05-04 15:55:43,586 - INFO - Converted '_collection' to category
+2026-05-04 15:55:43,587 - INFO - Converted 'data.make' to category
+2026-05-04 15:55:43,587 - INFO - Converted 'data.model' to category
+2026-05-04 15:55:43,588 - INFO - Converted 'data.type' to category
+2026-05-04 15:55:43,591 - INFO - Memory report - before: 0.04 MB, after: 0.04 MB, reduction: 0.00 MB
+2026-05-04 15:55:43,591 - INFO - Type conversion complete
+2026-05-04 15:55:43,596 - INFO - Starting validation
+2026-05-04 15:55:43,596 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:55:43,597 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:55:43,597 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:55:43,598 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:55:43,598 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:55:43,599 - INFO - All validations passed
+2026-05-04 15:55:43,611 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:55:43,612 - INFO - Starting cleaning pipeline
+2026-05-04 15:55:43,613 - INFO - Step 1: Dropping high missing columns
+2026-05-04 15:55:43,617 - INFO - Dropped 15 columns with >90.0% missing: ['data.pages', 'data.paragraphs', 'data.tables', 'data.sheets', 'data.raw_text', 'data.processed_text', 'data.text', 'source_file', 'language', 'language_probability', 'duration', 'model', 'segments', 'segment_count', 'stored_at']
+2026-05-04 15:55:43,617 - INFO - Step 2: Dropping rows with missing critical columns
+2026-05-04 15:55:43,619 - INFO - Dropped 24 rows with missing critical columns: ['source', '_collection']
+2026-05-04 15:55:43,619 - INFO - Step 3: Filling text fields
+2026-05-04 15:55:43,620 - INFO - Filled missing text in 'data.make' with 'unknown'
+2026-05-04 15:55:43,621 - INFO - Filled missing text in 'data.model' with 'unknown'
+2026-05-04 15:55:43,621 - INFO - Filled missing text in 'data.description' with 'unknown'
+2026-05-04 15:55:43,622 - INFO - Filled missing text in 'data.type' with 'unknown'
+2026-05-04 15:55:43,622 - INFO - Step 4: Replacing zeros with NaN
+2026-05-04 15:55:43,623 - INFO - Replaced 0 zeros with NaN in 'data.width'
+2026-05-04 15:55:43,623 - INFO - Replaced 0 zeros with NaN in 'data.height'
+2026-05-04 15:55:43,624 - INFO - Replaced 0 zeros with NaN in 'data.file_size_kb'
+2026-05-04 15:55:43,625 - INFO - Step 5: Filling numeric with median
+2026-05-04 15:55:43,626 - INFO - Filled 437 missing values in 'data.year' with median 2020.0000
+2026-05-04 15:55:43,626 - INFO - Filled 423 missing values in 'data.page' with median 2.0000
+2026-05-04 15:55:43,627 - INFO - Filled 507 missing values in 'data.width' with median 960.0000
+2026-05-04 15:55:43,628 - INFO - Filled 507 missing values in 'data.height' with median 500.0000
+2026-05-04 15:55:43,628 - INFO - Filled 507 missing values in 'data.file_size_kb' with median 131.9900
+2026-05-04 15:55:43,629 - INFO - Step 6: String cleaning
+2026-05-04 15:55:43,629 - INFO - Starting string cleaning
+2026-05-04 15:55:43,630 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:55:43,631 - INFO - Normalized source column: 'source'
+2026-05-04 15:55:43,632 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:55:43,633 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:55:43,634 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:55:43,634 - INFO - String cleaning complete
+2026-05-04 15:55:43,635 - INFO - Step 7: Deduplication
+2026-05-04 15:55:43,635 - INFO - Starting deduplication
+2026-05-04 15:55:43,638 - INFO - Exact duplicate rows: 0
+2026-05-04 15:55:43,641 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:55:43,642 - INFO - Duplicate values in 'source': 556
+2026-05-04 15:55:43,642 - INFO - Dropped 556 rows with duplicate 'source'
+2026-05-04 15:55:43,643 - INFO - Dropped 0 rows with duplicate title+date
+2026-05-04 15:55:43,644 - INFO - Deduplication complete
+2026-05-04 15:55:43,644 - INFO - Step 8: Type conversion
+2026-05-04 15:55:43,644 - INFO - Starting type conversion
+2026-05-04 15:55:43,646 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:55:43,647 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:55:43,648 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:55:43,648 - WARNING - Date column 'stored_at' not found
+2026-05-04 15:55:43,649 - INFO - Converted 'version' to float32
+2026-05-04 15:55:43,650 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:55:43,650 - INFO - Converted 'data.width' to float32
+2026-05-04 15:55:43,651 - INFO - Converted 'data.height' to float32
+2026-05-04 15:55:43,652 - INFO - Converted 'source' to category
+2026-05-04 15:55:43,653 - INFO - Converted '_collection' to category
+2026-05-04 15:55:43,653 - INFO - Converted 'data.make' to category
+2026-05-04 15:55:43,654 - INFO - Converted 'data.model' to category
+2026-05-04 15:55:43,654 - INFO - Converted 'data.type' to category
+2026-05-04 15:55:43,657 - INFO - Memory report - before: 0.02 MB, after: 0.02 MB, reduction: 0.00 MB
+2026-05-04 15:55:43,657 - INFO - Type conversion complete
+2026-05-04 15:55:43,658 - INFO - Step 9: Validation
+2026-05-04 15:55:43,658 - INFO - Starting validation
+2026-05-04 15:55:43,659 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:55:43,659 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:55:43,660 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:55:43,660 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:55:43,660 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:55:43,661 - INFO - All validations passed
+2026-05-04 15:55:43,663 - INFO - Cleaned dataset saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv, shape: (11, 42)

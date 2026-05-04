@@ -104,3 +104,52 @@ if __name__ == "__main__":
     from analytics.data_loader import load_from_mongodb
     df = load_from_mongodb()
     run_regex_analysis(df)
+DATE_PATTERN = re.compile(r'^\d{4}-\d{2}-\d{2}$')
+LANG_CODE_PATTERN = re.compile(r'^[a-z]{2}$')
+
+def detect_invalid_dates(df):
+    date_col = next((c for c in ["fetched_at", "data.scraped_at", "data.processed_at"] if c in df.columns), None)
+    if date_col is None:
+        logging.warning("No date column found for invalid date detection")
+        return {}
+    invalid = df[date_col].dropna().apply(lambda x: not bool(DATE_PATTERN.match(str(x)[:10])))
+    result = df.loc[invalid.index[invalid]]
+    logging.info(f"Invalid dates in '{date_col}': {len(result)}")
+    print(f"Invalid dates in '{date_col}': {len(result)}")
+    return result
+
+def detect_invalid_language_codes(df):
+    lang_col = next((c for c in ["language", "lang", "original_language"] if c in df.columns), None)
+    if lang_col is None:
+        logging.warning("No language column found for validation")
+        return {}
+    invalid = df[lang_col].dropna().apply(lambda x: not bool(LANG_CODE_PATTERN.match(str(x))))
+    result = df.loc[invalid.index[invalid]]
+    logging.info(f"Invalid language codes in '{lang_col}': {len(result)}")
+    print(f"Invalid language codes in '{lang_col}': {len(result)}")
+    return result
+
+def extract_numbers_from_text(df):
+    text_col = next((c for c in ["data.description", "data.text", "data.raw_text"] if c in df.columns), None)
+    if text_col is None:
+        logging.warning("No text column found for number extraction")
+        return {}
+    results = {}
+    for idx, val in df[text_col].dropna().items():
+        found = NUMBER_PATTERN.findall(str(val))
+        if found:
+            results[idx] = found
+    logging.info(f"Extracted numbers from text in {len(results)} rows")
+    print(f"Rows with numbers in text: {len(results)}")
+    return results
+
+def flag_short_overviews(df, min_length=30):
+    text_col = next((c for c in ["data.description", "data.text", "data.raw_text"] if c in df.columns), None)
+    if text_col is None:
+        logging.warning("No text column found for short overview flagging")
+        return df.iloc[0:0]
+    mask = df[text_col].dropna().apply(lambda x: len(str(x)) < min_length)
+    result = df.loc[mask.index[mask]]
+    logging.info(f"Short overviews (< {min_length} chars): {len(result)}")
+    print(f"Short overviews found: {len(result)}")
+    return result
