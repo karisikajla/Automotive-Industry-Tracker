@@ -4997,3 +4997,1082 @@
 2026-04-27 00:10:14,522 - INFO - Invalid titles: 534 (empty: 534, blank: 0)
 2026-04-27 00:10:14,524 - INFO - Quality report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/quality_report.csv, total issues: 59
 2026-04-27 00:10:14,671 - INFO - Missing value heatmap saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/missing_heatmap.png
+2026-05-04 15:35:50,330 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-05-04 15:35:50,523 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-05-04 15:35:50,532 - INFO - Extracted table 0 from automotive_report.docx
+2026-05-04 15:35:50,533 - INFO - Extracted table 1 from automotive_report.docx
+2026-05-04 15:35:50,533 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-05-04 15:35:50,573 - INFO - Saved to MongoDB with id: 69f8a0b625e834ed5b01c61f
+2026-05-04 15:35:50,574 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-05-04 15:35:50,947 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-05-04 15:35:50,982 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-05-04 15:35:50,986 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-05-04 15:35:50,986 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-05-04 15:35:50,998 - INFO - Saved to MongoDB with id: 69f8a0b625e834ed5b01c621
+2026-05-04 15:35:50,999 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-05-04 15:35:58,100 - INFO - Pipeline started
+2026-05-04 15:35:58,100 - INFO - Fetching data from NHTSA API
+2026-05-04 15:35:58,659 - INFO - Fetched recalls for Audi A4 2020
+2026-05-04 15:35:58,757 - INFO - Saved ../../data/raw/api/recalls_Audi_A4_2020.json
+2026-05-04 15:35:59,727 - INFO - Fetched recalls for Volkswagen Golf 2020
+2026-05-04 15:35:59,730 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Golf_2020.json
+2026-05-04 15:36:00,828 - INFO - Fetched recalls for Volkswagen Passat 2020
+2026-05-04 15:36:00,832 - INFO - Saved ../../data/raw/api/recalls_Volkswagen_Passat_2020.json
+2026-05-04 15:36:01,337 - INFO - Fetched data for 3 vehicles
+2026-05-04 15:36:01,362 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c623
+2026-05-04 15:36:01,363 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-05-04 15:36:01,366 - INFO - Successfully uploaded recalls_Audi_A4_2020.json to automotive-pipeline-bucket
+2026-05-04 15:36:01,373 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c625
+2026-05-04 15:36:01,374 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-05-04 15:36:01,375 - INFO - Successfully uploaded recalls_Volkswagen_Golf_2020.json to automotive-pipeline-bucket
+2026-05-04 15:36:01,392 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c627
+2026-05-04 15:36:01,392 - INFO - S3 bucket ready: automotive-pipeline-bucket
+2026-05-04 15:36:01,393 - INFO - Successfully uploaded recalls_Volkswagen_Passat_2020.json to automotive-pipeline-bucket
+2026-05-04 15:36:01,393 - INFO - Extracting PDF documents
+2026-05-04 15:36:01,393 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-05-04 15:36:01,422 - INFO - Extracted page 1 from automotive_report_twocolumn.pdf
+2026-05-04 15:36:01,428 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c629
+2026-05-04 15:36:01,428 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_twocolumn.pdf
+2026-05-04 15:36:01,428 - INFO - Starting PDF extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-05-04 15:36:01,448 - INFO - Extracted page 1 from automotive_report_normal.pdf
+2026-05-04 15:36:01,453 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c62b
+2026-05-04 15:36:01,453 - INFO - PDF extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/pdf/automotive_report_normal.pdf
+2026-05-04 15:36:01,453 - INFO - Extracted 2 PDF files
+2026-05-04 15:36:01,453 - INFO - Extracting Word documents
+2026-05-04 15:36:01,453 - INFO - Starting Word extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-05-04 15:36:01,646 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx: None
+2026-05-04 15:36:01,654 - INFO - Extracted table 0 from automotive_report.docx
+2026-05-04 15:36:01,655 - INFO - Extracted table 1 from automotive_report.docx
+2026-05-04 15:36:01,655 - INFO - Extracted 9 paragraphs from automotive_report.docx
+2026-05-04 15:36:01,662 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c62d
+2026-05-04 15:36:01,662 - INFO - Word extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/word/automotive_report.docx
+2026-05-04 15:36:01,662 - INFO - Extracted 1 Word files
+2026-05-04 15:36:01,662 - INFO - Extracting Excel files
+2026-05-04 15:36:01,662 - INFO - Starting Excel extraction: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-05-04 15:36:01,691 - INFO - Detected encoding for /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx: None
+2026-05-04 15:36:01,695 - INFO - Extracted sheet 'Recall Summary' from automotive_data.xlsx
+2026-05-04 15:36:01,695 - INFO - Extracted sheet 'Component Details' from automotive_data.xlsx
+2026-05-04 15:36:01,699 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c62f
+2026-05-04 15:36:01,699 - INFO - Excel extraction complete: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/excel/automotive_data.xlsx
+2026-05-04 15:36:01,699 - INFO - Extracted 1 Excel files
+2026-05-04 15:36:01,699 - INFO - Running web scraper
+2026-05-04 15:36:01,699 - INFO - Running web scraper
+2026-05-04 15:36:01,700 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_1.html
+2026-05-04 15:36:01,700 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_2.html
+2026-05-04 15:36:01,700 - INFO - Generated local HTML: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/html/page_3.html
+2026-05-04 15:36:01,700 - INFO - Starting local HTML scraping
+2026-05-04 15:36:01,700 - INFO - Scraping local page 1: page_1.html
+2026-05-04 15:36:01,701 - INFO - Scraped: Audi A4 2020
+2026-05-04 15:36:01,702 - INFO - Scraped: Audi A4 2019
+2026-05-04 15:36:01,702 - INFO - Scraped: Audi A4 2018
+2026-05-04 15:36:01,702 - INFO - Scraping local page 2: page_2.html
+2026-05-04 15:36:01,703 - INFO - Scraped: Volkswagen Golf 2020
+2026-05-04 15:36:01,703 - INFO - Scraped: Volkswagen Golf 2019
+2026-05-04 15:36:01,703 - INFO - Scraped: Volkswagen Golf GTI 2020
+2026-05-04 15:36:01,703 - INFO - Scraping local page 3: page_3.html
+2026-05-04 15:36:01,703 - INFO - Scraped: Volkswagen Passat 2020
+2026-05-04 15:36:01,704 - INFO - Scraped: Volkswagen Passat 2019
+2026-05-04 15:36:01,704 - INFO - Scraped: Skoda Octavia 2020
+2026-05-04 15:36:01,704 - INFO - Saved scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/scraped_results.json
+2026-05-04 15:36:01,712 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c631
+2026-05-04 15:36:01,720 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c633
+2026-05-04 15:36:01,724 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c635
+2026-05-04 15:36:01,728 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c637
+2026-05-04 15:36:01,731 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c639
+2026-05-04 15:36:01,737 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c63b
+2026-05-04 15:36:01,750 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c63d
+2026-05-04 15:36:01,755 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c63f
+2026-05-04 15:36:01,762 - INFO - Saved to MongoDB with id: 69f8a0c125e834ed5b01c641
+2026-05-04 15:36:01,762 - INFO - Local scraping complete. Total records: 9
+2026-05-04 15:36:01,762 - INFO - Scraped 9 records
+2026-05-04 15:36:01,762 - INFO - Running dynamic scraper
+2026-05-04 15:36:01,762 - INFO - Running dynamic scraper
+2026-05-04 15:36:01,762 - INFO - Starting dynamic scraping via NHTSA JSON API
+2026-05-04 15:36:01,762 - INFO - Fetching JSON API page 1: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Audi&model=A4&modelYear=2020
+2026-05-04 15:36:03,454 - INFO - Saved to MongoDB with id: 69f8a0c325e834ed5b01c643
+2026-05-04 15:36:03,454 - INFO - Fetched 3 recalls for Audi A4
+2026-05-04 15:36:03,454 - INFO - Fetching JSON API page 2: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Golf&modelYear=2020
+2026-05-04 15:36:05,196 - INFO - Saved to MongoDB with id: 69f8a0c525e834ed5b01c645
+2026-05-04 15:36:05,196 - INFO - Fetched 2 recalls for Volkswagen Golf
+2026-05-04 15:36:05,196 - INFO - Fetching JSON API page 3: https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Passat&modelYear=2020
+2026-05-04 15:36:06,919 - INFO - Saved to MongoDB with id: 69f8a0c625e834ed5b01c647
+2026-05-04 15:36:06,919 - INFO - Fetched 3 recalls for Volkswagen Passat
+2026-05-04 15:36:06,921 - INFO - Saved dynamic scraped JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scraped/dynamic_scraped.json
+2026-05-04 15:36:06,922 - INFO - Dynamic scraping complete. Total: 3 records
+2026-05-04 15:36:06,922 - INFO - Starting Selenium scraping: https://www.wikipedia.org/wiki/Audi
+2026-05-04 15:36:13,148 - INFO - Saved to MongoDB with id: 69f8a0cd25e834ed5b01c649
+2026-05-04 15:36:13,148 - INFO - Selenium scraping complete: Audi - Wikipedia
+2026-05-04 15:36:13,148 - INFO - Selenium scraping successful
+2026-05-04 15:36:13,148 - INFO - Dynamic scraped 3 records
+2026-05-04 15:36:13,148 - INFO - Running OCR pipeline
+2026-05-04 15:36:13,149 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-05-04 15:36:13,719 - INFO - Raw OCR complete for audi_a4.jpg
+2026-05-04 15:36:13,849 - INFO - Preprocessed OCR complete for audi_a4.jpg
+2026-05-04 15:36:13,859 - INFO - Saved to MongoDB with id: 69f8a0cd25e834ed5b01c64b
+2026-05-04 15:36:13,859 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-05-04 15:36:13,860 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-05-04 15:36:13,971 - INFO - Raw OCR complete for volkswagen_golf.jpg
+2026-05-04 15:36:14,084 - INFO - Preprocessed OCR complete for volkswagen_golf.jpg
+2026-05-04 15:36:14,090 - INFO - Saved to MongoDB with id: 69f8a0ce25e834ed5b01c64d
+2026-05-04 15:36:14,090 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-05-04 15:36:14,090 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-05-04 15:36:14,190 - INFO - Raw OCR complete for volkswagen_id4.jpg
+2026-05-04 15:36:14,301 - INFO - Preprocessed OCR complete for volkswagen_id4.jpg
+2026-05-04 15:36:14,306 - INFO - Saved to MongoDB with id: 69f8a0ce25e834ed5b01c64f
+2026-05-04 15:36:14,306 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-05-04 15:36:14,306 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-05-04 15:36:15,120 - INFO - Raw OCR complete for test_scan.png
+2026-05-04 15:36:15,617 - INFO - Preprocessed OCR complete for test_scan.png
+2026-05-04 15:36:15,622 - INFO - Saved to MongoDB with id: 69f8a0cf25e834ed5b01c651
+2026-05-04 15:36:15,622 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-05-04 15:36:15,622 - INFO - Starting OCR on image: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-05-04 15:36:15,730 - INFO - Raw OCR complete for volkswagen_passat.jpg
+2026-05-04 15:36:15,855 - INFO - Preprocessed OCR complete for volkswagen_passat.jpg
+2026-05-04 15:36:15,861 - INFO - Saved to MongoDB with id: 69f8a0cf25e834ed5b01c653
+2026-05-04 15:36:15,861 - INFO - OCR image saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-05-04 15:36:15,861 - INFO - Starting OCR on scanned PDF: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-05-04 15:36:16,858 - INFO - OCR page 1 of scanned_report.pdf
+2026-05-04 15:36:16,864 - INFO - Saved to MongoDB with id: 69f8a0d025e834ed5b01c655
+2026-05-04 15:36:16,864 - INFO - Scanned PDF OCR saved to MongoDB: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf
+2026-05-04 15:36:16,864 - INFO - OCR pipeline complete. Processed 6 files
+2026-05-04 15:36:16,864 - INFO - OCR processed 6 files
+2026-05-04 15:36:16,864 - INFO - Downloading vehicle images
+2026-05-04 15:36:16,864 - INFO - Already exists, skipping: audi_a4.jpg
+2026-05-04 15:36:16,864 - INFO - Already exists, skipping: volkswagen_golf.jpg
+2026-05-04 15:36:16,864 - INFO - Already exists, skipping: volkswagen_passat.jpg
+2026-05-04 15:36:17,228 - WARNING - No image found for Audi RS6
+2026-05-04 15:36:17,229 - INFO - Already exists, skipping: volkswagen_id4.jpg
+2026-05-04 15:36:17,229 - INFO - Downloaded 4 images
+2026-05-04 15:36:17,229 - INFO - Downloaded 4 images
+2026-05-04 15:36:17,229 - INFO - Batch processing images
+2026-05-04 15:36:17,229 - INFO - Starting batch processing of 5 images
+2026-05-04 15:36:17,311 - INFO - Processing: audi_a4.jpg
+2026-05-04 15:36:17,312 - INFO - Inspected audi_a4.jpg: 960x500 JPEG RGB
+2026-05-04 15:36:17,326 - INFO - Resized audi_a4.jpg to 640x480
+2026-05-04 15:36:17,340 - INFO - Resized audi_a4.jpg to 800x600
+2026-05-04 15:36:17,344 - INFO - Generated thumbnail for audi_a4.jpg: (128, 67)
+2026-05-04 15:36:17,350 - INFO - Generated fixed thumbnail for audi_a4.jpg: (200, 200)
+2026-05-04 15:36:17,353 - INFO - Cropped audi_a4.jpg with box (0, 0, 960, 250)
+2026-05-04 15:36:17,398 - INFO - Converted audi_a4.jpg to WebP
+2026-05-04 15:36:17,402 - INFO - Converted audi_a4.jpg to grayscale
+2026-05-04 15:36:17,408 - INFO - Saved optimised JPEG for audi_a4.jpg
+2026-05-04 15:36:17,435 - INFO - Applied filters to audi_a4.jpg
+2026-05-04 15:36:17,455 - INFO - Applied enhancements to audi_a4.jpg
+2026-05-04 15:36:17,455 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg
+2026-05-04 15:36:17,455 - INFO - EXIF summary for audi_a4.jpg: Unknown Unknown
+2026-05-04 15:36:17,465 - INFO - Saved to MongoDB with id: 69f8a0d125e834ed5b01c657
+2026-05-04 15:36:17,465 - INFO - Saved metadata to MongoDB for audi_a4.jpg
+2026-05-04 15:36:17,465 - INFO - Processing: volkswagen_golf.jpg
+2026-05-04 15:36:17,465 - INFO - Inspected volkswagen_golf.jpg: 960x490 JPEG RGB
+2026-05-04 15:36:17,476 - INFO - Resized volkswagen_golf.jpg to 640x480
+2026-05-04 15:36:17,488 - INFO - Resized volkswagen_golf.jpg to 800x600
+2026-05-04 15:36:17,491 - INFO - Generated thumbnail for volkswagen_golf.jpg: (128, 65)
+2026-05-04 15:36:17,496 - INFO - Generated fixed thumbnail for volkswagen_golf.jpg: (200, 200)
+2026-05-04 15:36:17,499 - INFO - Cropped volkswagen_golf.jpg with box (0, 0, 960, 245)
+2026-05-04 15:36:17,539 - INFO - Converted volkswagen_golf.jpg to WebP
+2026-05-04 15:36:17,552 - INFO - Converted volkswagen_golf.jpg to grayscale
+2026-05-04 15:36:17,558 - INFO - Saved optimised JPEG for volkswagen_golf.jpg
+2026-05-04 15:36:17,582 - INFO - Applied filters to volkswagen_golf.jpg
+2026-05-04 15:36:17,600 - INFO - Applied enhancements to volkswagen_golf.jpg
+2026-05-04 15:36:17,600 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_golf.jpg
+2026-05-04 15:36:17,600 - INFO - EXIF summary for volkswagen_golf.jpg: Unknown Unknown
+2026-05-04 15:36:17,620 - INFO - Saved to MongoDB with id: 69f8a0d125e834ed5b01c659
+2026-05-04 15:36:17,620 - INFO - Saved metadata to MongoDB for volkswagen_golf.jpg
+2026-05-04 15:36:17,620 - INFO - Processing: volkswagen_id4.jpg
+2026-05-04 15:36:17,621 - INFO - Inspected volkswagen_id4.jpg: 960x533 JPEG RGB
+2026-05-04 15:36:17,632 - INFO - Resized volkswagen_id4.jpg to 640x480
+2026-05-04 15:36:17,646 - INFO - Resized volkswagen_id4.jpg to 800x600
+2026-05-04 15:36:17,650 - INFO - Generated thumbnail for volkswagen_id4.jpg: (128, 71)
+2026-05-04 15:36:17,655 - INFO - Generated fixed thumbnail for volkswagen_id4.jpg: (200, 200)
+2026-05-04 15:36:17,658 - INFO - Cropped volkswagen_id4.jpg with box (0, 0, 960, 266)
+2026-05-04 15:36:17,702 - INFO - Converted volkswagen_id4.jpg to WebP
+2026-05-04 15:36:17,706 - INFO - Converted volkswagen_id4.jpg to grayscale
+2026-05-04 15:36:17,712 - INFO - Saved optimised JPEG for volkswagen_id4.jpg
+2026-05-04 15:36:17,739 - INFO - Applied filters to volkswagen_id4.jpg
+2026-05-04 15:36:17,758 - INFO - Applied enhancements to volkswagen_id4.jpg
+2026-05-04 15:36:17,758 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_id4.jpg
+2026-05-04 15:36:17,758 - INFO - EXIF summary for volkswagen_id4.jpg: Unknown Unknown
+2026-05-04 15:36:17,762 - INFO - Saved to MongoDB with id: 69f8a0d125e834ed5b01c65b
+2026-05-04 15:36:17,762 - INFO - Saved metadata to MongoDB for volkswagen_id4.jpg
+2026-05-04 15:36:17,762 - INFO - Processing: test_scan.png
+2026-05-04 15:36:17,766 - INFO - Inspected test_scan.png: 1946x1946 WEBP RGBA
+2026-05-04 15:36:17,867 - INFO - Resized test_scan.png to 640x480
+2026-05-04 15:36:17,989 - INFO - Resized test_scan.png to 800x600
+2026-05-04 15:36:18,025 - INFO - Generated thumbnail for test_scan.png: (128, 128)
+2026-05-04 15:36:18,083 - INFO - Generated fixed thumbnail for test_scan.png: (200, 200)
+2026-05-04 15:36:18,150 - INFO - Cropped test_scan.png with box (0, 0, 1946, 973)
+2026-05-04 15:36:18,335 - INFO - Converted test_scan.png to WebP
+2026-05-04 15:36:18,395 - INFO - Converted test_scan.png to grayscale
+2026-05-04 15:36:18,439 - INFO - Saved optimised JPEG for test_scan.png
+2026-05-04 15:36:18,860 - INFO - Applied filters to test_scan.png
+2026-05-04 15:36:19,194 - INFO - Applied enhancements to test_scan.png
+2026-05-04 15:36:19,195 - INFO - Extracted 6 EXIF tags from test_scan.png
+2026-05-04 15:36:19,196 - WARNING - No GPS data in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/test_scan.png
+2026-05-04 15:36:19,196 - INFO - EXIF summary for test_scan.png: Unknown Unknown
+2026-05-04 15:36:19,205 - INFO - Saved to MongoDB with id: 69f8a0d325e834ed5b01c65d
+2026-05-04 15:36:19,206 - INFO - Saved metadata to MongoDB for test_scan.png
+2026-05-04 15:36:19,206 - INFO - Processing: volkswagen_passat.jpg
+2026-05-04 15:36:19,206 - INFO - Inspected volkswagen_passat.jpg: 960x484 JPEG RGB
+2026-05-04 15:36:19,217 - INFO - Resized volkswagen_passat.jpg to 640x480
+2026-05-04 15:36:19,230 - INFO - Resized volkswagen_passat.jpg to 800x600
+2026-05-04 15:36:19,233 - INFO - Generated thumbnail for volkswagen_passat.jpg: (128, 65)
+2026-05-04 15:36:19,238 - INFO - Generated fixed thumbnail for volkswagen_passat.jpg: (200, 200)
+2026-05-04 15:36:19,241 - INFO - Cropped volkswagen_passat.jpg with box (0, 0, 960, 242)
+2026-05-04 15:36:19,285 - INFO - Converted volkswagen_passat.jpg to WebP
+2026-05-04 15:36:19,289 - INFO - Converted volkswagen_passat.jpg to grayscale
+2026-05-04 15:36:19,295 - INFO - Saved optimised JPEG for volkswagen_passat.jpg
+2026-05-04 15:36:19,334 - INFO - Applied filters to volkswagen_passat.jpg
+2026-05-04 15:36:19,354 - INFO - Applied enhancements to volkswagen_passat.jpg
+2026-05-04 15:36:19,354 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/volkswagen_passat.jpg
+2026-05-04 15:36:19,354 - INFO - EXIF summary for volkswagen_passat.jpg: Unknown Unknown
+2026-05-04 15:36:19,358 - INFO - Saved to MongoDB with id: 69f8a0d325e834ed5b01c65f
+2026-05-04 15:36:19,358 - INFO - Saved metadata to MongoDB for volkswagen_passat.jpg
+2026-05-04 15:36:19,358 - INFO - Batch processing complete. Processed 5 images
+2026-05-04 15:36:19,358 - INFO - Processed 5 images
+2026-05-04 15:36:19,358 - INFO - Processing EXIF samples
+2026-05-04 15:36:19,358 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean.jpg
+2026-05-04 15:36:19,359 - INFO - EXIF summary for IMG_9026_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:21,006 - INFO - Stripped EXIF from IMG_9026_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:21,008 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:21,008 - INFO - EXIF summary for IMG_9026_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:22,389 - INFO - Stripped EXIF from IMG_9026_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:22,389 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC'
+2026-05-04 15:36:22,389 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC'
+2026-05-04 15:36:22,389 - INFO - EXIF summary for IMG_9026.HEIC: Unknown Unknown
+2026-05-04 15:36:22,389 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026.HEIC'
+2026-05-04 15:36:22,390 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean.jpg
+2026-05-04 15:36:22,390 - INFO - EXIF summary for IMG_3406_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:25,790 - INFO - Stripped EXIF from IMG_3406_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:25,791 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:25,791 - INFO - EXIF summary for IMG_3406_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:28,470 - INFO - Stripped EXIF from IMG_3406_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:28,473 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:28,473 - INFO - EXIF summary for IMG_9026_clean_clean_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:29,787 - INFO - Stripped EXIF from IMG_9026_clean_clean_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:29,787 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:29,787 - INFO - EXIF summary for IMG_3406_clean_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:32,885 - INFO - Stripped EXIF from IMG_3406_clean_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:32,886 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:32,886 - INFO - EXIF summary for IMG_4509_clean_clean_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:35,667 - INFO - Stripped EXIF from IMG_4509_clean_clean_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:35,668 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean.jpg
+2026-05-04 15:36:35,668 - INFO - EXIF summary for IMG_2387_clean.jpg: Unknown Unknown
+2026-05-04 15:36:37,059 - INFO - Stripped EXIF from IMG_2387_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean.jpg
+2026-05-04 15:36:37,060 - INFO - Extracted 12 EXIF tags from IMG_9026.jpg
+2026-05-04 15:36:37,060 - INFO - Extracted GPS data from IMG_9026.jpg
+2026-05-04 15:36:37,060 - INFO - EXIF summary for IMG_9026.jpg: Apple iPhone 16 Pro
+2026-05-04 15:36:38,445 - INFO - Stripped EXIF from IMG_9026.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean.jpg
+2026-05-04 15:36:38,445 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean.jpg
+2026-05-04 15:36:38,445 - INFO - EXIF summary for IMG_9026_clean.jpg: Unknown Unknown
+2026-05-04 15:36:39,812 - INFO - Stripped EXIF from IMG_9026_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean.jpg
+2026-05-04 15:36:39,812 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean.jpg
+2026-05-04 15:36:39,812 - INFO - EXIF summary for IMG_4509_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:42,965 - INFO - Stripped EXIF from IMG_4509_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:42,966 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC'
+2026-05-04 15:36:42,966 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC'
+2026-05-04 15:36:42,966 - INFO - EXIF summary for IMG_2387.HEIC: Unknown Unknown
+2026-05-04 15:36:42,966 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387.HEIC'
+2026-05-04 15:36:42,966 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:42,966 - INFO - EXIF summary for IMG_3406_clean_clean_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:45,749 - INFO - Stripped EXIF from IMG_3406_clean_clean_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:45,750 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:45,750 - INFO - EXIF summary for IMG_3406_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:48,520 - INFO - Stripped EXIF from IMG_3406_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:48,521 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC'
+2026-05-04 15:36:48,521 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC'
+2026-05-04 15:36:48,521 - INFO - EXIF summary for IMG_3406.HEIC: Unknown Unknown
+2026-05-04 15:36:48,521 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406.HEIC'
+2026-05-04 15:36:48,521 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean.jpg
+2026-05-04 15:36:48,521 - INFO - EXIF summary for IMG_2387_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:49,895 - INFO - Stripped EXIF from IMG_2387_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean.jpg
+2026-05-04 15:36:49,895 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean.jpg
+2026-05-04 15:36:49,895 - INFO - EXIF summary for IMG_3406_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:52,659 - INFO - Stripped EXIF from IMG_3406_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean_clean.jpg
+2026-05-04 15:36:52,662 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean.jpg
+2026-05-04 15:36:52,662 - INFO - EXIF summary for IMG_3406_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:55,411 - INFO - Stripped EXIF from IMG_3406_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean_clean.jpg
+2026-05-04 15:36:55,414 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean.jpg
+2026-05-04 15:36:55,414 - INFO - EXIF summary for IMG_2387_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:56,780 - INFO - Stripped EXIF from IMG_2387_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:56,781 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:56,781 - INFO - EXIF summary for IMG_9026_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:58,176 - INFO - Stripped EXIF from IMG_9026_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:58,176 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean.jpg
+2026-05-04 15:36:58,177 - INFO - EXIF summary for IMG_9026_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:36:59,547 - INFO - Stripped EXIF from IMG_9026_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean.jpg
+2026-05-04 15:36:59,547 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:36:59,547 - INFO - EXIF summary for IMG_2387_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:00,916 - INFO - Stripped EXIF from IMG_2387_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:00,916 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:00,916 - INFO - EXIF summary for IMG_2387_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:02,314 - INFO - Stripped EXIF from IMG_2387_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:02,315 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean.jpg
+2026-05-04 15:37:02,315 - INFO - EXIF summary for IMG_4509_clean.jpg: Unknown Unknown
+2026-05-04 15:37:05,764 - INFO - Stripped EXIF from IMG_4509_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean.jpg
+2026-05-04 15:37:05,765 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:05,765 - INFO - EXIF summary for IMG_9026_clean_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:07,074 - INFO - Stripped EXIF from IMG_9026_clean_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:07,074 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:07,074 - INFO - EXIF summary for IMG_4509_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:09,875 - INFO - Stripped EXIF from IMG_4509_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:09,875 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:09,876 - INFO - EXIF summary for IMG_2387_clean_clean_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:11,251 - INFO - Stripped EXIF from IMG_2387_clean_clean_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:11,252 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean.jpg
+2026-05-04 15:37:11,252 - INFO - EXIF summary for IMG_3406_clean.jpg: Unknown Unknown
+2026-05-04 15:37:14,006 - INFO - Stripped EXIF from IMG_3406_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean_clean.jpg
+2026-05-04 15:37:14,006 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean.jpg
+2026-05-04 15:37:14,007 - INFO - EXIF summary for IMG_4509_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:16,758 - INFO - Stripped EXIF from IMG_4509_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean.jpg
+2026-05-04 15:37:16,758 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean.jpg
+2026-05-04 15:37:16,758 - INFO - EXIF summary for IMG_2387_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:18,124 - INFO - Stripped EXIF from IMG_2387_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean.jpg
+2026-05-04 15:37:18,125 - INFO - Extracted 12 EXIF tags from IMG_3406.jpg
+2026-05-04 15:37:18,126 - INFO - Extracted GPS data from IMG_3406.jpg
+2026-05-04 15:37:18,126 - INFO - EXIF summary for IMG_3406.jpg: Apple iPhone 16 Pro
+2026-05-04 15:37:20,983 - INFO - Stripped EXIF from IMG_3406.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_3406_clean.jpg
+2026-05-04 15:37:20,985 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:20,986 - INFO - EXIF summary for IMG_4509_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:23,760 - INFO - Stripped EXIF from IMG_4509_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:23,760 - INFO - Extracted 12 EXIF tags from IMG_4509.jpg
+2026-05-04 15:37:23,761 - INFO - Extracted GPS data from IMG_4509.jpg
+2026-05-04 15:37:23,761 - INFO - EXIF summary for IMG_4509.jpg: Apple iPhone 16 Pro
+2026-05-04 15:37:26,555 - INFO - Stripped EXIF from IMG_4509.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean.jpg
+2026-05-04 15:37:26,556 - ERROR - Error extracting EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC'
+2026-05-04 15:37:26,557 - ERROR - Error extracting GPS from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC'
+2026-05-04 15:37:26,557 - INFO - EXIF summary for IMG_4509.HEIC: Unknown Unknown
+2026-05-04 15:37:26,557 - ERROR - Error stripping EXIF from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC: cannot identify image file '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509.HEIC'
+2026-05-04 15:37:26,559 - INFO - Extracted 12 EXIF tags from IMG_2387.jpg
+2026-05-04 15:37:26,560 - INFO - Extracted GPS data from IMG_2387.jpg
+2026-05-04 15:37:26,560 - INFO - EXIF summary for IMG_2387.jpg: Apple iPhone 16 Pro
+2026-05-04 15:37:27,942 - INFO - Stripped EXIF from IMG_2387.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean.jpg
+2026-05-04 15:37:27,942 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:27,943 - INFO - EXIF summary for IMG_4509_clean_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:30,738 - INFO - Stripped EXIF from IMG_4509_clean_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:30,739 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:30,739 - INFO - EXIF summary for IMG_2387_clean_clean_clean_clean_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:32,104 - INFO - Stripped EXIF from IMG_2387_clean_clean_clean_clean_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_2387_clean_clean_clean_clean_clean_clean_clean_clean.jpg
+2026-05-04 15:37:32,104 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean.jpg
+2026-05-04 15:37:32,104 - INFO - EXIF summary for IMG_9026_clean_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:33,481 - INFO - Stripped EXIF from IMG_9026_clean_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_9026_clean_clean_clean_clean.jpg
+2026-05-04 15:37:33,481 - WARNING - No EXIF data found in /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean.jpg
+2026-05-04 15:37:33,481 - INFO - EXIF summary for IMG_4509_clean_clean.jpg: Unknown Unknown
+2026-05-04 15:37:36,265 - INFO - Stripped EXIF from IMG_4509_clean_clean.jpg → /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/exif_samples/IMG_4509_clean_clean_clean.jpg
+2026-05-04 15:37:36,265 - INFO - Processed 40 EXIF samples
+2026-05-04 15:37:36,265 - INFO - Processed 40 EXIF samples
+2026-05-04 15:37:36,265 - INFO - Starting audio processing
+2026-05-04 15:37:36,270 - INFO - Loaded audio file: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/audio/audi_promo.wav
+2026-05-04 15:37:36,270 - INFO - Inspected audio: {'filename': 'audi_promo.wav', 'format': 'WAV', 'duration_sec': 66.29, 'channels': 2, 'channel_type': 'Stereo', 'frame_rate_hz': 44100, 'bit_depth': 16, 'file_size_kb': 11420.2}
+2026-05-04 15:37:36,687 - INFO - Loaded audio file: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/audio/audi_promo.flac
+2026-05-04 15:37:36,688 - INFO - Inspected audio: {'filename': 'audi_promo.flac', 'format': 'FLAC', 'duration_sec': 66.29, 'channels': 2, 'channel_type': 'Stereo', 'frame_rate_hz': 44100, 'bit_depth': 32, 'file_size_kb': 10869.3}
+2026-05-04 15:37:36,816 - INFO - Loaded audio file: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/audio/audi_promo.mp3
+2026-05-04 15:37:36,816 - INFO - Inspected audio: {'filename': 'audi_promo.mp3', 'format': 'MP3', 'duration_sec': 66.29, 'channels': 2, 'channel_type': 'Stereo', 'frame_rate_hz': 44100, 'bit_depth': 16, 'file_size_kb': 1791.6}
+2026-05-04 15:37:36,816 - INFO - Loaded and inspected 3 audio files
+2026-05-04 15:37:36,818 - INFO - Trimmed audio from 0ms to 10000ms
+2026-05-04 15:37:36,820 - INFO - Saved audio to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/trimmed.wav
+2026-05-04 15:37:36,820 - INFO - Trimmed audio saved
+2026-05-04 15:37:36,914 - INFO - Concatenated 2 audio segments
+2026-05-04 15:37:36,916 - INFO - Saved audio to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/concatenated.wav
+2026-05-04 15:37:36,916 - INFO - Concatenated audio saved
+2026-05-04 15:37:36,917 - INFO - Adjusted volume by 5dB
+2026-05-04 15:37:36,918 - INFO - Adjusted volume by -5dB
+2026-05-04 15:37:36,931 - INFO - Applied fade-in 2000ms and fade-out 2000ms
+2026-05-04 15:37:36,933 - INFO - Saved audio to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/louder.wav
+2026-05-04 15:37:36,933 - INFO - Saved audio to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/quieter.wav
+2026-05-04 15:37:36,934 - INFO - Saved audio to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/faded.wav
+2026-05-04 15:37:36,934 - INFO - Volume and fade audio saved
+2026-05-04 15:37:37,619 - INFO - Converted and saved audio to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/converted.mp3 as mp3
+2026-05-04 15:37:37,799 - INFO - Converted and saved audio to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/converted.flac as flac
+2026-05-04 15:37:37,800 - INFO - Audio format conversion complete
+2026-05-04 15:37:37,800 - INFO - Starting video processing
+2026-05-04 15:37:37,934 - INFO - Loaded video file: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/video/This is Audi.mp4
+2026-05-04 15:37:37,935 - INFO - Inspected video: {'filename': 'This is Audi.mp4', 'duration_sec': 66.29, 'fps': 25.0, 'resolution': '1280x720', 'width': 1280, 'height': 720, 'has_audio': True, 'file_size_kb': 8115.6}
+2026-05-04 15:37:37,951 - INFO - Loaded and inspected 1 video files
+2026-05-04 15:37:38,056 - INFO - Loaded video file: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/video/This is Audi.mp4
+2026-05-04 15:37:38,700 - INFO - Extracted audio from video: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/video/This is Audi.mp4 -> /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/extracted_from_video.mp3
+2026-05-04 15:37:38,715 - INFO - Audio extracted from video: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/extracted_from_video.mp3
+2026-05-04 15:37:38,742 - INFO - Saved keyframe at 0s -> /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/frames/This is Audi/This is Audi_frame_0000s.png
+2026-05-04 15:37:38,767 - INFO - Saved keyframe at 10s -> /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/frames/This is Audi/This is Audi_frame_0010s.png
+2026-05-04 15:37:38,803 - INFO - Saved keyframe at 20s -> /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/frames/This is Audi/This is Audi_frame_0020s.png
+2026-05-04 15:37:38,819 - INFO - Saved keyframe at 30s -> /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/frames/This is Audi/This is Audi_frame_0030s.png
+2026-05-04 15:37:38,846 - INFO - Saved keyframe at 40s -> /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/frames/This is Audi/This is Audi_frame_0040s.png
+2026-05-04 15:37:38,887 - INFO - Saved keyframe at 50s -> /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/frames/This is Audi/This is Audi_frame_0050s.png
+2026-05-04 15:37:38,915 - INFO - Saved keyframe at 60s -> /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/frames/This is Audi/This is Audi_frame_0060s.png
+2026-05-04 15:37:38,915 - INFO - Extracted 7 keyframes from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/video/This is Audi.mp4
+2026-05-04 15:37:38,915 - INFO - Extracted 7 keyframes from This is Audi.mp4
+2026-05-04 15:37:38,916 - INFO - Starting transcription
+2026-05-04 15:37:38,916 - INFO - Loading Whisper model: base
+2026-05-04 15:37:39,484 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-05-04 15:37:39,705 - INFO - Whisper model loaded.
+2026-05-04 15:37:39,706 - INFO - Transcribing: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/audio/audi_promo.wav
+2026-05-04 15:37:39,830 - INFO - Processing audio with duration 01:06.293
+2026-05-04 15:37:40,018 - INFO - Detected language 'en' with probability 0.91
+2026-05-04 15:37:41,610 - INFO - Transcription complete. Language: en, Segments: 22
+2026-05-04 15:37:41,612 - INFO - Transcript saved as JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/transcripts/audi_promo.json
+2026-05-04 15:37:41,612 - INFO - Transcript saved as TXT: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/transcripts/audi_promo.txt
+2026-05-04 15:37:41,612 - INFO - Transcript saved as SRT: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/transcripts/audi_promo.srt
+2026-05-04 15:37:41,620 - INFO - Saved transcript to MongoDB with id: 69f8a12525e834ed5b01c661
+2026-05-04 15:37:41,620 - INFO - Short audio transcription complete: audi_promo.wav
+2026-05-04 15:37:41,620 - INFO - Transcribing: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/audio/extracted_from_video.mp3
+2026-05-04 15:37:41,746 - INFO - Processing audio with duration 01:06.290
+2026-05-04 15:37:41,928 - INFO - Detected language 'en' with probability 0.91
+2026-05-04 15:37:43,422 - INFO - Transcription complete. Language: en, Segments: 5
+2026-05-04 15:37:43,424 - INFO - Transcript saved as JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/transcripts/video_audio_transcript.json
+2026-05-04 15:37:43,424 - INFO - Transcript saved as TXT: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/transcripts/video_audio_transcript.txt
+2026-05-04 15:37:43,425 - INFO - Transcript saved as SRT: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/transcripts/video_audio_transcript.srt
+2026-05-04 15:37:43,462 - INFO - Saved transcript to MongoDB with id: 69f8a12725e834ed5b01c663
+2026-05-04 15:37:43,463 - INFO - Video audio transcription complete
+2026-05-04 15:37:43,463 - INFO - Starting chunked transcription: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/audio/audi_promo.mp3
+2026-05-04 15:37:43,618 - INFO - Chunk 0 already transcribed, loading from cache.
+2026-05-04 15:37:43,620 - INFO - Transcript saved as JSON: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/transcripts/audi_promo_combined.json
+2026-05-04 15:37:43,620 - INFO - Chunked transcription complete. Total segments: 4
+2026-05-04 15:37:43,626 - INFO - Saved transcript to MongoDB with id: 69f8a12725e834ed5b01c665
+2026-05-04 15:37:43,626 - INFO - Chunked transcription complete: 4 segments
+2026-05-04 15:37:43,626 - INFO - Starting Lab 8 analytics
+2026-05-04 15:37:43,626 - INFO - Starting NumPy analysis
+2026-05-04 15:37:43,627 - INFO - NumPy arrays created using 5 methods
+2026-05-04 15:37:43,629 - INFO - Vectorized operations complete
+2026-05-04 15:37:43,629 - INFO - NumPy analysis complete
+2026-05-04 15:37:43,629 - INFO - NumPy analysis complete
+2026-05-04 15:37:43,629 - INFO - Loading data from MongoDB
+2026-05-04 15:37:43,682 - INFO - Loaded 591 records from MongoDB across 2 collections
+2026-05-04 15:37:43,706 - INFO - Saved DataFrame to CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv
+2026-05-04 15:37:43,706 - INFO - MongoDB data exported to CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv
+2026-05-04 15:37:43,706 - INFO - Loading CSV in chunks of 100: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv
+2026-05-04 15:37:43,722 - WARNING - No rating column found or no valid values
+2026-05-04 15:37:43,722 - INFO - Global mean rating: None
+2026-05-04 15:37:43,722 - INFO - Loading CSV in chunks of 100: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv
+2026-05-04 15:37:43,738 - INFO - Processed chunks per source: ['raw_recalls', 'transcripts']
+2026-05-04 15:37:43,738 - INFO - Chunk processing per source complete: ['raw_recalls', 'transcripts']
+2026-05-04 15:37:43,760 - INFO - Memory before: 1.18 MB, after: 0.28 MB, reduction: 0.90 MB
+2026-05-04 15:37:43,761 - INFO - Starting EDA
+2026-05-04 15:37:43,762 - INFO - Dataset shape: (591, 56), columns: 56
+2026-05-04 15:37:43,768 - INFO - DataFrame info displayed
+2026-05-04 15:37:43,815 - INFO - Descriptive statistics generated
+2026-05-04 15:37:43,819 - INFO - Value counts report generated
+2026-05-04 15:37:43,830 - INFO - Nunique report generated
+2026-05-04 15:37:43,832 - INFO - Extracted release years from column: fetched_at
+2026-05-04 15:37:43,933 - INFO - Chart saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/dist_version.png
+2026-05-04 15:37:43,969 - INFO - Chart saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/dist_release_year.png
+2026-05-04 15:37:44,024 - INFO - Chart saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/dist_source.png
+2026-05-04 15:37:44,062 - INFO - Chart saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/dist_collections.png
+2026-05-04 15:37:44,062 - INFO - Saved 4 distribution charts
+2026-05-04 15:37:44,062 - INFO - EDA complete
+2026-05-04 15:37:44,062 - INFO - EDA complete, charts saved: ['/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/dist_version.png', '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/dist_release_year.png', '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/dist_source.png', '/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/dist_collections.png']
+2026-05-04 15:37:44,062 - INFO - Starting selection demo
+2026-05-04 15:37:44,063 - INFO - Selected columns: ['source', 'fetched_at', 'version']
+2026-05-04 15:37:44,065 - INFO - iloc sample rows 0:5: 5 rows
+2026-05-04 15:37:44,084 - INFO - Boolean filter on version >= 1: 567 rows
+2026-05-04 15:37:44,085 - INFO - isin filter on _collection (exclude=False): 591 rows
+2026-05-04 15:37:44,086 - INFO - isin filter on _collection (exclude=True): 0 rows
+2026-05-04 15:37:44,087 - INFO - between filter on version [1.0, 1.0]: 567 rows
+2026-05-04 15:37:44,087 - INFO - Selection demo complete
+2026-05-04 15:37:44,087 - INFO - Selection demo complete
+2026-05-04 15:37:44,087 - INFO - Starting regex analysis
+2026-05-04 15:37:44,088 - INFO - Extracted years from 144 titles
+2026-05-04 15:37:44,088 - INFO - Extracted numbers from 144 titles
+2026-05-04 15:37:44,089 - INFO - Prefix filter 'A': 61 matches
+2026-05-04 15:37:44,089 - INFO - Recall-related terms found: 160
+2026-05-04 15:37:44,090 - INFO - Short texts (< 20 chars): 0
+2026-05-04 15:37:44,090 - INFO - ID validation: {'total': 130, 'valid': 130, 'invalid': 0}
+2026-05-04 15:37:44,090 - INFO - Regex analysis complete
+2026-05-04 15:37:44,090 - INFO - Regex analysis complete
+2026-05-04 15:37:44,090 - INFO - Starting full quality audit
+2026-05-04 15:37:44,092 - INFO - Missing value report: 56 columns with missing values
+2026-05-04 15:37:44,098 - INFO - No zero values found in numeric columns
+2026-05-04 15:37:44,106 - INFO - IQR outlier detection: 2 columns with outliers
+2026-05-04 15:37:44,108 - WARNING - No ID column found for duplicate detection
+2026-05-04 15:37:44,108 - INFO - Invalid titles: 567 (empty: 567, blank: 0)
+2026-05-04 15:37:44,110 - INFO - Quality report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/quality_report.csv, total issues: 59
+2026-05-04 15:37:44,249 - INFO - Missing value heatmap saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/missing_heatmap.png
+2026-05-04 15:37:44,250 - INFO - Quality audit complete
+2026-05-04 15:37:44,250 - INFO - Starting Lab 9 cleaning pipeline
+2026-05-04 15:37:44,256 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:37:44,256 - INFO - Starting cleaning pipeline
+2026-05-04 15:37:44,256 - INFO - Step 1: Dropping high missing columns
+2026-05-04 15:37:44,260 - INFO - Dropped 15 columns with >90.0% missing: ['data.pages', 'data.paragraphs', 'data.tables', 'data.sheets', 'data.raw_text', 'data.processed_text', 'data.text', 'source_file', 'language', 'language_probability', 'duration', 'model', 'segments', 'segment_count', 'stored_at']
+2026-05-04 15:37:44,260 - INFO - Step 2: Dropping rows with missing critical columns
+2026-05-04 15:37:44,261 - INFO - Dropped 24 rows with missing critical columns: ['source', '_collection']
+2026-05-04 15:37:44,261 - INFO - Step 3: Filling text fields
+2026-05-04 15:37:44,261 - INFO - Filled missing text in 'data.make' with 'unknown'
+2026-05-04 15:37:44,261 - INFO - Filled missing text in 'data.model' with 'unknown'
+2026-05-04 15:37:44,261 - INFO - Filled missing text in 'data.description' with 'unknown'
+2026-05-04 15:37:44,261 - INFO - Filled missing text in 'data.type' with 'unknown'
+2026-05-04 15:37:44,261 - INFO - Step 4: Replacing zeros with NaN
+2026-05-04 15:37:44,262 - INFO - Replaced 0 zeros with NaN in 'data.width'
+2026-05-04 15:37:44,262 - INFO - Replaced 0 zeros with NaN in 'data.height'
+2026-05-04 15:37:44,262 - INFO - Replaced 0 zeros with NaN in 'data.file_size_kb'
+2026-05-04 15:37:44,262 - INFO - Step 5: Filling numeric with median
+2026-05-04 15:37:44,263 - INFO - Filled 437 missing values in 'data.year' with median 2020.0000
+2026-05-04 15:37:44,263 - INFO - Filled 423 missing values in 'data.page' with median 2.0000
+2026-05-04 15:37:44,263 - INFO - Filled 507 missing values in 'data.width' with median 960.0000
+2026-05-04 15:37:44,263 - INFO - Filled 507 missing values in 'data.height' with median 500.0000
+2026-05-04 15:37:44,263 - INFO - Filled 507 missing values in 'data.file_size_kb' with median 131.9900
+2026-05-04 15:37:44,264 - INFO - Step 6: String cleaning
+2026-05-04 15:37:44,264 - INFO - Starting string cleaning
+2026-05-04 15:37:44,264 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:37:44,264 - INFO - Normalized source column: 'source'
+2026-05-04 15:37:44,265 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:37:44,265 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:37:44,269 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:37:44,269 - INFO - String cleaning complete
+2026-05-04 15:37:44,269 - INFO - Step 7: Deduplication
+2026-05-04 15:37:44,269 - INFO - Starting deduplication
+2026-05-04 15:37:44,272 - INFO - Exact duplicate rows: 0
+2026-05-04 15:37:44,274 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:37:44,274 - INFO - Duplicate values in 'source': 556
+2026-05-04 15:37:44,274 - INFO - Dropped 556 rows with duplicate 'source'
+2026-05-04 15:37:44,275 - INFO - Dropped 0 rows with duplicate title+date
+2026-05-04 15:37:44,275 - INFO - Deduplication complete
+2026-05-04 15:37:44,275 - INFO - Step 8: Type conversion
+2026-05-04 15:37:44,275 - INFO - Starting type conversion
+2026-05-04 15:37:44,276 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:37:44,276 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:37:44,277 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:37:44,277 - WARNING - Date column 'stored_at' not found
+2026-05-04 15:37:44,277 - INFO - Converted 'version' to float32
+2026-05-04 15:37:44,277 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:37:44,278 - INFO - Converted 'data.width' to float32
+2026-05-04 15:37:44,278 - INFO - Converted 'data.height' to float32
+2026-05-04 15:37:44,278 - INFO - Converted 'source' to category
+2026-05-04 15:37:44,278 - INFO - Converted '_collection' to category
+2026-05-04 15:37:44,279 - INFO - Converted 'data.make' to category
+2026-05-04 15:37:44,279 - INFO - Converted 'data.model' to category
+2026-05-04 15:37:44,279 - INFO - Converted 'data.type' to category
+2026-05-04 15:37:44,281 - INFO - Memory report - before: 0.02 MB, after: 0.02 MB, reduction: 0.00 MB
+2026-05-04 15:37:44,281 - INFO - Type conversion complete
+2026-05-04 15:37:44,281 - INFO - Step 9: Validation
+2026-05-04 15:37:44,281 - INFO - Starting validation
+2026-05-04 15:37:44,281 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:37:44,281 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:37:44,281 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:37:44,281 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:37:44,281 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:37:44,281 - INFO - All validations passed
+2026-05-04 15:37:44,283 - INFO - Cleaned dataset saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv, shape: (11, 42)
+2026-05-04 15:37:44,283 - INFO - Cleaning pipeline complete, final shape: (11, 42)
+2026-05-04 15:37:44,283 - INFO - Pipeline finished successfully
+2026-05-04 15:43:02,370 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:43:02,374 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:43:02,378 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:43:02,382 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:43:03,405 - INFO - Starting string cleaning
+2026-05-04 15:43:03,408 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:43:03,410 - INFO - Normalized source column: 'source'
+2026-05-04 15:43:03,412 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:43:03,414 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:43:03,422 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:43:03,423 - INFO - String cleaning complete
+2026-05-04 15:43:04,579 - INFO - Exact duplicate rows: 0
+2026-05-04 15:43:04,584 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:43:04,586 - INFO - Duplicate values in 'source': 579
+2026-05-04 15:43:04,587 - INFO - Dropped 579 rows with duplicate 'source'
+2026-05-04 15:43:05,446 - INFO - Starting type conversion
+2026-05-04 15:43:05,450 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:43:05,452 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:43:05,455 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:43:05,456 - INFO - Converted 'stored_at' to datetime
+2026-05-04 15:43:05,458 - INFO - Converted 'version' to float32
+2026-05-04 15:43:05,459 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:43:05,460 - INFO - Converted 'data.width' to float32
+2026-05-04 15:43:05,461 - INFO - Converted 'data.height' to float32
+2026-05-04 15:43:05,463 - INFO - Converted 'source' to category
+2026-05-04 15:43:05,464 - INFO - Converted '_collection' to category
+2026-05-04 15:43:05,466 - INFO - Converted 'data.make' to category
+2026-05-04 15:43:05,467 - INFO - Converted 'data.model' to category
+2026-05-04 15:43:05,469 - INFO - Converted 'data.type' to category
+2026-05-04 15:43:05,474 - INFO - Memory report - before: 0.04 MB, after: 0.04 MB, reduction: 0.00 MB
+2026-05-04 15:43:05,475 - INFO - Type conversion complete
+2026-05-04 15:43:06,232 - INFO - Starting validation
+2026-05-04 15:43:06,234 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:43:06,235 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:43:06,236 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:43:06,237 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:43:06,238 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:43:06,239 - INFO - All validations passed
+2026-05-04 15:43:06,839 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:43:06,840 - INFO - Starting cleaning pipeline
+2026-05-04 15:43:06,841 - INFO - Step 1: Dropping high missing columns
+2026-05-04 15:43:06,848 - INFO - Dropped 15 columns with >90.0% missing: ['data.pages', 'data.paragraphs', 'data.tables', 'data.sheets', 'data.raw_text', 'data.processed_text', 'data.text', 'source_file', 'language', 'language_probability', 'duration', 'model', 'segments', 'segment_count', 'stored_at']
+2026-05-04 15:43:06,849 - INFO - Step 2: Dropping rows with missing critical columns
+2026-05-04 15:43:06,851 - INFO - Dropped 24 rows with missing critical columns: ['source', '_collection']
+2026-05-04 15:43:06,852 - INFO - Step 3: Filling text fields
+2026-05-04 15:43:06,853 - INFO - Filled missing text in 'data.make' with 'unknown'
+2026-05-04 15:43:06,854 - INFO - Filled missing text in 'data.model' with 'unknown'
+2026-05-04 15:43:06,855 - INFO - Filled missing text in 'data.description' with 'unknown'
+2026-05-04 15:43:06,856 - INFO - Filled missing text in 'data.type' with 'unknown'
+2026-05-04 15:43:06,856 - INFO - Step 4: Replacing zeros with NaN
+2026-05-04 15:43:06,857 - INFO - Replaced 0 zeros with NaN in 'data.width'
+2026-05-04 15:43:06,858 - INFO - Replaced 0 zeros with NaN in 'data.height'
+2026-05-04 15:43:06,859 - INFO - Replaced 0 zeros with NaN in 'data.file_size_kb'
+2026-05-04 15:43:06,860 - INFO - Step 5: Filling numeric with median
+2026-05-04 15:43:06,863 - INFO - Filled 437 missing values in 'data.year' with median 2020.0000
+2026-05-04 15:43:06,864 - INFO - Filled 423 missing values in 'data.page' with median 2.0000
+2026-05-04 15:43:06,865 - INFO - Filled 507 missing values in 'data.width' with median 960.0000
+2026-05-04 15:43:06,865 - INFO - Filled 507 missing values in 'data.height' with median 500.0000
+2026-05-04 15:43:06,866 - INFO - Filled 507 missing values in 'data.file_size_kb' with median 131.9900
+2026-05-04 15:43:06,867 - INFO - Step 6: String cleaning
+2026-05-04 15:43:06,867 - INFO - Starting string cleaning
+2026-05-04 15:43:06,868 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:43:06,869 - INFO - Normalized source column: 'source'
+2026-05-04 15:43:06,870 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:43:06,872 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:43:06,876 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:43:06,878 - INFO - String cleaning complete
+2026-05-04 15:43:06,880 - INFO - Step 7: Deduplication
+2026-05-04 15:43:06,882 - INFO - Starting deduplication
+2026-05-04 15:43:06,888 - INFO - Exact duplicate rows: 0
+2026-05-04 15:43:06,893 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:43:06,893 - INFO - Duplicate values in 'source': 556
+2026-05-04 15:43:06,895 - INFO - Dropped 556 rows with duplicate 'source'
+2026-05-04 15:43:06,896 - INFO - Dropped 0 rows with duplicate title+date
+2026-05-04 15:43:06,896 - INFO - Deduplication complete
+2026-05-04 15:43:06,897 - INFO - Step 8: Type conversion
+2026-05-04 15:43:06,897 - INFO - Starting type conversion
+2026-05-04 15:43:06,898 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:43:06,899 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:43:06,900 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:43:06,900 - WARNING - Date column 'stored_at' not found
+2026-05-04 15:43:06,900 - INFO - Converted 'version' to float32
+2026-05-04 15:43:06,901 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:43:06,901 - INFO - Converted 'data.width' to float32
+2026-05-04 15:43:06,902 - INFO - Converted 'data.height' to float32
+2026-05-04 15:43:06,902 - INFO - Converted 'source' to category
+2026-05-04 15:43:06,903 - INFO - Converted '_collection' to category
+2026-05-04 15:43:06,904 - INFO - Converted 'data.make' to category
+2026-05-04 15:43:06,905 - INFO - Converted 'data.model' to category
+2026-05-04 15:43:06,905 - INFO - Converted 'data.type' to category
+2026-05-04 15:43:06,908 - INFO - Memory report - before: 0.02 MB, after: 0.02 MB, reduction: 0.00 MB
+2026-05-04 15:43:06,908 - INFO - Type conversion complete
+2026-05-04 15:43:06,909 - INFO - Step 9: Validation
+2026-05-04 15:43:06,909 - INFO - Starting validation
+2026-05-04 15:43:06,909 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:43:06,910 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:43:06,910 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:43:06,911 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:43:06,911 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:43:06,912 - INFO - All validations passed
+2026-05-04 15:43:06,914 - INFO - Cleaned dataset saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv, shape: (11, 42)
+2026-05-04 15:43:54,325 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:43:54,328 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:43:54,333 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:43:54,338 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:43:54,343 - INFO - Starting string cleaning
+2026-05-04 15:43:54,344 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:43:54,346 - INFO - Normalized source column: 'source'
+2026-05-04 15:43:54,347 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:43:54,348 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:43:54,350 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:43:54,351 - INFO - String cleaning complete
+2026-05-04 15:43:54,362 - INFO - Exact duplicate rows: 0
+2026-05-04 15:43:54,365 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:43:54,366 - INFO - Duplicate values in 'source': 579
+2026-05-04 15:43:54,367 - INFO - Dropped 579 rows with duplicate 'source'
+2026-05-04 15:43:54,371 - INFO - Starting type conversion
+2026-05-04 15:43:54,372 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:43:54,373 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:43:54,374 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:43:54,375 - INFO - Converted 'stored_at' to datetime
+2026-05-04 15:43:54,376 - INFO - Converted 'version' to float32
+2026-05-04 15:43:54,377 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:43:54,377 - INFO - Converted 'data.width' to float32
+2026-05-04 15:43:54,378 - INFO - Converted 'data.height' to float32
+2026-05-04 15:43:54,378 - INFO - Converted 'source' to category
+2026-05-04 15:43:54,379 - INFO - Converted '_collection' to category
+2026-05-04 15:43:54,379 - INFO - Converted 'data.make' to category
+2026-05-04 15:43:54,380 - INFO - Converted 'data.model' to category
+2026-05-04 15:43:54,380 - INFO - Converted 'data.type' to category
+2026-05-04 15:43:54,384 - INFO - Memory report - before: 0.04 MB, after: 0.04 MB, reduction: 0.00 MB
+2026-05-04 15:43:54,384 - INFO - Type conversion complete
+2026-05-04 15:43:54,388 - INFO - Starting validation
+2026-05-04 15:43:54,388 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:43:54,389 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:43:54,390 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:43:54,391 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:43:54,391 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:43:54,391 - INFO - All validations passed
+2026-05-04 15:43:54,402 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:43:54,403 - INFO - Starting cleaning pipeline
+2026-05-04 15:43:54,403 - INFO - Step 1: Dropping high missing columns
+2026-05-04 15:43:54,412 - INFO - Dropped 15 columns with >90.0% missing: ['data.pages', 'data.paragraphs', 'data.tables', 'data.sheets', 'data.raw_text', 'data.processed_text', 'data.text', 'source_file', 'language', 'language_probability', 'duration', 'model', 'segments', 'segment_count', 'stored_at']
+2026-05-04 15:43:54,415 - INFO - Step 2: Dropping rows with missing critical columns
+2026-05-04 15:43:54,418 - INFO - Dropped 24 rows with missing critical columns: ['source', '_collection']
+2026-05-04 15:43:54,419 - INFO - Step 3: Filling text fields
+2026-05-04 15:43:54,419 - INFO - Filled missing text in 'data.make' with 'unknown'
+2026-05-04 15:43:54,420 - INFO - Filled missing text in 'data.model' with 'unknown'
+2026-05-04 15:43:54,421 - INFO - Filled missing text in 'data.description' with 'unknown'
+2026-05-04 15:43:54,423 - INFO - Filled missing text in 'data.type' with 'unknown'
+2026-05-04 15:43:54,424 - INFO - Step 4: Replacing zeros with NaN
+2026-05-04 15:43:54,425 - INFO - Replaced 0 zeros with NaN in 'data.width'
+2026-05-04 15:43:54,425 - INFO - Replaced 0 zeros with NaN in 'data.height'
+2026-05-04 15:43:54,426 - INFO - Replaced 0 zeros with NaN in 'data.file_size_kb'
+2026-05-04 15:43:54,427 - INFO - Step 5: Filling numeric with median
+2026-05-04 15:43:54,428 - INFO - Filled 437 missing values in 'data.year' with median 2020.0000
+2026-05-04 15:43:54,429 - INFO - Filled 423 missing values in 'data.page' with median 2.0000
+2026-05-04 15:43:54,429 - INFO - Filled 507 missing values in 'data.width' with median 960.0000
+2026-05-04 15:43:54,430 - INFO - Filled 507 missing values in 'data.height' with median 500.0000
+2026-05-04 15:43:54,430 - INFO - Filled 507 missing values in 'data.file_size_kb' with median 131.9900
+2026-05-04 15:43:54,431 - INFO - Step 6: String cleaning
+2026-05-04 15:43:54,431 - INFO - Starting string cleaning
+2026-05-04 15:43:54,432 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:43:54,433 - INFO - Normalized source column: 'source'
+2026-05-04 15:43:54,434 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:43:54,435 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:43:54,436 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:43:54,437 - INFO - String cleaning complete
+2026-05-04 15:43:54,437 - INFO - Step 7: Deduplication
+2026-05-04 15:43:54,438 - INFO - Starting deduplication
+2026-05-04 15:43:54,441 - INFO - Exact duplicate rows: 0
+2026-05-04 15:43:54,444 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:43:54,444 - INFO - Duplicate values in 'source': 556
+2026-05-04 15:43:54,445 - INFO - Dropped 556 rows with duplicate 'source'
+2026-05-04 15:43:54,446 - INFO - Dropped 0 rows with duplicate title+date
+2026-05-04 15:43:54,446 - INFO - Deduplication complete
+2026-05-04 15:43:54,446 - INFO - Step 8: Type conversion
+2026-05-04 15:43:54,447 - INFO - Starting type conversion
+2026-05-04 15:43:54,448 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:43:54,449 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:43:54,449 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:43:54,450 - WARNING - Date column 'stored_at' not found
+2026-05-04 15:43:54,451 - INFO - Converted 'version' to float32
+2026-05-04 15:43:54,451 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:43:54,452 - INFO - Converted 'data.width' to float32
+2026-05-04 15:43:54,452 - INFO - Converted 'data.height' to float32
+2026-05-04 15:43:54,453 - INFO - Converted 'source' to category
+2026-05-04 15:43:54,453 - INFO - Converted '_collection' to category
+2026-05-04 15:43:54,454 - INFO - Converted 'data.make' to category
+2026-05-04 15:43:54,454 - INFO - Converted 'data.model' to category
+2026-05-04 15:43:54,455 - INFO - Converted 'data.type' to category
+2026-05-04 15:43:54,458 - INFO - Memory report - before: 0.02 MB, after: 0.02 MB, reduction: 0.00 MB
+2026-05-04 15:43:54,458 - INFO - Type conversion complete
+2026-05-04 15:43:54,459 - INFO - Step 9: Validation
+2026-05-04 15:43:54,459 - INFO - Starting validation
+2026-05-04 15:43:54,460 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:43:54,460 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:43:54,461 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:43:54,461 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:43:54,462 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:43:54,462 - INFO - All validations passed
+2026-05-04 15:43:54,464 - INFO - Cleaned dataset saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv, shape: (11, 42)
+2026-05-04 15:44:41,839 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:44:41,844 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:44:41,849 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:44:41,853 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:44:42,380 - INFO - Starting string cleaning
+2026-05-04 15:44:42,383 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:44:42,385 - INFO - Normalized source column: 'source'
+2026-05-04 15:44:42,387 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:44:42,390 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:44:42,393 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:44:42,394 - INFO - String cleaning complete
+2026-05-04 15:44:42,797 - INFO - Exact duplicate rows: 0
+2026-05-04 15:44:42,804 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:44:42,805 - INFO - Duplicate values in 'source': 579
+2026-05-04 15:44:42,807 - INFO - Dropped 579 rows with duplicate 'source'
+2026-05-04 15:44:43,176 - INFO - Starting type conversion
+2026-05-04 15:44:43,180 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:44:43,182 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:44:43,184 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:44:43,186 - INFO - Converted 'stored_at' to datetime
+2026-05-04 15:44:43,187 - INFO - Converted 'version' to float32
+2026-05-04 15:44:43,188 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:44:43,190 - INFO - Converted 'data.width' to float32
+2026-05-04 15:44:43,191 - INFO - Converted 'data.height' to float32
+2026-05-04 15:44:43,192 - INFO - Converted 'source' to category
+2026-05-04 15:44:43,193 - INFO - Converted '_collection' to category
+2026-05-04 15:44:43,195 - INFO - Converted 'data.make' to category
+2026-05-04 15:44:43,196 - INFO - Converted 'data.model' to category
+2026-05-04 15:44:43,197 - INFO - Converted 'data.type' to category
+2026-05-04 15:44:43,201 - INFO - Memory report - before: 0.04 MB, after: 0.04 MB, reduction: 0.00 MB
+2026-05-04 15:44:43,202 - INFO - Type conversion complete
+2026-05-04 15:44:43,537 - INFO - Starting validation
+2026-05-04 15:44:43,539 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:44:43,540 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:44:43,542 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:44:43,543 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:44:43,544 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:44:43,545 - INFO - All validations passed
+2026-05-04 15:44:43,937 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:44:43,938 - INFO - Starting cleaning pipeline
+2026-05-04 15:44:43,939 - INFO - Step 1: Dropping high missing columns
+2026-05-04 15:44:43,945 - INFO - Dropped 15 columns with >90.0% missing: ['data.pages', 'data.paragraphs', 'data.tables', 'data.sheets', 'data.raw_text', 'data.processed_text', 'data.text', 'source_file', 'language', 'language_probability', 'duration', 'model', 'segments', 'segment_count', 'stored_at']
+2026-05-04 15:44:43,946 - INFO - Step 2: Dropping rows with missing critical columns
+2026-05-04 15:44:43,948 - INFO - Dropped 24 rows with missing critical columns: ['source', '_collection']
+2026-05-04 15:44:43,948 - INFO - Step 3: Filling text fields
+2026-05-04 15:44:43,950 - INFO - Filled missing text in 'data.make' with 'unknown'
+2026-05-04 15:44:43,951 - INFO - Filled missing text in 'data.model' with 'unknown'
+2026-05-04 15:44:43,951 - INFO - Filled missing text in 'data.description' with 'unknown'
+2026-05-04 15:44:43,952 - INFO - Filled missing text in 'data.type' with 'unknown'
+2026-05-04 15:44:43,953 - INFO - Step 4: Replacing zeros with NaN
+2026-05-04 15:44:43,954 - INFO - Replaced 0 zeros with NaN in 'data.width'
+2026-05-04 15:44:43,954 - INFO - Replaced 0 zeros with NaN in 'data.height'
+2026-05-04 15:44:43,955 - INFO - Replaced 0 zeros with NaN in 'data.file_size_kb'
+2026-05-04 15:44:43,956 - INFO - Step 5: Filling numeric with median
+2026-05-04 15:44:43,958 - INFO - Filled 437 missing values in 'data.year' with median 2020.0000
+2026-05-04 15:44:43,959 - INFO - Filled 423 missing values in 'data.page' with median 2.0000
+2026-05-04 15:44:43,960 - INFO - Filled 507 missing values in 'data.width' with median 960.0000
+2026-05-04 15:44:43,961 - INFO - Filled 507 missing values in 'data.height' with median 500.0000
+2026-05-04 15:44:43,962 - INFO - Filled 507 missing values in 'data.file_size_kb' with median 131.9900
+2026-05-04 15:44:43,962 - INFO - Step 6: String cleaning
+2026-05-04 15:44:43,963 - INFO - Starting string cleaning
+2026-05-04 15:44:43,964 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:44:43,965 - INFO - Normalized source column: 'source'
+2026-05-04 15:44:43,966 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:44:43,967 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:44:43,969 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:44:43,969 - INFO - String cleaning complete
+2026-05-04 15:44:43,970 - INFO - Step 7: Deduplication
+2026-05-04 15:44:43,970 - INFO - Starting deduplication
+2026-05-04 15:44:43,975 - INFO - Exact duplicate rows: 0
+2026-05-04 15:44:43,979 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:44:43,980 - INFO - Duplicate values in 'source': 556
+2026-05-04 15:44:43,981 - INFO - Dropped 556 rows with duplicate 'source'
+2026-05-04 15:44:43,982 - INFO - Dropped 0 rows with duplicate title+date
+2026-05-04 15:44:43,982 - INFO - Deduplication complete
+2026-05-04 15:44:43,982 - INFO - Step 8: Type conversion
+2026-05-04 15:44:43,983 - INFO - Starting type conversion
+2026-05-04 15:44:43,984 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:44:43,985 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:44:43,986 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:44:43,986 - WARNING - Date column 'stored_at' not found
+2026-05-04 15:44:43,987 - INFO - Converted 'version' to float32
+2026-05-04 15:44:43,987 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:44:43,988 - INFO - Converted 'data.width' to float32
+2026-05-04 15:44:43,988 - INFO - Converted 'data.height' to float32
+2026-05-04 15:44:43,989 - INFO - Converted 'source' to category
+2026-05-04 15:44:43,990 - INFO - Converted '_collection' to category
+2026-05-04 15:44:43,990 - INFO - Converted 'data.make' to category
+2026-05-04 15:44:43,991 - INFO - Converted 'data.model' to category
+2026-05-04 15:44:43,992 - INFO - Converted 'data.type' to category
+2026-05-04 15:44:44,001 - INFO - Memory report - before: 0.02 MB, after: 0.02 MB, reduction: 0.00 MB
+2026-05-04 15:44:44,006 - INFO - Type conversion complete
+2026-05-04 15:44:44,007 - INFO - Step 9: Validation
+2026-05-04 15:44:44,007 - INFO - Starting validation
+2026-05-04 15:44:44,008 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:44:44,009 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:44:44,010 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:44:44,012 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:44:44,012 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:44:44,013 - INFO - All validations passed
+2026-05-04 15:44:44,016 - INFO - Cleaned dataset saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv, shape: (11, 42)
+2026-05-04 15:52:02,119 - INFO - Exact duplicate rows: 0
+2026-05-04 15:52:02,125 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:52:02,126 - INFO - Duplicate values in 'source': 0
+2026-05-04 15:52:02,127 - INFO - Dropped 0 rows with duplicate 'source'
+2026-05-04 15:52:02,446 - INFO - Starting type conversion
+2026-05-04 15:52:02,449 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:52:02,450 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:52:02,452 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:52:02,453 - INFO - Converted 'stored_at' to datetime
+2026-05-04 15:52:02,453 - INFO - Converted 'version' to float32
+2026-05-04 15:52:02,455 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:52:02,456 - INFO - Converted 'data.width' to float32
+2026-05-04 15:52:02,457 - INFO - Converted 'data.height' to float32
+2026-05-04 15:52:02,458 - INFO - Converted 'source' to category
+2026-05-04 15:52:02,459 - INFO - Converted '_collection' to category
+2026-05-04 15:52:02,459 - INFO - Converted 'data.make' to category
+2026-05-04 15:52:02,460 - INFO - Converted 'data.model' to category
+2026-05-04 15:52:02,461 - INFO - Converted 'data.type' to category
+2026-05-04 15:52:02,466 - INFO - Memory report - before: 0.04 MB, after: 0.04 MB, reduction: 0.00 MB
+2026-05-04 15:52:02,467 - INFO - Type conversion complete
+2026-05-04 15:52:02,677 - INFO - Starting validation
+2026-05-04 15:52:02,679 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:52:02,680 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:52:02,682 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:52:02,683 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:52:02,683 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:52:02,684 - INFO - All validations passed
+2026-05-04 15:52:02,885 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:52:02,886 - INFO - Starting cleaning pipeline
+2026-05-04 15:52:02,887 - INFO - Step 1: Dropping high missing columns
+2026-05-04 15:52:02,892 - INFO - Dropped 15 columns with >90.0% missing: ['data.pages', 'data.paragraphs', 'data.tables', 'data.sheets', 'data.raw_text', 'data.processed_text', 'data.text', 'source_file', 'language', 'language_probability', 'duration', 'model', 'segments', 'segment_count', 'stored_at']
+2026-05-04 15:52:02,893 - INFO - Step 2: Dropping rows with missing critical columns
+2026-05-04 15:52:02,895 - INFO - Dropped 24 rows with missing critical columns: ['source', '_collection']
+2026-05-04 15:52:02,896 - INFO - Step 3: Filling text fields
+2026-05-04 15:52:02,896 - INFO - Filled missing text in 'data.make' with 'unknown'
+2026-05-04 15:52:02,897 - INFO - Filled missing text in 'data.model' with 'unknown'
+2026-05-04 15:52:02,898 - INFO - Filled missing text in 'data.description' with 'unknown'
+2026-05-04 15:52:02,899 - INFO - Filled missing text in 'data.type' with 'unknown'
+2026-05-04 15:52:02,899 - INFO - Step 4: Replacing zeros with NaN
+2026-05-04 15:52:02,900 - INFO - Replaced 0 zeros with NaN in 'data.width'
+2026-05-04 15:52:02,901 - INFO - Replaced 0 zeros with NaN in 'data.height'
+2026-05-04 15:52:02,901 - INFO - Replaced 0 zeros with NaN in 'data.file_size_kb'
+2026-05-04 15:52:02,902 - INFO - Step 5: Filling numeric with median
+2026-05-04 15:52:02,903 - INFO - Filled 437 missing values in 'data.year' with median 2020.0000
+2026-05-04 15:52:02,904 - INFO - Filled 423 missing values in 'data.page' with median 2.0000
+2026-05-04 15:52:02,905 - INFO - Filled 507 missing values in 'data.width' with median 960.0000
+2026-05-04 15:52:02,906 - INFO - Filled 507 missing values in 'data.height' with median 500.0000
+2026-05-04 15:52:02,907 - INFO - Filled 507 missing values in 'data.file_size_kb' with median 131.9900
+2026-05-04 15:52:02,907 - INFO - Step 6: String cleaning
+2026-05-04 15:52:02,908 - INFO - Starting string cleaning
+2026-05-04 15:52:02,909 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:52:02,910 - INFO - Normalized source column: 'source'
+2026-05-04 15:52:02,911 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:52:02,912 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:52:02,914 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:52:02,914 - INFO - String cleaning complete
+2026-05-04 15:52:02,914 - INFO - Step 7: Deduplication
+2026-05-04 15:52:02,915 - INFO - Starting deduplication
+2026-05-04 15:52:02,919 - INFO - Exact duplicate rows: 0
+2026-05-04 15:52:02,923 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:52:02,924 - INFO - Duplicate values in 'source': 556
+2026-05-04 15:52:02,924 - INFO - Dropped 556 rows with duplicate 'source'
+2026-05-04 15:52:02,925 - INFO - Dropped 0 rows with duplicate title+date
+2026-05-04 15:52:02,926 - INFO - Deduplication complete
+2026-05-04 15:52:02,926 - INFO - Step 8: Type conversion
+2026-05-04 15:52:02,927 - INFO - Starting type conversion
+2026-05-04 15:52:02,928 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:52:02,929 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:52:02,930 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:52:02,930 - WARNING - Date column 'stored_at' not found
+2026-05-04 15:52:02,931 - INFO - Converted 'version' to float32
+2026-05-04 15:52:02,931 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:52:02,932 - INFO - Converted 'data.width' to float32
+2026-05-04 15:52:02,933 - INFO - Converted 'data.height' to float32
+2026-05-04 15:52:02,933 - INFO - Converted 'source' to category
+2026-05-04 15:52:02,934 - INFO - Converted '_collection' to category
+2026-05-04 15:52:02,934 - INFO - Converted 'data.make' to category
+2026-05-04 15:52:02,935 - INFO - Converted 'data.model' to category
+2026-05-04 15:52:02,935 - INFO - Converted 'data.type' to category
+2026-05-04 15:52:02,938 - INFO - Memory report - before: 0.02 MB, after: 0.02 MB, reduction: 0.00 MB
+2026-05-04 15:52:02,938 - INFO - Type conversion complete
+2026-05-04 15:52:02,938 - INFO - Step 9: Validation
+2026-05-04 15:52:02,939 - INFO - Starting validation
+2026-05-04 15:52:02,939 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:52:02,940 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:52:02,940 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:52:02,941 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:52:02,941 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:52:02,942 - INFO - All validations passed
+2026-05-04 15:52:02,944 - INFO - Cleaned dataset saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv, shape: (11, 42)
+2026-05-04 15:52:12,401 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:52:12,404 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:52:12,409 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:52:12,413 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:52:14,494 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:52:14,497 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:52:14,503 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:52:14,507 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:52:14,512 - INFO - Starting string cleaning
+2026-05-04 15:52:14,514 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:52:14,515 - INFO - Normalized source column: 'source'
+2026-05-04 15:52:14,517 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:52:14,518 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:52:14,520 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:52:14,521 - INFO - String cleaning complete
+2026-05-04 15:53:35,451 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:53:35,453 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:53:35,457 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:53:35,460 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:53:35,466 - INFO - Starting string cleaning
+2026-05-04 15:53:35,466 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:53:35,467 - INFO - Normalized source column: 'source'
+2026-05-04 15:53:35,468 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:53:35,469 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:53:35,472 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:53:35,472 - INFO - String cleaning complete
+2026-05-04 15:55:43,499 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:55:43,501 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:55:43,504 - INFO - Missing value report: 55 columns with missing values
+2026-05-04 15:55:43,507 - INFO - Missing report saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/missing_report.csv
+2026-05-04 15:55:43,514 - INFO - Starting string cleaning
+2026-05-04 15:55:43,515 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:55:43,516 - INFO - Normalized source column: 'source'
+2026-05-04 15:55:43,517 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:55:43,520 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:55:43,530 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:55:43,535 - INFO - String cleaning complete
+2026-05-04 15:55:43,554 - INFO - Invalid dates in 'fetched_at': 0
+2026-05-04 15:55:43,555 - INFO - Invalid language codes in 'language': 0
+2026-05-04 15:55:43,556 - INFO - Extracted numbers from text in 80 rows
+2026-05-04 15:55:43,557 - INFO - Short overviews (< 30 chars): 0
+2026-05-04 15:55:43,569 - INFO - Exact duplicate rows: 0
+2026-05-04 15:55:43,572 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:55:43,573 - INFO - Duplicate values in 'source': 579
+2026-05-04 15:55:43,573 - INFO - Dropped 579 rows with duplicate 'source'
+2026-05-04 15:55:43,577 - INFO - Starting type conversion
+2026-05-04 15:55:43,579 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:55:43,580 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:55:43,581 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:55:43,582 - INFO - Converted 'stored_at' to datetime
+2026-05-04 15:55:43,583 - INFO - Converted 'version' to float32
+2026-05-04 15:55:43,583 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:55:43,584 - INFO - Converted 'data.width' to float32
+2026-05-04 15:55:43,585 - INFO - Converted 'data.height' to float32
+2026-05-04 15:55:43,585 - INFO - Converted 'source' to category
+2026-05-04 15:55:43,586 - INFO - Converted '_collection' to category
+2026-05-04 15:55:43,587 - INFO - Converted 'data.make' to category
+2026-05-04 15:55:43,587 - INFO - Converted 'data.model' to category
+2026-05-04 15:55:43,588 - INFO - Converted 'data.type' to category
+2026-05-04 15:55:43,591 - INFO - Memory report - before: 0.04 MB, after: 0.04 MB, reduction: 0.00 MB
+2026-05-04 15:55:43,591 - INFO - Type conversion complete
+2026-05-04 15:55:43,596 - INFO - Starting validation
+2026-05-04 15:55:43,596 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:55:43,597 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:55:43,597 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:55:43,598 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:55:43,598 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:55:43,599 - INFO - All validations passed
+2026-05-04 15:55:43,611 - INFO - Loaded CSV: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/analytics/raw_export.csv, shape=(591, 56)
+2026-05-04 15:55:43,612 - INFO - Starting cleaning pipeline
+2026-05-04 15:55:43,613 - INFO - Step 1: Dropping high missing columns
+2026-05-04 15:55:43,617 - INFO - Dropped 15 columns with >90.0% missing: ['data.pages', 'data.paragraphs', 'data.tables', 'data.sheets', 'data.raw_text', 'data.processed_text', 'data.text', 'source_file', 'language', 'language_probability', 'duration', 'model', 'segments', 'segment_count', 'stored_at']
+2026-05-04 15:55:43,617 - INFO - Step 2: Dropping rows with missing critical columns
+2026-05-04 15:55:43,619 - INFO - Dropped 24 rows with missing critical columns: ['source', '_collection']
+2026-05-04 15:55:43,619 - INFO - Step 3: Filling text fields
+2026-05-04 15:55:43,620 - INFO - Filled missing text in 'data.make' with 'unknown'
+2026-05-04 15:55:43,621 - INFO - Filled missing text in 'data.model' with 'unknown'
+2026-05-04 15:55:43,621 - INFO - Filled missing text in 'data.description' with 'unknown'
+2026-05-04 15:55:43,622 - INFO - Filled missing text in 'data.type' with 'unknown'
+2026-05-04 15:55:43,622 - INFO - Step 4: Replacing zeros with NaN
+2026-05-04 15:55:43,623 - INFO - Replaced 0 zeros with NaN in 'data.width'
+2026-05-04 15:55:43,623 - INFO - Replaced 0 zeros with NaN in 'data.height'
+2026-05-04 15:55:43,624 - INFO - Replaced 0 zeros with NaN in 'data.file_size_kb'
+2026-05-04 15:55:43,625 - INFO - Step 5: Filling numeric with median
+2026-05-04 15:55:43,626 - INFO - Filled 437 missing values in 'data.year' with median 2020.0000
+2026-05-04 15:55:43,626 - INFO - Filled 423 missing values in 'data.page' with median 2.0000
+2026-05-04 15:55:43,627 - INFO - Filled 507 missing values in 'data.width' with median 960.0000
+2026-05-04 15:55:43,628 - INFO - Filled 507 missing values in 'data.height' with median 500.0000
+2026-05-04 15:55:43,628 - INFO - Filled 507 missing values in 'data.file_size_kb' with median 131.9900
+2026-05-04 15:55:43,629 - INFO - Step 6: String cleaning
+2026-05-04 15:55:43,629 - INFO - Starting string cleaning
+2026-05-04 15:55:43,630 - INFO - Cleaned title column: 'data.make'
+2026-05-04 15:55:43,631 - INFO - Normalized source column: 'source'
+2026-05-04 15:55:43,632 - INFO - Normalized model column: 'data.model'
+2026-05-04 15:55:43,633 - INFO - Cleaned text column: 'data.description'
+2026-05-04 15:55:43,634 - INFO - Extracted year from 'fetched_at' into 'release_year'
+2026-05-04 15:55:43,634 - INFO - String cleaning complete
+2026-05-04 15:55:43,635 - INFO - Step 7: Deduplication
+2026-05-04 15:55:43,635 - INFO - Starting deduplication
+2026-05-04 15:55:43,638 - INFO - Exact duplicate rows: 0
+2026-05-04 15:55:43,641 - INFO - Dropped 0 exact duplicate rows
+2026-05-04 15:55:43,642 - INFO - Duplicate values in 'source': 556
+2026-05-04 15:55:43,642 - INFO - Dropped 556 rows with duplicate 'source'
+2026-05-04 15:55:43,643 - INFO - Dropped 0 rows with duplicate title+date
+2026-05-04 15:55:43,644 - INFO - Deduplication complete
+2026-05-04 15:55:43,644 - INFO - Step 8: Type conversion
+2026-05-04 15:55:43,644 - INFO - Starting type conversion
+2026-05-04 15:55:43,646 - INFO - Converted 'fetched_at' to datetime
+2026-05-04 15:55:43,647 - INFO - Converted 'data.scraped_at' to datetime
+2026-05-04 15:55:43,648 - INFO - Converted 'data.processed_at' to datetime
+2026-05-04 15:55:43,648 - WARNING - Date column 'stored_at' not found
+2026-05-04 15:55:43,649 - INFO - Converted 'version' to float32
+2026-05-04 15:55:43,650 - INFO - Converted 'data.file_size_kb' to float32
+2026-05-04 15:55:43,650 - INFO - Converted 'data.width' to float32
+2026-05-04 15:55:43,651 - INFO - Converted 'data.height' to float32
+2026-05-04 15:55:43,652 - INFO - Converted 'source' to category
+2026-05-04 15:55:43,653 - INFO - Converted '_collection' to category
+2026-05-04 15:55:43,653 - INFO - Converted 'data.make' to category
+2026-05-04 15:55:43,654 - INFO - Converted 'data.model' to category
+2026-05-04 15:55:43,654 - INFO - Converted 'data.type' to category
+2026-05-04 15:55:43,657 - INFO - Memory report - before: 0.02 MB, after: 0.02 MB, reduction: 0.00 MB
+2026-05-04 15:55:43,657 - INFO - Type conversion complete
+2026-05-04 15:55:43,658 - INFO - Step 9: Validation
+2026-05-04 15:55:43,658 - INFO - Starting validation
+2026-05-04 15:55:43,659 - INFO - Validation passed: 'source' has no null values
+2026-05-04 15:55:43,659 - INFO - Validation passed: '_collection' has no null values
+2026-05-04 15:55:43,660 - INFO - Validation passed: all years in 'release_year' are within [1900, 2030]
+2026-05-04 15:55:43,660 - INFO - Validation passed: 'fetched_at' dtype is datetime64[ns]
+2026-05-04 15:55:43,660 - INFO - Validation passed: 'version' dtype is float32
+2026-05-04 15:55:43,661 - INFO - All validations passed
+2026-05-04 15:55:43,663 - INFO - Cleaned dataset saved: /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv, shape: (11, 42)
