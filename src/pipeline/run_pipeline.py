@@ -231,6 +231,63 @@ def run_pipeline():
     if df_raw is not None:
         df_clean = run_cleaning_pipeline(df_raw)
         logging.info(f"Cleaning pipeline complete, final shape: {df_clean.shape}")
+        
+        
+    logging.info("Starting Lab 10 analytics pipeline")
+    import pandas as pd
+    import sqlalchemy
+    from analytics.db_connector import populate_financials, query_financials
+    from analytics.data_combiner import merge_dataframes, compare_join_types
+    from analytics.aggregator import genre_summary, yearly_trends, top_n_per_group
+    from analytics.pivot_builder import wide_to_long, build_pivot_table, build_crosstab
+    from analytics.time_series import parse_dates, extract_date_components, monthly_time_series, rolling_averages
+    from analytics.mongo_pipeline import get_mongo_collection, run_aggregation_pipeline
+    from analytics.insight_reporter import run_all_questions
+
+    analytics_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "processed", "analytics"))
+    os.makedirs(analytics_dir, exist_ok=True)
+
+    cleaned_csv = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "processed", "cleaned", "cleaned_data.csv"))
+    df_analytics = pd.read_csv(cleaned_csv)
+    logging.info(f"Loaded cleaned CSV: {len(df_analytics)} rows")
+
+    populate_financials(df_analytics)
+    engine = sqlalchemy.create_engine("mysql+pymysql://root:@localhost/automotive_tracker")
+    df_mysql = pd.read_sql("SELECT * FROM vehicle_financials WHERE year IS NOT NULL", engine)
+    logging.info(f"MySQL rows: {len(df_mysql)}")
+
+    df_filtered = df_analytics[~df_analytics["data.make"].isin(["Unknown", "UNKNOWN"])].copy()
+    df_mongo_style = df_filtered[["data.make", "data.model", "data.year", "source", "release_year"]].copy()
+    df_mongo_style.columns = ["make", "model", "year", "source", "release_year"]
+    df_mysql_clean = df_mysql[df_mysql["make"] != "Unknown"].copy()
+
+    join_counts = compare_join_types(df_mongo_style, df_mysql_clean, on="make")
+    logging.info(f"Join counts: {join_counts}")
+
+    df_combined = merge_dataframes(df_mongo_style, df_mysql_clean, on="make", how="inner")
+
+    summary = genre_summary(df_combined, group_col="make", value_col="recall_count")
+    summary.to_csv(os.path.join(analytics_dir, "genre_analysis.csv"), index=False)
+    logging.info("Saved genre_analysis.csv")
+
+    trends = yearly_trends(df_combined, year_col="year_x", value_col="recall_count")
+    trends.to_csv(os.path.join(analytics_dir, "yearly_trends.csv"), index=False)
+    logging.info("Saved yearly_trends.csv")
+
+    pivot = build_pivot_table(df_combined, index="make", columns="source_x", values="recall_count", aggfunc="mean", margins=True)
+    pivot.to_csv(os.path.join(analytics_dir, "pivot_make_source.csv"))
+    logging.info("Saved pivot_make_source.csv")
+
+    df_combined, valid, missing = parse_dates(df_combined, date_col="fetched_at")
+    df_combined = extract_date_components(df_combined, date_col="fetched_at")
+    logging.info(f"Date parsing: {valid} valid, {missing} missing")
+
+    collection = get_mongo_collection(db_name="automotive_pipeline", collection_name="raw_recalls")
+    df_mongo_agg = run_aggregation_pipeline(collection)
+    logging.info(f"MongoDB pipeline: {len(df_mongo_agg)} results")
+
+    run_all_questions(df_combined, df_mongo_agg)
+    logging.info("Lab 10 analytics pipeline complete")
 
     logging.info("Pipeline finished successfully")
 
