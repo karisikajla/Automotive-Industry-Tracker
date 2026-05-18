@@ -30,6 +30,7 @@ from analytics.regex_ops import run_regex_analysis
 from analytics.quality_report import full_quality_audit, plot_missing_heatmap
 from cleaning.clean_pipeline import run_cleaning_pipeline
 from analytics.data_loader import load_from_csv
+from embeddings.chroma_store import add_records, get_collection_count
 
 def run_pipeline():
     logging.info("Pipeline started")
@@ -288,6 +289,13 @@ def run_pipeline():
 
     run_all_questions(df_combined, df_mongo_agg)
     logging.info("Lab 10 analytics pipeline complete")
+    
+    logging.info("Starting Lab 11 embeddings")
+    cleaned_csv = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'data', 'processed', 'cleaned', 'cleaned_data.csv')
+    df_embed = pd.read_csv(cleaned_csv)
+    df_embed = df_embed[~df_embed['data.make'].isin(['Unknown', 'UNKNOWN'])].copy()
+    added = add_records(df_embed, reset=False)
+    logging.info(f"ChromaDB: added {added} records, total {get_collection_count()}")
 
     logging.info("Pipeline finished successfully")
 
