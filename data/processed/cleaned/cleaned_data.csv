@@ -10,3 +10,21 @@ web_scraping,2026-04-02 16:36:09.314,1.0,raw_recalls,Unknown,UNKNOWN,2020.0,,,,l
 ocr_scanned_pdf,2026-04-02 16:40:57.304,1.0,raw_recalls,Unknown,UNKNOWN,2020.0,,scanned_report.pdf,scanned_pdf_ocr,/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/scanned/scanned_report.pdf,2026-04-02T16:40:57.302794,pytesseract+pdf2image,,unknown,,unknown,,,2.0,,,,,,,960.0,500.0,131.99,,,,,,,,,,,,,2026
 selenium_scraping,2026-04-02 16:45:05.257,1.0,raw_recalls,Unknown,UNKNOWN,2020.0,,,,https://www.wikipedia.org/wiki/Audi,,,2026-04-02 16:45:05.172994,selenium,Audi - Wikipedia,unknown,,,2.0,,,,,,,960.0,500.0,131.99,,,,,,,,,,,,,2026
 image_processing,2026-04-10 10:54:53.562,1.0,raw_recalls,Unknown,UNKNOWN,2020.0,,audi_a4.jpg,,vehicle_image,,,,automotive,,unknown,,,2.0,/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/raw/images/audi_a4.jpg,/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/resized/audi_a4_resized.jpg,/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/thumbnails/audi_a4_thumb.jpg,/Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/webp/audi_a4.webp,JPEG,RGB,960.0,500.0,157.31,audi_a4.jpg,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No GPS data,2026-04-10T10:54:53.558966,2026-04-10 10:54:53.559017,2026
+nhtsa_api,2026-01-01,1.0,raw_recalls,Audi,A4,2020.0,,,BRAKES,,,,,,,brake failure may cause crash or injury,,,,,,,,,,,,,,,,,,,,,,,,,2020
+nhtsa_api,2026-01-01,1.0,raw_recalls,Audi,A4,2019.0,,,ENGINE,,,,,,,engine failure risk of fire,,,,,,,,,,,,,,,,,,,,,,,,,2019
+nhtsa_api,2026-01-01,1.0,raw_recalls,Audi,Q5,2021.0,,,FUEL SYSTEM,,,,,,,fuel leak may cause fire,,,,,,,,,,,,,,,,,,,,,,,,,2021
+nhtsa_api,2026-01-01,1.0,raw_recalls,Volkswagen,GOLF,2020.0,,,BRAKES,,,,,,,loss of brake pressure injury risk,,,,,,,,,,,,,,,,,,,,,,,,,2020
+nhtsa_api,2026-01-01,1.0,raw_recalls,Volkswagen,GOLF,2018.0,,,ELECTRICAL,,,,,,,electrical short circuit fire risk,,,,,,,,,,,,,,,,,,,,,,,,,2018
+nhtsa_api,2026-01-01,1.0,raw_recalls,Volkswagen,PASSAT,2019.0,,,ENGINE,,,,,,,engine stall may cause crash,,,,,,,,,,,,,,,,,,,,,,,,,2019
+nhtsa_api,2026-01-01,1.0,raw_recalls,Volkswagen,PASSAT,2017.0,,,STEERING,,,,,,,loss of steering control crash risk,,,,,,,,,,,,,,,,,,,,,,,,,2017
+nhtsa_api,2026-01-01,1.0,raw_recalls,Skoda,OCTAVIA,2020.0,,,BRAKES,,,,,,,brake failure injury risk,,,,,,,,,,,,,,,,,,,,,,,,,2020
+nhtsa_api,2026-01-01,1.0,raw_recalls,Skoda,OCTAVIA,2018.0,,,FUEL SYSTEM,,,,,,,fuel system failure fire risk,,,,,,,,,,,,,,,,,,,,,,,,,2018
+nhtsa_api,2026-01-01,1.0,raw_recalls,Skoda,FABIA,2019.0,,,ELECTRICAL,,,,,,,electrical failure loss of control,,,,,,,,,,,,,,,,,,,,,,,,,2019
+nhtsa_api,2026-01-01,1.0,raw_recalls,Cupra,FORMENTOR,2021.0,,,ENGINE,,,,,,,engine failure crash risk,,,,,,,,,,,,,,,,,,,,,,,,,2021
+nhtsa_api,2026-01-01,1.0,raw_recalls,Cupra,FORMENTOR,2022.0,,,BRAKES,,,,,,,brake fluid leak injury risk,,,,,,,,,,,,,,,,,,,,,,,,,2022
+nhtsa_api,2026-01-01,1.0,raw_recalls,Audi,A6,2018.0,,,STEERING,,,,,,,steering failure crash risk,,,,,,,,,,,,,,,,,,,,,,,,,2018
+nhtsa_api,2026-01-01,1.0,raw_recalls,Audi,A6,2016.0,,,ELECTRICAL,,,,,,,electrical short fire and injury risk,,,,,,,,,,,,,,,,,,,,,,,,,2016
+nhtsa_api,2026-01-01,1.0,raw_recalls,Volkswagen,TIGUAN,2020.0,,,FUEL SYSTEM,,,,,,,fuel leak fire risk,,,,,,,,,,,,,,,,,,,,,,,,,2020
+nhtsa_api,2026-01-01,1.0,raw_recalls,Volkswagen,TIGUAN,2021.0,,,BRAKES,,,,,,,brake failure loss of control,,,,,,,,,,,,,,,,,,,,,,,,,2021
+nhtsa_api,2026-01-01,1.0,raw_recalls,Skoda,SUPERB,2020.0,,,ENGINE,,,,,,,engine stall injury risk,,,,,,,,,,,,,,,,,,,,,,,,,2020
+nhtsa_api,2026-01-01,1.0,raw_recalls,Cupra,LEON,2021.0,,,STEERING,,,,,,,steering failure crash risk,,,,,,,,,,,,,,,,,,,,,,,,,2021
