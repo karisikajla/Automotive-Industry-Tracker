@@ -7344,3 +7344,107 @@
 2026-05-15 18:03:05,701 - INFO - Collection 'data' ready. Count: 3
 2026-05-15 18:03:05,701 - INFO - ChromaDB: added 0 records, total 3
 2026-05-15 18:03:05,701 - INFO - Pipeline finished successfully
+2026-05-22 22:50:40,485 - INFO - Loading dataset from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv
+2026-05-22 22:50:40,489 - INFO - Loaded 3 records after filtering
+2026-05-22 22:50:40,489 - INFO - Generating 8 static charts
+2026-05-22 22:50:40,489 - INFO -   Generating: Top Makes by Recall Count
+2026-05-22 22:50:41,862 - INFO -   Generating: Recalls Over Years
+2026-05-22 22:50:42,181 - INFO -   Generating: Recall Distribution by Component
+2026-05-22 22:50:42,327 - INFO -   Generating: Year Boxplot by Make
+2026-05-22 22:50:42,498 - INFO -   Generating: Recall Heatmap
+2026-05-22 22:50:42,669 - INFO -   Generating: Consequence Distribution
+2026-05-22 22:50:42,837 - INFO -   Generating: Cumulative Recalls Over Time
+2026-05-22 22:50:43,020 - INFO -   Generating: Dashboard Subplots
+2026-05-22 22:50:43,721 - INFO - Static charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/static
+2026-05-22 22:50:43,721 - INFO - Generating 5 interactive charts
+2026-05-22 22:50:43,721 - INFO -   Generating: Interactive Recalls by Make
+2026-05-22 22:50:43,959 - INFO -   Generating: Interactive Recalls Timeline
+2026-05-22 22:50:44,002 - INFO -   Generating: Interactive Component Treemap
+2026-05-22 22:50:44,053 - INFO -   Generating: Interactive Scatter Year vs Count
+2026-05-22 22:50:44,093 - INFO -   Generating: Interactive Multi Layout
+2026-05-22 22:50:44,124 - INFO - Interactive charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/interactive
+2026-05-22 22:50:44,124 - INFO - All charts generated successfully
+2026-05-22 22:55:11,964 - INFO - Loading dataset from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv
+2026-05-22 22:55:11,967 - INFO - Loaded 3 records after filtering
+2026-05-22 22:55:11,967 - INFO - Generating 8 static charts
+2026-05-22 22:55:11,967 - INFO -   Generating: Top Makes by Recall Count
+2026-05-22 22:55:12,118 - INFO -   Generating: Recalls Over Years
+2026-05-22 22:55:12,433 - INFO -   Generating: Recall Distribution by Component
+2026-05-22 22:55:12,579 - INFO -   Generating: Year Boxplot by Make
+2026-05-22 22:55:12,740 - INFO -   Generating: Recall Heatmap
+2026-05-22 22:55:12,910 - INFO -   Generating: Consequence Distribution
+2026-05-22 22:55:13,082 - INFO -   Generating: Cumulative Recalls Over Time
+2026-05-22 22:55:13,275 - INFO -   Generating: Dashboard Subplots
+2026-05-22 22:55:13,936 - INFO - Static charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/static
+2026-05-22 22:55:13,936 - INFO - Generating 5 interactive charts
+2026-05-22 22:55:13,937 - INFO -   Generating: Interactive Recalls by Make
+2026-05-22 22:55:13,968 - INFO -   Generating: Interactive Recalls Timeline
+2026-05-22 22:55:14,002 - INFO -   Generating: Interactive Component Treemap
+2026-05-22 22:55:14,047 - INFO -   Generating: Interactive Scatter Year vs Count
+2026-05-22 22:55:14,082 - INFO -   Generating: Interactive Multi Layout
+2026-05-22 22:55:14,106 - INFO - Interactive charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/interactive
+2026-05-22 22:55:14,106 - INFO - All charts generated successfully
+2026-05-22 22:58:51,387 - INFO - Loading dataset from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv
+2026-05-22 22:58:51,390 - INFO - Loaded 21 records after filtering
+2026-05-22 22:58:51,390 - INFO - Generating 8 static charts
+2026-05-22 22:58:51,390 - INFO -   Generating: Top Makes by Recall Count
+2026-05-22 22:58:51,677 - INFO -   Generating: Recalls Over Years
+2026-05-22 22:58:52,010 - INFO -   Generating: Recall Distribution by Component
+2026-05-22 22:58:52,204 - INFO -   Generating: Year Boxplot by Make
+2026-05-22 22:58:52,384 - INFO -   Generating: Recall Heatmap
+2026-05-22 22:58:52,631 - INFO -   Generating: Consequence Distribution
+2026-05-22 22:58:52,798 - INFO -   Generating: Cumulative Recalls Over Time
+2026-05-22 22:58:52,985 - INFO -   Generating: Dashboard Subplots
+2026-05-22 22:58:53,737 - INFO - Static charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/static
+2026-05-22 22:58:53,737 - INFO - Generating 5 interactive charts
+2026-05-22 22:58:53,737 - INFO -   Generating: Interactive Recalls by Make
+2026-05-22 22:58:53,932 - INFO -   Generating: Interactive Recalls Timeline
+2026-05-22 22:58:53,976 - INFO -   Generating: Interactive Component Treemap
+2026-05-22 22:58:54,030 - INFO -   Generating: Interactive Scatter Year vs Count
+2026-05-22 22:58:54,072 - INFO -   Generating: Interactive Multi Layout
+2026-05-22 22:58:54,139 - INFO - Interactive charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/interactive
+2026-05-22 22:58:54,139 - INFO - All charts generated successfully
+2026-05-22 22:59:40,564 - INFO - Loading dataset from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv
+2026-05-22 22:59:40,567 - INFO - Loaded 21 records after filtering
+2026-05-22 22:59:40,567 - INFO - Generating 8 static charts
+2026-05-22 22:59:40,568 - INFO -   Generating: Top Makes by Recall Count
+2026-05-22 22:59:40,728 - INFO -   Generating: Recalls Over Years
+2026-05-22 22:59:41,055 - INFO -   Generating: Recall Distribution by Component
+2026-05-22 22:59:41,232 - INFO -   Generating: Year Boxplot by Make
+2026-05-22 22:59:41,412 - INFO -   Generating: Recall Heatmap
+2026-05-22 22:59:41,655 - INFO -   Generating: Consequence Distribution
+2026-05-22 22:59:41,818 - INFO -   Generating: Cumulative Recalls Over Time
+2026-05-22 22:59:42,003 - INFO -   Generating: Dashboard Subplots
+2026-05-22 22:59:42,707 - INFO - Static charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/static
+2026-05-22 22:59:42,707 - INFO - Generating 5 interactive charts
+2026-05-22 22:59:42,708 - INFO -   Generating: Interactive Recalls by Make
+2026-05-22 22:59:42,739 - INFO -   Generating: Interactive Recalls Timeline
+2026-05-22 22:59:42,779 - INFO -   Generating: Interactive Component Treemap
+2026-05-22 22:59:42,824 - INFO -   Generating: Interactive Scatter Year vs Count
+2026-05-22 22:59:42,863 - INFO -   Generating: Interactive Multi Layout
+2026-05-22 22:59:42,887 - INFO - Interactive charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/interactive
+2026-05-22 22:59:42,887 - INFO - All charts generated successfully
+2026-05-22 23:08:01,815 - INFO - Pipeline started
+2026-05-22 23:08:01,815 - INFO - Starting Lab 12 visualizations
+2026-05-22 23:08:03,329 - INFO - Loading dataset from /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/data/processed/cleaned/cleaned_data.csv
+2026-05-22 23:08:03,332 - INFO - Loaded 21 records after filtering
+2026-05-22 23:08:03,333 - INFO - Generating 8 static charts
+2026-05-22 23:08:03,333 - INFO -   Generating: Top Makes by Recall Count
+2026-05-22 23:08:03,628 - INFO -   Generating: Recalls Over Years
+2026-05-22 23:08:03,951 - INFO -   Generating: Recall Distribution by Component
+2026-05-22 23:08:04,130 - INFO -   Generating: Year Boxplot by Make
+2026-05-22 23:08:04,306 - INFO -   Generating: Recall Heatmap
+2026-05-22 23:08:04,548 - INFO -   Generating: Consequence Distribution
+2026-05-22 23:08:04,738 - INFO -   Generating: Cumulative Recalls Over Time
+2026-05-22 23:08:04,931 - INFO -   Generating: Dashboard Subplots
+2026-05-22 23:08:05,693 - INFO - Static charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/static
+2026-05-22 23:08:05,693 - INFO - Generating 5 interactive charts
+2026-05-22 23:08:05,693 - INFO -   Generating: Interactive Recalls by Make
+2026-05-22 23:08:05,913 - INFO -   Generating: Interactive Recalls Timeline
+2026-05-22 23:08:05,969 - INFO -   Generating: Interactive Component Treemap
+2026-05-22 23:08:06,032 - INFO -   Generating: Interactive Scatter Year vs Count
+2026-05-22 23:08:06,075 - INFO -   Generating: Interactive Multi Layout
+2026-05-22 23:08:06,156 - INFO - Interactive charts saved to /Users/elmedin.karisiksystemverification.com/Documents/private/Automotive-Industry-Tracker/outputs/visualizations/interactive
+2026-05-22 23:08:06,156 - INFO - All charts generated successfully
+2026-05-22 23:08:06,156 - INFO - Visualizations complete
+2026-05-22 23:08:06,156 - INFO - Pipeline finished successfully
